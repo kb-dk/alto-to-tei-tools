@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017168283_1_011_001_002.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-13</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Times New Roman" FONTSIZE="6" FONTSTYLE="italics"/>
+		<TextStyle ID="STYLE2" FONTFAMILY="Times New Roman" FONTSIZE="6" FONTSTYLE="bold"/>
+		<TextStyle ID="STYLE3" FONTFAMILY="Arial" FONTSIZE="17" FONTSTYLE="italics"/>
+		<TextStyle ID="STYLE4" FONTFAMILY="Times New Roman" FONTSIZE="22" FONTSTYLE=""/>
+		<TextStyle ID="STYLE5" FONTFAMILY="Times New Roman" FONTSIZE="13" FONTSTYLE="bold"/>
+		<TextStyle ID="STYLE6" FONTFAMILY="Times New Roman" FONTSIZE="27" FONTSTYLE=""/>
+		<TextStyle ID="STYLE7" FONTFAMILY="Times New Roman" FONTSIZE="28" FONTSTYLE=""/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE2" HEIGHT="4484" WIDTH="2827" PHYSICAL_IMG_NR="2" PROCESSING="OCR1" PC="0">
+			<TopMargin HEIGHT="7" WIDTH="2827" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="4436" WIDTH="0" HPOS="0" VPOS="7"/>
+			<RightMargin HEIGHT="4436" WIDTH="-10" HPOS="2837" VPOS="7"/>
+			<BottomMargin HEIGHT="39" WIDTH="2827" HPOS="0" VPOS="4445"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="4436" WIDTH="2835" HPOS="1" VPOS="8">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE110079" HEIGHT="4436" WIDTH="2835" HPOS="1" VPOS="8" xlink:type="simple">
+					<TextBlock xs:type="TextBlockType" ID="ZONE1144168" HEIGHT="331" WIDTH="45" HPOS="1" VPOS="2196" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="331" WIDTH="44" HPOS="0" VPOS="2196">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="42" WIDTH="21" HPOS="19" VPOS="2485" CONTENT="^" WC="1" LANG="nob"/>
+							<SP ID="SP1" WIDTH="-30" HPOS="40" VPOS="2485"/>
+							<String ID="STRING2" STYLEREFS="STYLE1" HEIGHT="9" WIDTH="30" HPOS="10" VPOS="2437" CONTENT="i" WC="0.34" LANG="nob"/>
+							<SP ID="SP2" WIDTH="-40" HPOS="40" VPOS="2437"/>
+							<String ID="STRING3" STYLEREFS="STYLE2" HEIGHT="119" WIDTH="43" HPOS="0" VPOS="2270" CONTENT="(/i" WC="0.22" LANG="nob"/>
+							<SP ID="SP3" WIDTH="-43" HPOS="43" VPOS="2270"/>
+							<String ID="STRING4" STYLEREFS="STYLE2" HEIGHT="26" WIDTH="44" HPOS="0" VPOS="2196" CONTENT="J" WC="0.24" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+					<Illustration xs:type="IllustrationType" ID="ZONE1144169" HEIGHT="1680" WIDTH="2834" HPOS="1" VPOS="8" xlink:type="simple"/>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1144170" HEIGHT="104" WIDTH="41" HPOS="147" VPOS="1797" xlink:type="simple">
+						<TextLine ID="LINE2" HEIGHT="104" WIDTH="41" HPOS="147" VPOS="1797">
+							<String ID="STRING5" STYLEREFS="STYLE3" HEIGHT="104" WIDTH="41" HPOS="147" VPOS="1797" CONTENT="f" WC="0.65" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1144171" HEIGHT="128" WIDTH="73" HPOS="125" VPOS="2125" xlink:type="simple">
+						<TextLine ID="LINE3" HEIGHT="128" WIDTH="73" HPOS="125" VPOS="2125">
+							<String ID="STRING6" STYLEREFS="STYLE4" HEIGHT="128" WIDTH="73" HPOS="125" VPOS="2125" CONTENT="/" WC="0.27" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1144172" HEIGHT="124" WIDTH="73" HPOS="111" VPOS="2493" xlink:type="simple">
+						<TextLine ID="LINE4" HEIGHT="124" WIDTH="73" HPOS="111" VPOS="2493">
+							<String ID="STRING7" STYLEREFS="STYLE4" HEIGHT="124" WIDTH="73" HPOS="111" VPOS="2493" CONTENT="/" WC="0" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1144173" HEIGHT="76" WIDTH="44" HPOS="132" VPOS="2625" xlink:type="simple">
+						<TextLine ID="LINE5" HEIGHT="76" WIDTH="44" HPOS="132" VPOS="2625">
+							<String ID="STRING8" STYLEREFS="STYLE5" HEIGHT="76" WIDTH="44" HPOS="132" VPOS="2625" CONTENT="/" WC="0" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1144174" HEIGHT="106" WIDTH="61" HPOS="2736" VPOS="2686" xlink:type="simple">
+						<TextLine ID="LINE6" HEIGHT="106" WIDTH="61" HPOS="2736" VPOS="2686">
+							<String ID="STRING9" STYLEREFS="STYLE6" HEIGHT="106" WIDTH="61" HPOS="2736" VPOS="2686" CONTENT="r" WC="0.14" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1144175" HEIGHT="164" WIDTH="25" HPOS="10" VPOS="3122" xlink:type="simple">
+						<TextLine ID="LINE7" HEIGHT="164" WIDTH="25" HPOS="10" VPOS="3122">
+							<String ID="STRING10" STYLEREFS="STYLE7" HEIGHT="164" WIDTH="25" HPOS="10" VPOS="3122" CONTENT="!" WC="0.52" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+					<Illustration xs:type="IllustrationType" ID="ZONE1144176" HEIGHT="173" WIDTH="549" HPOS="174" VPOS="3109" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1144177" HEIGHT="182" WIDTH="299" HPOS="758" VPOS="3104" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1144178" HEIGHT="180" WIDTH="313" HPOS="1476" VPOS="3102" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1144179" HEIGHT="179" WIDTH="789" HPOS="1826" VPOS="3098" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1144180" HEIGHT="1163" WIDTH="2369" HPOS="467" VPOS="3281" xlink:type="simple"/>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

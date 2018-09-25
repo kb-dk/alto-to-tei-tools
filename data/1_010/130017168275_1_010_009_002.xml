@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017168275_1_010_009_002.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-13</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Times New Roman" FONTSIZE="11" FONTSTYLE=""/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE398" HEIGHT="4489" WIDTH="2930" PHYSICAL_IMG_NR="398" PROCESSING="OCR1" PC="0.65">
+			<TopMargin HEIGHT="1632" WIDTH="2930" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="253" WIDTH="967" HPOS="0" VPOS="1632"/>
+			<RightMargin HEIGHT="253" WIDTH="274" HPOS="2656" VPOS="1632"/>
+			<BottomMargin HEIGHT="2602" WIDTH="2930" HPOS="0" VPOS="1887"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="253" WIDTH="1687" HPOS="968" VPOS="1633">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE109807" HEIGHT="253" WIDTH="1687" HPOS="968" VPOS="1633" xlink:type="simple">
+					<TextBlock xs:type="TextBlockType" ID="ZONE1142998" HEIGHT="253" WIDTH="1687" HPOS="968" VPOS="1633" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="101" WIDTH="1450" HPOS="968" VPOS="1636">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="67" WIDTH="168" HPOS="968" VPOS="1654" CONTENT="Non" WC="0.63" LANG="nob"/>
+							<SP ID="SP1" WIDTH="44" HPOS="1136" VPOS="1654"/>
+							<String ID="STRING2" STYLEREFS="STYLE1" HEIGHT="69" WIDTH="208" HPOS="1180" VPOS="1648" CONTENT="cuivis" WC="0.47" LANG="nob"/>
+							<SP ID="SP2" WIDTH="46" HPOS="1388" VPOS="1648"/>
+							<String ID="STRING3" STYLEREFS="STYLE1" HEIGHT="73" WIDTH="230" HPOS="1434" VPOS="1641" CONTENT="leftori" WC="0.57" LANG="nob"/>
+							<SP ID="SP3" WIDTH="44" HPOS="1664" VPOS="1641"/>
+							<String ID="STRING4" STYLEREFS="STYLE1" HEIGHT="74" WIDTH="366" HPOS="1708" VPOS="1637" CONTENT="audirorive" WC="0.46" LANG="nob"/>
+							<SP ID="SP4" WIDTH="40" HPOS="2074" VPOS="1637"/>
+							<String ID="STRING5" STYLEREFS="STYLE1" HEIGHT="101" WIDTH="304" HPOS="2114" VPOS="1636" CONTENT="placebo1:" WC="0.63" LANG="dan"/>
+						</TextLine>
+						<TextLine ID="LINE2" HEIGHT="99" WIDTH="1588" HPOS="1067" VPOS="1780">
+							<String ID="STRING6" STYLEREFS="STYLE1" HEIGHT="74" WIDTH="242" HPOS="1067" VPOS="1788" CONTENT="Le£lor" WC="0.51" LANG="nob"/>
+							<SP ID="SP5" WIDTH="34" HPOS="1309" VPOS="1788"/>
+							<String ID="STRING7" STYLEREFS="STYLE1" HEIGHT="69" WIDTH="62" HPOS="1343" VPOS="1788" CONTENT="&amp;" WC="0.78" LANG="nob"/>
+							<SP ID="SP6" WIDTH="36" HPOS="1405" VPOS="1788"/>
+							<String ID="STRING8" STYLEREFS="STYLE1" HEIGHT="69" WIDTH="260" HPOS="1441" VPOS="1790" CONTENT="audiror" WC="0.45" LANG="nob"/>
+							<SP ID="SP7" WIDTH="40" HPOS="1701" VPOS="1790"/>
+							<String ID="STRING9" STYLEREFS="STYLE1" HEIGHT="48" WIDTH="118" HPOS="1741" VPOS="1807" CONTENT="nec" WC="0.33" LANG="nob"/>
+							<SP ID="SP8" WIDTH="42" HPOS="1859" VPOS="1807"/>
+							<String ID="STRING10" STYLEREFS="STYLE1" HEIGHT="70" WIDTH="170" HPOS="1901" VPOS="1784" CONTENT="mihi" WC="0.7" LANG="nob"/>
+							<SP ID="SP9" WIDTH="40" HPOS="2071" VPOS="1784"/>
+							<String ID="STRING11" STYLEREFS="STYLE1" HEIGHT="92" WIDTH="278" HPOS="2111" VPOS="1787" CONTENT="qvisqve" WC="0.5" LANG="nob"/>
+							<SP ID="SP10" WIDTH="36" HPOS="2389" VPOS="1787"/>
+							<String ID="STRING12" STYLEREFS="STYLE1" HEIGHT="98" WIDTH="230" HPOS="2425" VPOS="1780" CONTENT="placef." WC="0.48" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

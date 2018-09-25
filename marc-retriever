@@ -1,0 +1,104 @@
+#!/usr/bin/perl -w
+
+use strict;
+use XML::LibXML;
+use LWP::UserAgent;
+
+my $marc_dir = './marc_dir/';
+
+# my $sysno = '001823352';
+my $sysno = '1823352';
+# my $sysno = '823352';
+
+# print $sysno;
+# print " ";
+# print &query($sysno);
+
+my $xserver = "aleph.kb.dk";
+
+# my $request = "GET 'http" . $xserver . "/X?op=find&base=kgl01&code=&request=BAR%3D" . $sysno . "'";
+
+if( open(my $in, '<barcodes.text') ) {
+    while(my $line = <$in>) {
+	chomp $line;
+	my $file = $line . '.marc';
+
+	my $sys = $line;
+	if(length($sysno) == 6 ) {
+	    $sysno = '000'.$sysno;
+	} else {
+	    $sysno =  '00'.$sysno;
+	}
+
+	print STDERR "Doing " . $sysno . "\n";
+
+	my $marc_file = $file;
+
+	if(open(my $fh , ">$marc_file")) {
+	    &get_record($sys,$fh);
+	}
+
+    }
+}
+
+sub get_record {
+    my $sysno = shift;
+    my $fh    = shift;
+
+    my $ua = LWP::UserAgent->new;
+    $ua->agent("crud-client/0.1 ");
+    my $req = new HTTP::Request();
+
+    my $request = &query($sysno);
+    $req->uri($request);
+    $req->method("GET");
+
+    my $res = $ua->request($req);
+
+## Check the outcome of the response
+
+    if ($res->is_success) {
+	my $doc = XML::LibXML->load_xml("string" => $res->content());
+	print STDERR $doc->toString;
+	my $setno = $doc->findvalue('/find/set_number');
+	$request = &retrieval($setno);
+	$req->uri($request);
+	$req->method("GET");
+	$res = $ua->request($req);
+	if($res->is_success) {
+	    print $fh $res->content();
+	}
+    } else {
+	print STDERR "$res";
+    }
+}
+
+
+sub query {
+    my $sysno = shift;
+    
+    my $base = 'kgl01';
+#    if(length($sysno) == 6 ) {
+#	$base  = 'kgl03';
+#	$sysno = '000'.$sysno;
+#    } elsif(length($sysno == 7) {
+#	$sysno =  '00'.$sysno;
+#    } 
+#    return "http://" . $xserver . "/X?op=find&base=" . $base . "&code=&request=SYS%3D" . $sysno ;
+    return "http://" . $xserver . "/X?op=find&base=" . $base . "&code=bar&request=" . $sysno ;
+}
+
+sub retrieval {
+    my $setno = shift;
+    return 'http://' . $xserver . '/X?op=present&set_no=' . $setno . '&set_entry=000000001-000000010&format=marc';
+}
+
+
+
+#my $firstdo = `$request`;
+
+#$firstdo =~  m|^.*number>([^<]+)</set.*$|g;
+#my $set_number = $1;
+#
+#print "$set_number\n";
+#print "$firstdo\n";

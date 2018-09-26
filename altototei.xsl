@@ -41,7 +41,11 @@
 		 <xsl:variable name="work" select="substring-after(@xml:id,'bibl')"/>
 		 <xsl:for-each select="$pages//h:a[contains(@href,$work)]">
 		   <xsl:variable name="alto" select="document(@href)"/>
-		   <xsl:apply-templates select="$alto/a:alto"/>
+		   <xsl:apply-templates select="$alto/a:alto">
+		     <xsl:with-param name="volume" select="$volume"/>
+		     <xsl:with-param name="work" select="$work"/>
+		     <xsl:with-param name="n" select="position()"/>
+		   </xsl:apply-templates>
 		 </xsl:for-each>
 	       </xsl:element>
 	     </xsl:for-each>

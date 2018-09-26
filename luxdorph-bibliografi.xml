@@ -39,16 +39,16 @@
     <body>
       <div>
         <head>1. Række:  Trykkefrihedens Skrifter</head>
-        <listBibl>
+        <listBibl xml:id="vol1_001">
           <head>Bind 1</head>
-          <bibl n="1">
+          <bibl n="1" xml:id="bibl1_001_001">
             <title>Philopatreias trende  Anmærkninger  1.  Om  de dyre  Tider  og  Handelens 	Svaghed:  2. Om  Rettergang:  3. Om  Geistlighedens  Indkomster</title>
             <publisher>Sorø. Lindgren/ J.G.  Rothe</publisher>
             <extent>8°, 46</extent>
             <author>[J.C. Bie]</author>
             <date>1770</date>
           </bibl>
-          <bibl n="2">
+          <bibl n="2" xml:id="bibl1_001_002">
             <title>Philopatreias første Fortsættelse,  indeholdende  fire
 	    Anmærkninger.  1. Om 	Handelen.  2.  Om  Krigsstanden.  3.  Om  Tingsvidners  Førelse.  4.  Om videnskabernes Opkomst: Skrevne i Kiøbenhavn  1770 </title>
             <publisher>J.G.  Rothes  forlag/Børsen</publisher>
@@ -56,14 +56,14 @@
             <author>[J.C. Bie]</author>
             <date>1770</date>
           </bibl>
-          <bibl n="3">
+          <bibl n="3" xml:id="bibl1_001_003">
             <title>Philopatreias alvorlige Palinodie eller  Poenitentze-Prædiken  over hans  trende 	Anmerkninger  om  de dyre  Tider  og  Handelens Svaghed med videre.  Skreven i  Kiøbenhavn  d.  15. Dec.  1770  og  efter  Forlangende ved  trykken  udgiven </title>
             <publisher>?</publisher>
             <extent>8°, 62</extent>
             <author>[J.C. Bie]</author>
             <date>1771</date>
           </bibl>
-          <bibl n="4">
+          <bibl n="4" xml:id="bibl1_001_004">
             <title>Philopatreias trende  Anmærkninger  1.  Om  de
 	    dyre  Tider  og  Handelens 	Svaghed:  2. Om  Rettergang:  3. Om  Geistlighedens  Indkomster</title>
             <publisher>J.R. Thiele</publisher>
@@ -71,21 +71,21 @@
             <author>[J.C. Bie]</author>
             <date>1770</date>
           </bibl>
-          <bibl n="5">
+          <bibl n="5" xml:id="bibl1_001_005">
             <title>Et kritisk Brev  til Philopatreias, om  Geistlighedens Indkomster, i  Anledning 	af hans  tredie  Bemærkning.  Skreven  i  Klerkerup d. 29  Jan.  1771  Philodaneias</title>
             <publisher>A.F.  Stein</publisher>
             <extent>8°,  112 </extent>
             <author>[L.  Jæger]</author>
             <date>1771</date>
           </bibl>
-          <bibl n="6">
+          <bibl n="6" xml:id="bibl1_001_006">
 	    <title>Det andet  kritiske  Brev til Philopatreias, baade  om  hvad der i  det første  var forbigaaet, saa  og om  hvad ellers af  u-patriotiske og  ikke vel  overlagde Sætninger,  der  indeholdtes saavel  i  hans  Tree  Anmærkninger, som  i  hans Fortsættelse. Skreven i  Klerkerup  d.  18  Febr. 1771  Philodaneias </title>
 	    <publisher>?</publisher>
 	    <extent>8°,72</extent>
 	    <author>[L. Jæger]</author>
 	    <date>1771</date>
 	  </bibl>
-          <bibl n="7">
+          <bibl n="7" xml:id="bibl1_001_007">
 	    <title>Det tredie kritiske Brev til Philopatreias, om  hvad
 	    der  blev  forbigaaet i  det	første,  og  kunde ikke  rummes  i det andet, samt om  hvad  der  af u-patriotiske Sættninger,  findes 	indført  saavel  i  hans  trende  Anmærkninger, som  i  hans Fortsættelse. Skreven  i  Klerkerup  d.  11  Martii 1771  Philodaneias </title>
 	    <publisher>?</publisher>
@@ -93,7 +93,7 @@
 	    <author>[L. Jæger]</author>
 	    <date>1771</date>
 	  </bibl>
-          <bibl n="8">
+          <bibl n="8" xml:id="bibl1_001_008">
 	    <title>Det fierde kritiske Brev til Philopatreias, om hvad
 	    der i de tre første enten er blevet forbigaaet, eller deri
 	    ikke kunde rummes, samt om hvad videre af u-patriotiske
@@ -105,7 +105,7 @@
 	    <author>[L. Jæger]</author>
 	    <date>1771</date>
 	  </bibl>
-          <bibl n="9">
+          <bibl n="9" xml:id="bibl1_001_009">
 	    <title>Plan til en aarlig staaende Penge-Løn for Præsterne
 	    overalt paa Landet i Danmark
 	    / forfattet og paa allerhøieste Steder for meer end to Aar
@@ -117,14 +117,14 @@
 	    <author>[L.  Jæger]</author>
 	    <date>1771</date>
 	  </bibl>
-          <bibl n="10">
+          <bibl n="10" xml:id="bibl1_001_010">
 	    <title>Urigtigheden  i  Comphilopatrejases  Plan  til en  aarlig  staaende Pengeløn  for 	Præsterne  overalt paa Landet  i Dannemark.  Tydeligt forestillet af Philadelphus</title>
 	    <publisher>A.F.  Stein</publisher>
 	    <extent>8°,  36</extent>
 	    <author>Philadelpus?</author>
 	    <date>1771</date>
 	  </bibl>
-          <bibl n="11">
+          <bibl n="11" xml:id="bibl1_001_011">
 	    <title>Velfortient  Apologie for Forfatteren  af  Planen til en  aarlig  staaende  Pengeløn  for Præsterne overalt  paa Landet
 	    i  Dannemark  imod  Philadelphum </title>
 	    <publisher>?</publisher>
@@ -132,7 +132,7 @@
 	    <author>?</author>
 	    <date>1771</date>
 	  </bibl>
-          <bibl n="12">
+          <bibl n="12" xml:id="bibl1_001_012">
 	    <title>Tanker om Præsternes Gaarder og Jorder samt disses
 	    Indvikling i det skadelige Fælledskab. Af
 	    Philander</title>
@@ -141,20 +141,20 @@
 	    <author>[J.A. Dyssel]</author>
 	    <date>1771</date>
 	  </bibl>
-          <bibl n="13">
+          <bibl n="13" xml:id="bibl1_001_013">
 	    <title>Tilfældige  Tanker om  Forandring  i  Kirkestanden.  1. Stykke om  Lønnen  og 	Indkomsterne </title>
 	    <publisher>Sorø, Lindgren/Rothens Arvinger</publisher>
 	    <extent>8°, 35</extent>
 	    <date>1771</date>
 	  </bibl>
-          <bibl n="14">
+          <bibl n="14" xml:id="bibl1_001_014">
 	    <title>Tanker  om  Geistligheden i  en  Stat</title>
 	    <publisher>Borups  Efterleverske</publisher>
 	    <extent>8°,  31</extent>
 	    <author>Fr. Chr.  Scheffer</author>
 	    <date>1771</date>
 	  </bibl>
-          <bibl n="15">
+          <bibl n="15" xml:id="bibl1_001_015">
 	    <title>Betragtninger  hvor  vidt  Geistligheden  er tienlig  i en  Staat,  eller Hvad 	Indflydelse  Religionen  haver  i  en  Staats og  dens Regierings  Lyksalighed.  Af J.F. Ph.</title>
 	    <publisher>Borups  Efterleverske</publisher>
 	    <extent>8°,  31</extent>

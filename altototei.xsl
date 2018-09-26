@@ -6,6 +6,9 @@
 	       xmlns="http://www.tei-c.org/ns/1.0"
 	       version="2.0">
 
+  <xsl:param name="alto_list">1_001.xml</xsl:param>
+
+
   <xsl:template match="/">
     <TEI>
       <teiHeader>

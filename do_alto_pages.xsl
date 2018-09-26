@@ -10,9 +10,6 @@
 
   <xsl:template match="a:alto">
     <xsl:param name="img_src" select="a:Description/a:sourceImageInformation/a:fileName"/>
-    <xsl:comment>
-      <xsl:value-of select="$img_src"/>
-    </xsl:comment>
     <xsl:apply-templates select="a:Layout">
       <xsl:with-param name="img_src" select="$img_src"/>
     </xsl:apply-templates>
@@ -40,6 +37,7 @@
   </xsl:template>
 
   <xsl:template match="a:TextBlock">
+    <lb/>
     <xsl:apply-templates/>
   </xsl:template>
 

@@ -4,7 +4,7 @@ use strict;
 use XML::LibXML;
 use LWP::UserAgent;
 
-my $marc_dir = './marc_dir/';
+my $marc_dir = './marc_dir';
 
 # my $sysno = '001823352';
 my $sysno = '1823352';
@@ -34,7 +34,7 @@ if( open(my $in, '<barcodes.text') ) {
 
 	my $marc_file = $file;
 
-	if(open(my $fh , ">$marc_file")) {
+	if(open(my $fh , ">$marc_dir/$marc_file")) {
 	    &get_record($sys,$fh);
 	}
 

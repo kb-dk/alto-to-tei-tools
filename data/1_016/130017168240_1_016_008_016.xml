@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017168240_1_016_008_016.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-13</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles/>
+	<Layout>
+		<Page ID="PAGE154" HEIGHT="4722" WIDTH="3037" PHYSICAL_IMG_NR="154" PROCESSING="OCR1" PC="0">
+			<TopMargin HEIGHT="0" WIDTH="3037" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="4780" WIDTH="0" HPOS="0" VPOS="0"/>
+			<RightMargin HEIGHT="4780" WIDTH="-89" HPOS="3126" VPOS="0"/>
+			<BottomMargin HEIGHT="-60" WIDTH="3037" HPOS="0" VPOS="4782"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="4780" WIDTH="3124" HPOS="1" VPOS="1">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE114000" HEIGHT="4780" WIDTH="3124" HPOS="1" VPOS="1" xlink:type="simple">
+					<Illustration xs:type="IllustrationType" ID="ZONE1177382" HEIGHT="407" WIDTH="3024" HPOS="101" VPOS="1" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177383" HEIGHT="561" WIDTH="3028" HPOS="87" VPOS="345" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177384" HEIGHT="95" WIDTH="3035" HPOS="79" VPOS="843" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177385" HEIGHT="73" WIDTH="3038" HPOS="76" VPOS="875" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177386" HEIGHT="135" WIDTH="3033" HPOS="80" VPOS="885" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177387" HEIGHT="935" WIDTH="3021" HPOS="74" VPOS="957" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177388" HEIGHT="89" WIDTH="3032" HPOS="62" VPOS="1829" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177389" HEIGHT="65" WIDTH="3014" HPOS="80" VPOS="1855" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177390" HEIGHT="87" WIDTH="3015" HPOS="78" VPOS="1857" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177391" HEIGHT="65" WIDTH="3014" HPOS="79" VPOS="1881" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177392" HEIGHT="149" WIDTH="2995" HPOS="97" VPOS="1883" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177393" HEIGHT="69" WIDTH="3003" HPOS="89" VPOS="1969" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177394" HEIGHT="103" WIDTH="2996" HPOS="95" VPOS="1975" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177395" HEIGHT="117" WIDTH="3032" HPOS="58" VPOS="2015" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177396" HEIGHT="198" WIDTH="3058" HPOS="29" VPOS="2068" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177397" HEIGHT="97" WIDTH="3026" HPOS="60" VPOS="2203" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177398" HEIGHT="2279" WIDTH="3014" HPOS="26" VPOS="2236" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177399" HEIGHT="68" WIDTH="2984" HPOS="1" VPOS="4452" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177400" HEIGHT="323" WIDTH="3034" HPOS="1" VPOS="4458" xlink:type="simple"/>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017168143_2_020_006_037.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-19</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Arial" FONTSIZE="39" FONTSTYLE=""/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE235" HEIGHT="4336" WIDTH="2864" PHYSICAL_IMG_NR="235" PROCESSING="OCR1" PC="0.59">
+			<TopMargin HEIGHT="1729" WIDTH="2864" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="512" WIDTH="96" HPOS="0" VPOS="1729"/>
+			<RightMargin HEIGHT="512" WIDTH="982" HPOS="1882" VPOS="1729"/>
+			<BottomMargin HEIGHT="2093" WIDTH="2864" HPOS="0" VPOS="2243"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="512" WIDTH="1784" HPOS="97" VPOS="1730">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE125134" HEIGHT="512" WIDTH="1784" HPOS="97" VPOS="1730" xlink:type="simple">
+					<TextBlock xs:type="TextBlockType" ID="ZONE1343605" HEIGHT="512" WIDTH="1784" HPOS="97" VPOS="1730" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="296" WIDTH="1680" HPOS="157" VPOS="1878">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="288" WIDTH="488" HPOS="157" VPOS="1886" CONTENT="Tas" WC="0.75" LANG="nob"/>
+							<SP ID="SP1" WIDTH="216" HPOS="645" VPOS="1886"/>
+							<String ID="STRING2" STYLEREFS="STYLE1" HEIGHT="296" WIDTH="976" HPOS="861" VPOS="1878" CONTENT="Gericht." WC="0.48" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

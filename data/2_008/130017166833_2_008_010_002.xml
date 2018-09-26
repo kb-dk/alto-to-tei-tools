@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017166833_2_008_010_002.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-13</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles/>
+	<Layout>
+		<Page ID="PAGE112" HEIGHT="4684" WIDTH="3031" PHYSICAL_IMG_NR="112" PROCESSING="OCR1" PC="0">
+			<TopMargin HEIGHT="71" WIDTH="3031" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="1176" WIDTH="71" HPOS="0" VPOS="71"/>
+			<RightMargin HEIGHT="1176" WIDTH="1674" HPOS="1357" VPOS="71"/>
+			<BottomMargin HEIGHT="3435" WIDTH="3031" HPOS="0" VPOS="1249"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="1176" WIDTH="1284" HPOS="72" VPOS="72">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE119607" HEIGHT="1176" WIDTH="1284" HPOS="72" VPOS="72" xlink:type="simple">
+					<Illustration xs:type="IllustrationType" ID="ZONE1239127" HEIGHT="1176" WIDTH="1284" HPOS="72" VPOS="72" xlink:type="simple"/>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

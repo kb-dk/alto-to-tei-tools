@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017168178_2_025_peri_005.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-14</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles/>
+	<Layout>
+		<Page ID="PAGE565" HEIGHT="4594" WIDTH="3128" PHYSICAL_IMG_NR="565" PROCESSING="OCR1" PC="0">
+			<TopMargin HEIGHT="0" WIDTH="3128" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="4601" WIDTH="72" HPOS="0" VPOS="0"/>
+			<RightMargin HEIGHT="4601" WIDTH="-5" HPOS="3133" VPOS="0"/>
+			<BottomMargin HEIGHT="-9" WIDTH="3128" HPOS="0" VPOS="4603"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="4601" WIDTH="3059" HPOS="73" VPOS="1">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE128784" HEIGHT="4601" WIDTH="3059" HPOS="73" VPOS="1" xlink:type="simple">
+					<Illustration xs:type="IllustrationType" ID="ZONE1322190" HEIGHT="3187" WIDTH="3044" HPOS="88" VPOS="1" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1322191" HEIGHT="884" WIDTH="3035" HPOS="78" VPOS="3178" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1322192" HEIGHT="292" WIDTH="3053" HPOS="75" VPOS="4052" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1322193" HEIGHT="50" WIDTH="3040" HPOS="74" VPOS="4334" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1322194" HEIGHT="44" WIDTH="3053" HPOS="74" VPOS="4374" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1322195" HEIGHT="14" WIDTH="3052" HPOS="73" VPOS="4408" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1322196" HEIGHT="190" WIDTH="3054" HPOS="73" VPOS="4412" xlink:type="simple"/>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

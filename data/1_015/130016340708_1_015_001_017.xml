@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130016340708_1_015_001_017.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-14</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Times New Roman" FONTSIZE="13" FONTSTYLE=""/>
+		<TextStyle ID="STYLE2" FONTFAMILY="Times New Roman" FONTSIZE="48" FONTSTYLE=""/>
+		<TextStyle ID="STYLE3" FONTFAMILY="Times New Roman" FONTSIZE="36" FONTSTYLE=""/>
+		<TextStyle ID="STYLE4" FONTFAMILY="Times New Roman" FONTSIZE="13" FONTSTYLE="bold"/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE17" HEIGHT="4624" WIDTH="2893" PHYSICAL_IMG_NR="17" PROCESSING="OCR1" PC="0.74">
+			<TopMargin HEIGHT="223" WIDTH="2893" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="2419" WIDTH="339" HPOS="0" VPOS="223"/>
+			<RightMargin HEIGHT="2419" WIDTH="463" HPOS="2430" VPOS="223"/>
+			<BottomMargin HEIGHT="1980" WIDTH="2893" HPOS="0" VPOS="2644"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="2419" WIDTH="2089" HPOS="340" VPOS="224">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE112948" HEIGHT="2419" WIDTH="2089" HPOS="340" VPOS="224" xlink:type="simple">
+					<TextBlock xs:type="TextBlockType" ID="ZONE1165642" HEIGHT="162" WIDTH="248" HPOS="2181" VPOS="224" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="162" WIDTH="244" HPOS="2183" VPOS="224">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="162" WIDTH="244" HPOS="2183" VPOS="224" CONTENT="&quot;'74" WC="0.34" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1165643" HEIGHT="374" WIDTH="1557" HPOS="445" VPOS="1274" xlink:type="simple">
+						<TextLine ID="LINE2" HEIGHT="358" WIDTH="1547" HPOS="450" VPOS="1282">
+							<String ID="STRING2" STYLEREFS="STYLE2" HEIGHT="357" WIDTH="947" HPOS="450" VPOS="1282" CONTENT="MAG" WC="0.45" LANG="deu"/>
+							<SP ID="SP1" WIDTH="85" HPOS="1397" VPOS="1282"/>
+							<String ID="STRING3" STYLEREFS="STYLE2" HEIGHT="352" WIDTH="515" HPOS="1482" VPOS="1288" CONTENT="SM" WC="0.76" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1165644" HEIGHT="252" WIDTH="1751" HPOS="340" VPOS="1959" xlink:type="simple">
+						<TextLine ID="LINE3" HEIGHT="227" WIDTH="1746" HPOS="342" VPOS="1981">
+							<String ID="STRING4" STYLEREFS="STYLE3" HEIGHT="200" WIDTH="998" HPOS="342" VPOS="1981" CONTENT="Sktæbnens" WC="0.72" LANG="dan"/>
+							<SP ID="SP2" WIDTH="39" HPOS="1340" VPOS="1981"/>
+							<String ID="STRING5" STYLEREFS="STYLE3" HEIGHT="227" WIDTH="709" HPOS="1379" VPOS="1981" CONTENT="Tempel." WC="0.61" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1165645" HEIGHT="108" WIDTH="720" HPOS="846" VPOS="2535" xlink:type="simple">
+						<TextLine ID="LINE4" HEIGHT="101" WIDTH="717" HPOS="848" VPOS="2538">
+							<String ID="STRING6" STYLEREFS="STYLE4" HEIGHT="99" WIDTH="425" HPOS="848" VPOS="2538" CONTENT="Kiøbenhavn" WC="0.57" LANG="dan"/>
+							<SP ID="SP3" WIDTH="42" HPOS="1273" VPOS="2538"/>
+							<String ID="STRING7" STYLEREFS="STYLE4" HEIGHT="81" WIDTH="250" HPOS="1315" VPOS="2558" CONTENT="1770." WC="0.58" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

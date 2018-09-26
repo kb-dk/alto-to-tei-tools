@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017168127_2_013_014_110.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-15</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Times New Roman" FONTSIZE="6.5" FONTSTYLE="bold"/>
+		<TextStyle ID="STYLE2" FONTFAMILY="Times New Roman" FONTSIZE="4" FONTSTYLE=""/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE570" HEIGHT="4607" WIDTH="2986" PHYSICAL_IMG_NR="570" PROCESSING="OCR1" PC="0.56">
+			<TopMargin HEIGHT="0" WIDTH="2986" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="4605" WIDTH="120" HPOS="0" VPOS="0"/>
+			<RightMargin HEIGHT="4605" WIDTH="-1" HPOS="2987" VPOS="0"/>
+			<BottomMargin HEIGHT="0" WIDTH="2986" HPOS="0" VPOS="4607"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="4605" WIDTH="2865" HPOS="121" VPOS="1">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE121956" HEIGHT="4605" WIDTH="2865" HPOS="121" VPOS="1" xlink:type="simple">
+					<Illustration xs:type="IllustrationType" ID="ZONE1261180" HEIGHT="2086" WIDTH="1500" HPOS="121" VPOS="2" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1261181" HEIGHT="170" WIDTH="1099" HPOS="1863" VPOS="1" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1261182" HEIGHT="0" WIDTH="1096" HPOS="1864" VPOS="175" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1261183" HEIGHT="1476" WIDTH="1115" HPOS="1864" VPOS="179" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1261184" HEIGHT="250" WIDTH="1107" HPOS="1869" VPOS="1659" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1261185" HEIGHT="26" WIDTH="1110" HPOS="1870" VPOS="1913" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1261186" HEIGHT="92" WIDTH="1105" HPOS="1870" VPOS="1943" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1261187" HEIGHT="44" WIDTH="1110" HPOS="1871" VPOS="2039" xlink:type="simple"/>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1261188" HEIGHT="39" WIDTH="13" HPOS="671" VPOS="2425" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="39" WIDTH="13" HPOS="671" VPOS="2425">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="39" WIDTH="13" HPOS="671" VPOS="2425" CONTENT="/" WC="0.25" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1261189" HEIGHT="38" WIDTH="68" HPOS="2846" VPOS="2617" xlink:type="simple">
+						<TextLine ID="LINE2" HEIGHT="38" WIDTH="68" HPOS="2846" VPOS="2617">
+							<String ID="STRING2" STYLEREFS="STYLE2" HEIGHT="9" WIDTH="4" HPOS="2846" VPOS="2617" CONTENT="'" WC="0.59" LANG="nob"/>
+							<SP ID="SP1" WIDTH="38" HPOS="2850" VPOS="2617"/>
+							<String ID="STRING3" STYLEREFS="STYLE2" HEIGHT="24" WIDTH="7" HPOS="2888" VPOS="2631" CONTENT="I" WC="0.24" LANG="dan"/>
+							<SP ID="SP2" WIDTH="14" HPOS="2895" VPOS="2631"/>
+							<String ID="STRING4" STYLEREFS="STYLE2" HEIGHT="4" WIDTH="5" HPOS="2909" VPOS="2641" CONTENT="•" WC="1" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+					<Illustration xs:type="IllustrationType" ID="ZONE1261190" HEIGHT="1930" WIDTH="2853" HPOS="133" VPOS="2676" xlink:type="simple"/>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

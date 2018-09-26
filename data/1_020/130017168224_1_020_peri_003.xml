@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017168224_1_020_peri_003.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-14</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Arial" FONTSIZE="5.5" FONTSTYLE=""/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE395" HEIGHT="4640" WIDTH="2908" PHYSICAL_IMG_NR="395" PROCESSING="OCR1" PC="0.73">
+			<TopMargin HEIGHT="2609" WIDTH="2908" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="370" WIDTH="1063" HPOS="0" VPOS="2609"/>
+			<RightMargin HEIGHT="370" WIDTH="1017" HPOS="1891" VPOS="2609"/>
+			<BottomMargin HEIGHT="1659" WIDTH="2908" HPOS="0" VPOS="2981"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="370" WIDTH="826" HPOS="1064" VPOS="2610">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE116512" HEIGHT="370" WIDTH="826" HPOS="1064" VPOS="2610" xlink:type="simple">
+					<Illustration xs:type="IllustrationType" ID="ZONE1204797" HEIGHT="316" WIDTH="826" HPOS="1064" VPOS="2610" xlink:type="simple"/>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1204798" HEIGHT="35" WIDTH="339" HPOS="1309" VPOS="2945" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="35" WIDTH="339" HPOS="1309" VPOS="2945">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="35" WIDTH="339" HPOS="1309" VPOS="2945" CONTENT="130017168224" WC="1" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

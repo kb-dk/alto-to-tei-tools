@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017168208_2_019_002_171.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-15</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Times New Roman" FONTSIZE="30" FONTSTYLE=""/>
+		<TextStyle ID="STYLE2" FONTFAMILY="Times New Roman" FONTSIZE="27" FONTSTYLE=""/>
+		<TextStyle ID="STYLE3" FONTFAMILY="Times New Roman" FONTSIZE="45" FONTSTYLE=""/>
+		<TextStyle ID="STYLE4" FONTFAMILY="Times New Roman" FONTSIZE="17" FONTSTYLE="bold"/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE283" HEIGHT="4684" WIDTH="3086" PHYSICAL_IMG_NR="283" PROCESSING="OCR1" PC="0.77">
+			<TopMargin HEIGHT="47" WIDTH="3086" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="4634" WIDTH="0" HPOS="0" VPOS="47"/>
+			<RightMargin HEIGHT="4634" WIDTH="99" HPOS="2987" VPOS="47"/>
+			<BottomMargin HEIGHT="1" WIDTH="3086" HPOS="0" VPOS="4683"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="4634" WIDTH="2985" HPOS="1" VPOS="48">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE124797" HEIGHT="4634" WIDTH="2985" HPOS="1" VPOS="48" xlink:type="simple">
+					<Illustration xs:type="IllustrationType" ID="ZONE1284433" HEIGHT="1330" WIDTH="2931" HPOS="55" VPOS="48" xlink:type="simple"/>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1284434" HEIGHT="187" WIDTH="1584" HPOS="216" VPOS="1335" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="186" WIDTH="1584" HPOS="216" VPOS="1335">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="184" WIDTH="524" HPOS="216" VPOS="1337" CONTENT="LEX" WC="0.86" LANG="deu"/>
+							<SP ID="SP1" WIDTH="216" HPOS="740" VPOS="1337"/>
+							<String ID="STRING2" STYLEREFS="STYLE1" HEIGHT="176" WIDTH="844" HPOS="956" VPOS="1335" CONTENT="REGIA" WC="0.7" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1284435" HEIGHT="182" WIDTH="1313" HPOS="344" VPOS="1767" xlink:type="simple">
+						<TextLine ID="LINE2" HEIGHT="179" WIDTH="1313" HPOS="344" VPOS="1768">
+							<String ID="STRING3" STYLEREFS="STYLE2" HEIGHT="167" WIDTH="561" HPOS="344" VPOS="1777" CONTENT="König!." WC="0.57" LANG="deu"/>
+							<SP ID="SP2" WIDTH="79" HPOS="905" VPOS="1777"/>
+							<String ID="STRING4" STYLEREFS="STYLE2" HEIGHT="179" WIDTH="673" HPOS="984" VPOS="1768" CONTENT="Dänische" WC="0.51" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1284436" HEIGHT="268" WIDTH="1816" HPOS="95" VPOS="2016" xlink:type="simple">
+						<TextLine ID="LINE3" HEIGHT="262" WIDTH="1816" HPOS="95" VPOS="2018">
+							<String ID="STRING5" STYLEREFS="STYLE3" HEIGHT="262" WIDTH="1816" HPOS="95" VPOS="2018" CONTENT="Verordnung" WC="0.34" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1284437" HEIGHT="94" WIDTH="356" HPOS="833" VPOS="2367" xlink:type="simple">
+						<TextLine ID="LINE4" HEIGHT="94" WIDTH="356" HPOS="833" VPOS="2367">
+							<String ID="STRING6" STYLEREFS="STYLE4" HEIGHT="94" WIDTH="356" HPOS="833" VPOS="2367" CONTENT="wegen" WC="0.73" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+					<Illustration xs:type="IllustrationType" ID="ZONE1284438" HEIGHT="2190" WIDTH="2953" HPOS="1" VPOS="2492" xlink:type="simple"/>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

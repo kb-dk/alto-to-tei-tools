@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017166833_2_008_peri_005.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-13</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Courier New" FONTSIZE="32" FONTSTYLE=""/>
+		<TextStyle ID="STYLE2" FONTFAMILY="Courier New" FONTSIZE="23" FONTSTYLE="italics"/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE313" HEIGHT="4684" WIDTH="2966" PHYSICAL_IMG_NR="313" PROCESSING="OCR1" PC="0">
+			<TopMargin HEIGHT="139" WIDTH="2966" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="4485" WIDTH="140" HPOS="0" VPOS="139"/>
+			<RightMargin HEIGHT="4485" WIDTH="-5" HPOS="2971" VPOS="139"/>
+			<BottomMargin HEIGHT="58" WIDTH="2966" HPOS="0" VPOS="4626"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="4485" WIDTH="2829" HPOS="141" VPOS="140">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE119808" HEIGHT="4485" WIDTH="2829" HPOS="141" VPOS="140" xlink:type="simple">
+					<Illustration xs:type="IllustrationType" ID="ZONE1240989" HEIGHT="4302" WIDTH="1273" HPOS="148" VPOS="140" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1240990" HEIGHT="185" WIDTH="980" HPOS="141" VPOS="4440" xlink:type="simple"/>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1240991" HEIGHT="164" WIDTH="60" HPOS="2908" VPOS="769" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="164" WIDTH="60" HPOS="2908" VPOS="769">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="164" WIDTH="60" HPOS="2908" VPOS="769" CONTENT="7" WC="0" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1240992" HEIGHT="123" WIDTH="77" HPOS="2893" VPOS="945" xlink:type="simple">
+						<TextLine ID="LINE2" HEIGHT="123" WIDTH="75" HPOS="2894" VPOS="945">
+							<String ID="STRING2" STYLEREFS="STYLE2" HEIGHT="123" WIDTH="75" HPOS="2894" VPOS="945" CONTENT="i:" WC="0.28" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

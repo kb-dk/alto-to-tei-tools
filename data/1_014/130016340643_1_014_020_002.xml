@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130016340643_1_014_020_002.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-07</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles/>
+	<Layout>
+		<Page ID="PAGE450" HEIGHT="4637" WIDTH="3000" PHYSICAL_IMG_NR="450" PROCESSING="OCR1" PC="0">
+			<TopMargin HEIGHT="0" WIDTH="3000" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="4681" WIDTH="0" HPOS="0" VPOS="0"/>
+			<RightMargin HEIGHT="4681" WIDTH="-64" HPOS="3064" VPOS="0"/>
+			<BottomMargin HEIGHT="-46" WIDTH="3000" HPOS="0" VPOS="4683"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="4681" WIDTH="3062" HPOS="1" VPOS="1">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE112554" HEIGHT="4681" WIDTH="3062" HPOS="1" VPOS="1" xlink:type="simple">
+					<Illustration xs:type="IllustrationType" ID="ZONE1161933" HEIGHT="594" WIDTH="3005" HPOS="58" VPOS="1" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161934" HEIGHT="103" WIDTH="2937" HPOS="49" VPOS="547" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161935" HEIGHT="228" WIDTH="3011" HPOS="48" VPOS="603" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161936" HEIGHT="105" WIDTH="2937" HPOS="45" VPOS="783" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161937" HEIGHT="503" WIDTH="2942" HPOS="45" VPOS="841" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161938" HEIGHT="333" WIDTH="2940" HPOS="37" VPOS="1297" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161939" HEIGHT="281" WIDTH="2950" HPOS="33" VPOS="1583" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161940" HEIGHT="205" WIDTH="2941" HPOS="29" VPOS="1817" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161941" HEIGHT="55" WIDTH="2939" HPOS="27" VPOS="1975" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161942" HEIGHT="249" WIDTH="2946" HPOS="27" VPOS="1983" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161943" HEIGHT="57" WIDTH="2940" HPOS="23" VPOS="2185" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161944" HEIGHT="105" WIDTH="2947" HPOS="23" VPOS="2195" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161945" HEIGHT="605" WIDTH="2941" HPOS="22" VPOS="2253" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161946" HEIGHT="178" WIDTH="2937" HPOS="14" VPOS="2811" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161947" HEIGHT="50" WIDTH="2926" HPOS="25" VPOS="2943" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161948" HEIGHT="238" WIDTH="2937" HPOS="11" VPOS="2947" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161949" HEIGHT="181" WIDTH="2960" HPOS="8" VPOS="3139" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161950" HEIGHT="50" WIDTH="2940" HPOS="6" VPOS="3273" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161951" HEIGHT="344" WIDTH="2943" HPOS="6" VPOS="3277" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161952" HEIGHT="56" WIDTH="2937" HPOS="12" VPOS="3575" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161953" HEIGHT="48" WIDTH="2948" HPOS="1" VPOS="3585" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161954" HEIGHT="54" WIDTH="2942" HPOS="1" VPOS="3587" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161955" HEIGHT="213" WIDTH="2947" HPOS="1" VPOS="3595" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161956" HEIGHT="133" WIDTH="3010" HPOS="1" VPOS="3761" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161957" HEIGHT="53" WIDTH="3008" HPOS="3" VPOS="3847" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1161958" HEIGHT="829" WIDTH="2997" HPOS="1" VPOS="3853" xlink:type="simple"/>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

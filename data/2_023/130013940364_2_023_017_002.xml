@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130013940364_2_023_017_002.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-15</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Arial" FONTSIZE="16" FONTSTYLE=""/>
+		<TextStyle ID="STYLE2" FONTFAMILY="Arial" FONTSIZE="9.5" FONTSTYLE=""/>
+		<TextStyle ID="STYLE3" FONTFAMILY="Arial" FONTSIZE="15" FONTSTYLE=""/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE270" HEIGHT="4505" WIDTH="3271" PHYSICAL_IMG_NR="270" PROCESSING="OCR1" PC="0.78">
+			<TopMargin HEIGHT="1074" WIDTH="3271" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="1835" WIDTH="1311" HPOS="0" VPOS="1074"/>
+			<RightMargin HEIGHT="1835" WIDTH="129" HPOS="3142" VPOS="1074"/>
+			<BottomMargin HEIGHT="1594" WIDTH="3271" HPOS="0" VPOS="2911"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="1835" WIDTH="1829" HPOS="1312" VPOS="1075">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE127283" HEIGHT="1835" WIDTH="1829" HPOS="1312" VPOS="1075" xlink:type="simple">
+					<TextBlock xs:type="TextBlockType" ID="ZONE1307582" HEIGHT="148" WIDTH="829" HPOS="1840" VPOS="1075" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="144" WIDTH="827" HPOS="1841" VPOS="1076">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="144" WIDTH="827" HPOS="1841" VPOS="1076" CONTENT="Personerne:" WC="0.41" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1307583" HEIGHT="115" WIDTH="1449" HPOS="1312" VPOS="1313" xlink:type="simple">
+						<TextLine ID="LINE2" HEIGHT="111" WIDTH="1448" HPOS="1312" VPOS="1315">
+							<String ID="STRING2" STYLEREFS="STYLE2" HEIGHT="98" WIDTH="276" HPOS="1312" VPOS="1323" CONTENT="Monsr." WC="0.35" LANG="dan"/>
+							<SP ID="SP1" WIDTH="67" HPOS="1588" VPOS="1323"/>
+							<String ID="STRING3" STYLEREFS="STYLE3" HEIGHT="102" WIDTH="433" HPOS="1655" VPOS="1315" CONTENT="Torlams" WC="0.42" LANG="dan"/>
+							<SP ID="SP2" WIDTH="34" HPOS="2088" VPOS="1315"/>
+							<String ID="STRING4" STYLEREFS="STYLE2" HEIGHT="97" WIDTH="184" HPOS="2122" VPOS="1329" CONTENT="første" WC="0.58" LANG="dan"/>
+							<SP ID="SP3" WIDTH="20" HPOS="2306" VPOS="1329"/>
+							<String ID="STRING5" STYLEREFS="STYLE2" HEIGHT="93" WIDTH="434" HPOS="2326" VPOS="1330" CONTENT="Supplicant." WC="0.6" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1307584" HEIGHT="129" WIDTH="1425" HPOS="1313" VPOS="1509" xlink:type="simple">
+						<TextLine ID="LINE3" HEIGHT="123" WIDTH="1423" HPOS="1314" VPOS="1511">
+							<String ID="STRING6" STYLEREFS="STYLE2" HEIGHT="94" WIDTH="267" HPOS="1314" VPOS="1523" CONTENT="Monsr." WC="0.67" LANG="dan"/>
+							<SP ID="SP4" WIDTH="69" HPOS="1581" VPOS="1523"/>
+							<String ID="STRING7" STYLEREFS="STYLE3" HEIGHT="123" WIDTH="369" HPOS="1650" VPOS="1511" CONTENT="Prosper" WC="0.53" LANG="dan"/>
+							<SP ID="SP5" WIDTH="34" HPOS="2019" VPOS="1511"/>
+							<String ID="STRING8" STYLEREFS="STYLE2" HEIGHT="73" WIDTH="206" HPOS="2053" VPOS="1529" CONTENT="anden" WC="0.54" LANG="dan"/>
+							<SP ID="SP6" WIDTH="45" HPOS="2259" VPOS="1529"/>
+							<String ID="STRING9" STYLEREFS="STYLE2" HEIGHT="99" WIDTH="433" HPOS="2304" VPOS="1520" CONTENT="Supplicant." WC="0.54" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1307585" HEIGHT="117" WIDTH="1425" HPOS="1312" VPOS="1707" xlink:type="simple">
+						<TextLine ID="LINE4" HEIGHT="113" WIDTH="1423" HPOS="1313" VPOS="1708">
+							<String ID="STRING10" STYLEREFS="STYLE2" HEIGHT="97" WIDTH="135" HPOS="1313" VPOS="1717" CONTENT="Hr." WC="0.49" LANG="dan"/>
+							<SP ID="SP7" WIDTH="65" HPOS="1448" VPOS="1717"/>
+							<String ID="STRING11" STYLEREFS="STYLE3" HEIGHT="111" WIDTH="341" HPOS="1513" VPOS="1708" CONTENT="Leopold" WC="0.33" LANG="dan"/>
+							<SP ID="SP8" WIDTH="46" HPOS="1854" VPOS="1708"/>
+							<String ID="STRING12" STYLEREFS="STYLE2" HEIGHT="55" WIDTH="76" HPOS="1900" VPOS="1742" CONTENT="en" WC="0.39" LANG="dan"/>
+							<SP ID="SP9" WIDTH="51" HPOS="1976" VPOS="1742"/>
+							<String ID="STRING13" STYLEREFS="STYLE2" HEIGHT="92" WIDTH="371" HPOS="2027" VPOS="1721" CONTENT="Fornemme" WC="0.64" LANG="dan"/>
+							<SP ID="SP10" WIDTH="38" HPOS="2398" VPOS="1721"/>
+							<String ID="STRING14" STYLEREFS="STYLE2" HEIGHT="96" WIDTH="74" HPOS="2436" VPOS="1725" CONTENT="af" WC="0.57" LANG="dan"/>
+							<SP ID="SP11" WIDTH="33" HPOS="2510" VPOS="1725"/>
+							<String ID="STRING15" STYLEREFS="STYLE2" HEIGHT="81" WIDTH="193" HPOS="2543" VPOS="1725" CONTENT="Adel." WC="0.41" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1307586" HEIGHT="120" WIDTH="1103" HPOS="1313" VPOS="1903" xlink:type="simple">
+						<TextLine ID="LINE5" HEIGHT="115" WIDTH="1101" HPOS="1314" VPOS="1904">
+							<String ID="STRING16" STYLEREFS="STYLE2" HEIGHT="99" WIDTH="135" HPOS="1314" VPOS="1911" CONTENT="Hr." WC="0.58" LANG="dan"/>
+							<SP ID="SP12" WIDTH="63" HPOS="1449" VPOS="1911"/>
+							<String ID="STRING17" STYLEREFS="STYLE3" HEIGHT="115" WIDTH="397" HPOS="1512" VPOS="1904" CONTENT="Leopolds" WC="0.69" LANG="deu"/>
+							<SP ID="SP13" WIDTH="47" HPOS="1909" VPOS="1904"/>
+							<String ID="STRING18" STYLEREFS="STYLE2" HEIGHT="97" WIDTH="459" HPOS="1956" VPOS="1915" CONTENT="Gemahlinde." WC="0.65" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1307587" HEIGHT="118" WIDTH="1221" HPOS="1314" VPOS="2101" xlink:type="simple">
+						<TextLine ID="LINE6" HEIGHT="113" WIDTH="1219" HPOS="1315" VPOS="2101">
+							<String ID="STRING19" STYLEREFS="STYLE3" HEIGHT="113" WIDTH="343" HPOS="1315" VPOS="2101" CONTENT="Frands" WC="0.61" LANG="dan"/>
+							<SP ID="SP14" WIDTH="33" HPOS="1658" VPOS="2101"/>
+							<String ID="STRING20" STYLEREFS="STYLE2" HEIGHT="97" WIDTH="131" HPOS="1691" VPOS="2107" CONTENT="Hr." WC="0.56" LANG="dan"/>
+							<SP ID="SP15" WIDTH="55" HPOS="1822" VPOS="2107"/>
+							<String ID="STRING21" STYLEREFS="STYLE3" HEIGHT="105" WIDTH="357" HPOS="1877" VPOS="2108" CONTENT="Leopolds" WC="0.72" LANG="deu"/>
+							<SP ID="SP16" WIDTH="43" HPOS="2234" VPOS="2108"/>
+							<String ID="STRING22" STYLEREFS="STYLE2" HEIGHT="81" WIDTH="257" HPOS="2277" VPOS="2108" CONTENT="Tiener." WC="0.55" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1307588" HEIGHT="123" WIDTH="1447" HPOS="1315" VPOS="2291" xlink:type="simple">
+						<TextLine ID="LINE7" HEIGHT="116" WIDTH="1445" HPOS="1316" VPOS="2292">
+							<String ID="STRING23" STYLEREFS="STYLE3" HEIGHT="116" WIDTH="283" HPOS="1316" VPOS="2292" CONTENT="Lisette" WC="0.42" LANG="dan"/>
+							<SP ID="SP17" WIDTH="35" HPOS="1599" VPOS="2292"/>
+							<String ID="STRING24" STYLEREFS="STYLE2" HEIGHT="92" WIDTH="169" HPOS="1634" VPOS="2305" CONTENT="Frue" WC="0.74" LANG="dan"/>
+							<SP ID="SP18" WIDTH="53" HPOS="1803" VPOS="2305"/>
+							<String ID="STRING25" STYLEREFS="STYLE2" HEIGHT="103" WIDTH="359" HPOS="1856" VPOS="2304" CONTENT="Leopolds" WC="0.69" LANG="deu"/>
+							<SP ID="SP19" WIDTH="31" HPOS="2215" VPOS="2304"/>
+							<String ID="STRING26" STYLEREFS="STYLE2" HEIGHT="94" WIDTH="515" HPOS="2246" VPOS="2308" CONTENT="Kammer-Pige" WC="0.65" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1307589" HEIGHT="231" WIDTH="1825" HPOS="1316" VPOS="2489" xlink:type="simple">
+						<TextLine ID="LINE8" HEIGHT="122" WIDTH="1801" HPOS="1317" VPOS="2490">
+							<String ID="STRING27" STYLEREFS="STYLE2" HEIGHT="85" WIDTH="145" HPOS="1317" VPOS="2497" CONTENT="Sr." WC="0.48" LANG="dan"/>
+							<SP ID="SP20" WIDTH="65" HPOS="1462" VPOS="2497"/>
+							<String ID="STRING28" STYLEREFS="STYLE3" HEIGHT="99" WIDTH="361" HPOS="1527" VPOS="2490" CONTENT="Leonard" WC="0.42" LANG="dan"/>
+							<SP ID="SP21" WIDTH="45" HPOS="1888" VPOS="2490"/>
+							<String ID="STRING29" STYLEREFS="STYLE2" HEIGHT="52" WIDTH="75" HPOS="1933" VPOS="2523" CONTENT="en" WC="0.38" LANG="dan"/>
+							<SP ID="SP22" WIDTH="47" HPOS="2008" VPOS="2523"/>
+							<String ID="STRING30" STYLEREFS="STYLE2" HEIGHT="93" WIDTH="125" HPOS="2055" VPOS="2507" CONTENT="riig" WC="0.46" LANG="dan"/>
+							<SP ID="SP23" WIDTH="39" HPOS="2180" VPOS="2507"/>
+							<String ID="STRING31" STYLEREFS="STYLE2" HEIGHT="101" WIDTH="269" HPOS="2219" VPOS="2500" CONTENT="Borger" WC="0.34" LANG="dan"/>
+							<SP ID="SP24" WIDTH="37" HPOS="2488" VPOS="2500"/>
+							<String ID="STRING32" STYLEREFS="STYLE3" HEIGHT="95" WIDTH="299" HPOS="2525" VPOS="2499" CONTENT="Torlaci" WC="0.38" LANG="dan"/>
+							<SP ID="SP25" WIDTH="31" HPOS="2824" VPOS="2499"/>
+							<String ID="STRING33" STYLEREFS="STYLE2" HEIGHT="78" WIDTH="77" HPOS="2855" VPOS="2521" CONTENT="og" WC="0.33" LANG="dan"/>
+							<SP ID="SP26" WIDTH="29" HPOS="2932" VPOS="2521"/>
+							<String ID="STRING34" STYLEREFS="STYLE2" HEIGHT="109" WIDTH="157" HPOS="2961" VPOS="2503" CONTENT="Pro" SUBS_TYPE="HypPart1" SUBS_CONTENT="Prospers" WC="0.26" LANG="deu"/>
+							<HYP CONTENT="-"/>
+						</TextLine>
+						<TextLine ID="LINE9" HEIGHT="104" WIDTH="452" HPOS="1572" VPOS="2609">
+							<String ID="STRING35" STYLEREFS="STYLE2" HEIGHT="104" WIDTH="198" HPOS="1572" VPOS="2609" CONTENT="spers" SUBS_TYPE="HypPart2" SUBS_CONTENT="Prospers" WC="0.64" LANG="deu"/>
+							<SP ID="SP27" WIDTH="64" HPOS="1770" VPOS="2609"/>
+							<String ID="STRING36" STYLEREFS="STYLE2" HEIGHT="82" WIDTH="190" HPOS="1834" VPOS="2612" CONTENT="Ven." WC="0.52" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1307590" HEIGHT="115" WIDTH="456" HPOS="1317" VPOS="2795" xlink:type="simple">
+						<TextLine ID="LINE10" HEIGHT="113" WIDTH="456" HPOS="1317" VPOS="2796">
+							<String ID="STRING37" STYLEREFS="STYLE3" HEIGHT="101" WIDTH="144" HPOS="1317" VPOS="2797" CONTENT="En" WC="0.86" LANG="dan"/>
+							<SP ID="SP28" WIDTH="64" HPOS="1461" VPOS="2797"/>
+							<String ID="STRING38" STYLEREFS="STYLE3" HEIGHT="113" WIDTH="248" HPOS="1525" VPOS="2796" CONTENT="Jøde." WC="0.52" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

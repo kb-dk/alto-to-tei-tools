@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130016215253_1_013_008_023.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-14</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Arial" FONTSIZE="9" FONTSTYLE=""/>
+		<TextStyle ID="STYLE2" FONTFAMILY="Times New Roman" FONTSIZE="4" FONTSTYLE=""/>
+		<TextStyle ID="STYLE3" FONTFAMILY="Times New Roman" FONTSIZE="19" FONTSTYLE="bold italics"/>
+		<TextStyle ID="STYLE4" FONTFAMILY="Times New Roman" FONTSIZE="11" FONTSTYLE=""/>
+		<TextStyle ID="STYLE5" FONTFAMILY="Times New Roman" FONTSIZE="12" FONTSTYLE="bold italics"/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE413" HEIGHT="4502" WIDTH="2770" PHYSICAL_IMG_NR="413" PROCESSING="OCR1" PC="0.54">
+			<TopMargin HEIGHT="415" WIDTH="2770" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="3405" WIDTH="290" HPOS="0" VPOS="415"/>
+			<RightMargin HEIGHT="3405" WIDTH="497" HPOS="2273" VPOS="415"/>
+			<BottomMargin HEIGHT="680" WIDTH="2770" HPOS="0" VPOS="3822"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="3405" WIDTH="1981" HPOS="291" VPOS="416">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE112052" HEIGHT="3405" WIDTH="1981" HPOS="291" VPOS="416" xlink:type="simple">
+					<TextBlock xs:type="TextBlockType" ID="ZONE1157906" HEIGHT="55" WIDTH="69" HPOS="1568" VPOS="416" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="55" WIDTH="54" HPOS="1568" VPOS="416">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="55" WIDTH="54" HPOS="1568" VPOS="416" CONTENT="ki" WC="0.51" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1157907" HEIGHT="45" WIDTH="659" HPOS="980" VPOS="463" xlink:type="simple">
+						<TextLine ID="LINE2" HEIGHT="45" WIDTH="659" HPOS="980" VPOS="463">
+							<String ID="STRING2" STYLEREFS="STYLE2" HEIGHT="25" WIDTH="69" HPOS="980" VPOS="463" CONTENT="TIT" WC="0.25" LANG="nob"/>
+							<SP ID="SP1" WIDTH="224" HPOS="1049" VPOS="463"/>
+							<String ID="STRING3" STYLEREFS="STYLE2" HEIGHT="32" WIDTH="72" HPOS="1273" VPOS="465" CONTENT="ITf" WC="0.17" LANG="nob"/>
+							<SP ID="SP2" WIDTH="214" HPOS="1345" VPOS="465"/>
+							<String ID="STRING4" STYLEREFS="STYLE2" HEIGHT="42" WIDTH="80" HPOS="1559" VPOS="466" CONTENT="lTjT" WC="0.16" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1157908" HEIGHT="80" WIDTH="106" HPOS="2159" VPOS="437" xlink:type="simple">
+						<TextLine ID="LINE3" HEIGHT="80" WIDTH="106" HPOS="2159" VPOS="437">
+							<String ID="STRING5" STYLEREFS="STYLE3" HEIGHT="80" WIDTH="106" HPOS="2159" VPOS="437" CONTENT="ss" WC="0.47" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1157909" HEIGHT="799" WIDTH="1977" HPOS="292" VPOS="594" xlink:type="simple">
+						<TextLine ID="LINE4" HEIGHT="108" WIDTH="1927" HPOS="299" VPOS="599">
+							<String ID="STRING6" STYLEREFS="STYLE4" HEIGHT="97" WIDTH="327" HPOS="299" VPOS="610" CONTENT="werden," WC="0.71" LANG="deu"/>
+							<SP ID="SP3" WIDTH="63" HPOS="626" VPOS="610"/>
+							<String ID="STRING7" STYLEREFS="STYLE4" HEIGHT="83" WIDTH="217" HPOS="689" VPOS="607" CONTENT="deren" WC="0.5" LANG="deu"/>
+							<SP ID="SP4" WIDTH="47" HPOS="906" VPOS="607"/>
+							<String ID="STRING8" STYLEREFS="STYLE4" HEIGHT="81" WIDTH="229" HPOS="953" VPOS="610" CONTENT="durch" WC="0.68" LANG="deu"/>
+							<SP ID="SP5" WIDTH="63" HPOS="1182" VPOS="610"/>
+							<String ID="STRING9" STYLEREFS="STYLE4" HEIGHT="82" WIDTH="259" HPOS="1245" VPOS="612" CONTENT="andere" WC="0.53" LANG="deu"/>
+							<SP ID="SP6" WIDTH="39" HPOS="1504" VPOS="612"/>
+							<String ID="STRING10" STYLEREFS="STYLE4" HEIGHT="93" WIDTH="403" HPOS="1543" VPOS="599" CONTENT="Ümftande" WC="0.62" LANG="deu"/>
+							<SP ID="SP7" WIDTH="39" HPOS="1946" VPOS="599"/>
+							<String ID="STRING11" STYLEREFS="STYLE4" HEIGHT="86" WIDTH="241" HPOS="1985" VPOS="610" CONTENT="abneh" SUBS_TYPE="HypPart1" SUBS_CONTENT="abnehmende" WC="0.62" LANG="deu"/>
+							<HYP CONTENT="-"/>
+						</TextLine>
+						<TextLine ID="LINE5" HEIGHT="110" WIDTH="1966" HPOS="300" VPOS="721">
+							<String ID="STRING12" STYLEREFS="STYLE4" HEIGHT="79" WIDTH="264" HPOS="300" VPOS="723" CONTENT="mende" SUBS_TYPE="HypPart2" SUBS_CONTENT="abnehmende" WC="0.46" LANG="deu"/>
+							<SP ID="SP8" WIDTH="68" HPOS="564" VPOS="723"/>
+							<String ID="STRING13" STYLEREFS="STYLE4" HEIGHT="106" WIDTH="404" HPOS="632" VPOS="722" CONTENT="Nahrung," WC="0.66" LANG="deu"/>
+							<SP ID="SP9" WIDTH="78" HPOS="1036" VPOS="722"/>
+							<String ID="STRING14" STYLEREFS="STYLE4" HEIGHT="51" WIDTH="170" HPOS="1114" VPOS="753" CONTENT="man" WC="0.4" LANG="deu"/>
+							<SP ID="SP10" WIDTH="70" HPOS="1284" VPOS="753"/>
+							<String ID="STRING15" STYLEREFS="STYLE4" HEIGHT="109" WIDTH="198" HPOS="1354" VPOS="722" CONTENT="billig" WC="0.52" LANG="deu"/>
+							<SP ID="SP11" WIDTH="66" HPOS="1552" VPOS="722"/>
+							<String ID="STRING16" STYLEREFS="STYLE4" HEIGHT="83" WIDTH="394" HPOS="1618" VPOS="724" CONTENT="wünschen" WC="0.9" LANG="deu"/>
+							<SP ID="SP12" WIDTH="66" HPOS="2012" VPOS="724"/>
+							<String ID="STRING17" STYLEREFS="STYLE4" HEIGHT="88" WIDTH="188" HPOS="2078" VPOS="721" CONTENT="mufs" WC="0.42" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE6" HEIGHT="108" WIDTH="1934" HPOS="296" VPOS="832">
+							<String ID="STRING18" STYLEREFS="STYLE4" HEIGHT="79" WIDTH="234" HPOS="296" VPOS="834" CONTENT="durch" WC="0.48" LANG="deu"/>
+							<SP ID="SP13" WIDTH="68" HPOS="530" VPOS="834"/>
+							<String ID="STRING19" STYLEREFS="STYLE4" HEIGHT="78" WIDTH="110" HPOS="598" VPOS="835" CONTENT="ein" WC="0.52" LANG="deu"/>
+							<SP ID="SP14" WIDTH="70" HPOS="708" VPOS="835"/>
+							<String ID="STRING20" STYLEREFS="STYLE4" HEIGHT="80" WIDTH="76" HPOS="778" VPOS="832" CONTENT="fo" WC="0.39" LANG="deu"/>
+							<SP ID="SP15" WIDTH="64" HPOS="854" VPOS="832"/>
+							<String ID="STRING21" STYLEREFS="STYLE4" HEIGHT="107" WIDTH="438" HPOS="918" VPOS="833" CONTENT="glückliches" WC="0.83" LANG="deu"/>
+							<SP ID="SP16" WIDTH="40" HPOS="1356" VPOS="833"/>
+							<String ID="STRING22" STYLEREFS="STYLE4" HEIGHT="81" WIDTH="248" HPOS="1396" VPOS="835" CONTENT="Mittel" WC="0.57" LANG="deu"/>
+							<SP ID="SP17" WIDTH="50" HPOS="1644" VPOS="835"/>
+							<String ID="STRING23" STYLEREFS="STYLE4" HEIGHT="80" WIDTH="262" HPOS="1694" VPOS="836" CONTENT="wieder" WC="0.76" LANG="deu"/>
+							<SP ID="SP18" WIDTH="56" HPOS="1956" VPOS="836"/>
+							<String ID="STRING24" STYLEREFS="STYLE4" HEIGHT="81" WIDTH="218" HPOS="2012" VPOS="835" CONTENT="aufzc" SUBS_TYPE="HypPart1" SUBS_CONTENT="aufzchelfen," WC="0.44" LANG="deu"/>
+							<HYP CONTENT="-"/>
+						</TextLine>
+						<TextLine ID="LINE7" HEIGHT="113" WIDTH="1936" HPOS="295" VPOS="940">
+							<String ID="STRING25" STYLEREFS="STYLE4" HEIGHT="101" WIDTH="294" HPOS="295" VPOS="940" CONTENT="helfen," SUBS_TYPE="HypPart2" SUBS_CONTENT="aufzchelfen," WC="0.57" LANG="deu"/>
+							<SP ID="SP19" WIDTH="58" HPOS="589" VPOS="940"/>
+							<String ID="STRING26" STYLEREFS="STYLE4" HEIGHT="80" WIDTH="318" HPOS="647" VPOS="944" CONTENT="welches" WC="0.9" LANG="deu"/>
+							<SP ID="SP20" WIDTH="68" HPOS="965" VPOS="944"/>
+							<String ID="STRING27" STYLEREFS="STYLE4" HEIGHT="105" WIDTH="332" HPOS="1033" VPOS="948" CONTENT="zugleich" WC="0.56" LANG="deu"/>
+							<SP ID="SP21" WIDTH="70" HPOS="1365" VPOS="948"/>
+							<String ID="STRING28" STYLEREFS="STYLE4" HEIGHT="78" WIDTH="114" HPOS="1435" VPOS="948" CONTENT="die" WC="0.6" LANG="deu"/>
+							<SP ID="SP22" WIDTH="64" HPOS="1549" VPOS="948"/>
+							<String ID="STRING29" STYLEREFS="STYLE4" HEIGHT="105" WIDTH="438" HPOS="1613" VPOS="947" CONTENT="Königliche" WC="0.66" LANG="deu"/>
+							<SP ID="SP23" WIDTH="38" HPOS="2051" VPOS="947"/>
+							<String ID="STRING30" STYLEREFS="STYLE4" HEIGHT="76" WIDTH="142" HPOS="2089" VPOS="951" CONTENT="Ein" SUBS_TYPE="HypPart1" SUBS_CONTENT="Einnahme" WC="0.88" LANG="deu"/>
+							<HYP CONTENT="-"/>
+						</TextLine>
+						<TextLine ID="LINE8" HEIGHT="111" WIDTH="1940" HPOS="293" VPOS="1055">
+							<String ID="STRING31" STYLEREFS="STYLE4" HEIGHT="79" WIDTH="272" HPOS="293" VPOS="1058" CONTENT="nahme" SUBS_TYPE="HypPart2" SUBS_CONTENT="Einnahme" WC="0.62" LANG="deu"/>
+							<SP ID="SP24" WIDTH="62" HPOS="565" VPOS="1058"/>
+							<String ID="STRING32" STYLEREFS="STYLE4" HEIGHT="79" WIDTH="230" HPOS="627" VPOS="1057" CONTENT="durch" WC="0.71" LANG="deu"/>
+							<SP ID="SP25" WIDTH="40" HPOS="857" VPOS="1057"/>
+							<String ID="STRING33" STYLEREFS="STYLE4" HEIGHT="111" WIDTH="526" HPOS="897" VPOS="1055" CONTENT="Confumption" WC="0.59" LANG="deu"/>
+							<SP ID="SP26" WIDTH="40" HPOS="1423" VPOS="1055"/>
+							<String ID="STRING34" STYLEREFS="STYLE4" HEIGHT="80" WIDTH="154" HPOS="1463" VPOS="1057" CONTENT="und" WC="0.9" LANG="deu"/>
+							<SP ID="SP27" WIDTH="42" HPOS="1617" VPOS="1057"/>
+							<String ID="STRING35" STYLEREFS="STYLE4" HEIGHT="80" WIDTH="246" HPOS="1659" VPOS="1058" CONTENT="Accife" WC="0.67" LANG="deu"/>
+							<SP ID="SP28" WIDTH="36" HPOS="1905" VPOS="1058"/>
+							<String ID="STRING36" STYLEREFS="STYLE4" HEIGHT="82" WIDTH="292" HPOS="1941" VPOS="1059" CONTENT="vermeh" SUBS_TYPE="HypPart1" SUBS_CONTENT="vermehren," WC="0.82" LANG="deu"/>
+							<HYP CONTENT="-"/>
+						</TextLine>
+						<TextLine ID="LINE9" HEIGHT="96" WIDTH="1944" HPOS="292" VPOS="1166">
+							<String ID="STRING37" STYLEREFS="STYLE4" HEIGHT="66" WIDTH="168" HPOS="292" VPOS="1196" CONTENT="ren," SUBS_TYPE="HypPart2" SUBS_CONTENT="vermehren," WC="0.77" LANG="deu"/>
+							<SP ID="SP29" WIDTH="58" HPOS="460" VPOS="1196"/>
+							<String ID="STRING38" STYLEREFS="STYLE4" HEIGHT="80" WIDTH="152" HPOS="518" VPOS="1167" CONTENT="und" WC="0.76" LANG="deu"/>
+							<SP ID="SP30" WIDTH="71" HPOS="670" VPOS="1167"/>
+							<String ID="STRING39" STYLEREFS="STYLE4" HEIGHT="82" WIDTH="215" HPOS="741" VPOS="1166" CONTENT="baare" WC="0.6" LANG="deu"/>
+							<SP ID="SP31" WIDTH="41" HPOS="956" VPOS="1166"/>
+							<String ID="STRING40" STYLEREFS="STYLE4" HEIGHT="77" WIDTH="289" HPOS="997" VPOS="1173" CONTENT="Münze" WC="0.81" LANG="deu"/>
+							<SP ID="SP32" WIDTH="67" HPOS="1286" VPOS="1173"/>
+							<String ID="STRING41" STYLEREFS="STYLE4" HEIGHT="78" WIDTH="75" HPOS="1353" VPOS="1172" CONTENT="in" WC="0.34" LANG="deu"/>
+							<SP ID="SP33" WIDTH="67" HPOS="1428" VPOS="1172"/>
+							<String ID="STRING42" STYLEREFS="STYLE4" HEIGHT="83" WIDTH="141" HPOS="1495" VPOS="1168" CONTENT="den" WC="0.66" LANG="deu"/>
+							<SP ID="SP34" WIDTH="59" HPOS="1636" VPOS="1168"/>
+							<String ID="STRING43" STYLEREFS="STYLE4" HEIGHT="84" WIDTH="317" HPOS="1695" VPOS="1166" CONTENT="Umlauf" WC="0.44" LANG="deu"/>
+							<SP ID="SP35" WIDTH="61" HPOS="2012" VPOS="1166"/>
+							<String ID="STRING44" STYLEREFS="STYLE4" HEIGHT="82" WIDTH="163" HPOS="2073" VPOS="1169" CONTENT="brin" SUBS_TYPE="HypPart1" SUBS_CONTENT="bringen" WC="0.63" LANG="deu"/>
+							<HYP CONTENT="-"/>
+						</TextLine>
+						<TextLine ID="LINE10" HEIGHT="107" WIDTH="462" HPOS="292" VPOS="1279">
+							<String ID="STRING45" STYLEREFS="STYLE4" HEIGHT="78" WIDTH="144" HPOS="292" VPOS="1308" CONTENT="gen" SUBS_TYPE="HypPart2" SUBS_CONTENT="bringen" WC="0.57" LANG="deu"/>
+							<SP ID="SP36" WIDTH="40" HPOS="436" VPOS="1308"/>
+							<String ID="STRING46" STYLEREFS="STYLE4" HEIGHT="79" WIDTH="278" HPOS="476" VPOS="1279" CONTENT="würde." WC="0.92" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1157910" HEIGHT="653" WIDTH="1981" HPOS="291" VPOS="1384" xlink:type="simple">
+						<TextLine ID="LINE11" HEIGHT="102" WIDTH="1749" HPOS="518" VPOS="1387">
+							<String ID="STRING47" STYLEREFS="STYLE4" HEIGHT="76" WIDTH="103" HPOS="518" VPOS="1393" CONTENT="Es" WC="1" LANG="deu"/>
+							<SP ID="SP37" WIDTH="69" HPOS="621" VPOS="1393"/>
+							<String ID="STRING48" STYLEREFS="STYLE4" HEIGHT="81" WIDTH="269" HPOS="690" VPOS="1387" CONTENT="scheint" WC="0.89" LANG="deu"/>
+							<SP ID="SP38" WIDTH="69" HPOS="959" VPOS="1387"/>
+							<String ID="STRING49" STYLEREFS="STYLE4" HEIGHT="80" WIDTH="223" HPOS="1028" VPOS="1391" CONTENT="daher" WC="0.64" LANG="deu"/>
+							<SP ID="SP39" WIDTH="71" HPOS="1251" VPOS="1391"/>
+							<String ID="STRING50" STYLEREFS="STYLE4" HEIGHT="80" WIDTH="195" HPOS="1322" VPOS="1392" CONTENT="noch" WC="0.85" LANG="deu"/>
+							<SP ID="SP40" WIDTH="75" HPOS="1517" VPOS="1392"/>
+							<String ID="STRING51" STYLEREFS="STYLE4" HEIGHT="82" WIDTH="131" HPOS="1592" VPOS="1391" CONTENT="viel" WC="0.74" LANG="deu"/>
+							<SP ID="SP41" WIDTH="75" HPOS="1723" VPOS="1391"/>
+							<String ID="STRING52" STYLEREFS="STYLE4" HEIGHT="99" WIDTH="469" HPOS="1798" VPOS="1390" CONTENT="natürlicher," WC="0.71" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE12" HEIGHT="115" WIDTH="1972" HPOS="299" VPOS="1496">
+							<String ID="STRING53" STYLEREFS="STYLE4" HEIGHT="84" WIDTH="150" HPOS="299" VPOS="1496" CONTENT="dass" WC="0.88" LANG="deu"/>
+							<SP ID="SP42" WIDTH="98" HPOS="449" VPOS="1496"/>
+							<String ID="STRING54" STYLEREFS="STYLE4" HEIGHT="78" WIDTH="116" HPOS="547" VPOS="1499" CONTENT="die" WC="1" LANG="deu"/>
+							<SP ID="SP43" WIDTH="74" HPOS="663" VPOS="1499"/>
+							<String ID="STRING55" STYLEREFS="STYLE4" HEIGHT="80" WIDTH="204" HPOS="737" VPOS="1500" CONTENT="Stadt" WC="0.37" LANG="deu"/>
+							<SP ID="SP44" WIDTH="68" HPOS="941" VPOS="1500"/>
+							<String ID="STRING56" STYLEREFS="STYLE4" HEIGHT="78" WIDTH="114" HPOS="1009" VPOS="1503" CONTENT="die" WC="0.41" LANG="deu"/>
+							<SP ID="SP45" WIDTH="68" HPOS="1123" VPOS="1503"/>
+							<String ID="STRING57" STYLEREFS="STYLE4" HEIGHT="109" WIDTH="392" HPOS="1191" VPOS="1502" CONTENT="Anlegung" WC="0.56" LANG="deu"/>
+							<SP ID="SP46" WIDTH="102" HPOS="1583" VPOS="1502"/>
+							<String ID="STRING58" STYLEREFS="STYLE4" HEIGHT="81" WIDTH="128" HPOS="1685" VPOS="1503" CONTENT="der" WC="0.57" LANG="deu"/>
+							<SP ID="SP47" WIDTH="64" HPOS="1813" VPOS="1503"/>
+							<String ID="STRING59" STYLEREFS="STYLE4" HEIGHT="104" WIDTH="394" HPOS="1877" VPOS="1507" CONTENT="Magazine" WC="0.79" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE13" HEIGHT="112" WIDTH="1978" HPOS="293" VPOS="1609">
+							<String ID="STRING60" STYLEREFS="STYLE4" HEIGHT="82" WIDTH="504" HPOS="293" VPOS="1609" CONTENT="übernehmen" WC="0.72" LANG="deu"/>
+							<SP ID="SP48" WIDTH="70" HPOS="797" VPOS="1609"/>
+							<String ID="STRING61" STYLEREFS="STYLE4" HEIGHT="98" WIDTH="282" HPOS="867" VPOS="1609" CONTENT="dürfte," WC="0.82" LANG="deu"/>
+							<SP ID="SP49" WIDTH="78" HPOS="1149" VPOS="1609"/>
+							<String ID="STRING62" STYLEREFS="STYLE4" HEIGHT="82" WIDTH="102" HPOS="1227" VPOS="1612" CONTENT="als" WC="0.62" LANG="deu"/>
+							<SP ID="SP50" WIDTH="70" HPOS="1329" VPOS="1612"/>
+							<String ID="STRING63" STYLEREFS="STYLE4" HEIGHT="78" WIDTH="146" HPOS="1399" VPOS="1616" CONTENT="dals" WC="0.86" LANG="dan"/>
+							<SP ID="SP51" WIDTH="70" HPOS="1545" VPOS="1616"/>
+							<String ID="STRING64" STYLEREFS="STYLE4" HEIGHT="78" WIDTH="116" HPOS="1615" VPOS="1615" CONTENT="die" WC="0.76" LANG="deu"/>
+							<SP ID="SP52" WIDTH="56" HPOS="1731" VPOS="1615"/>
+							<String ID="STRING65" STYLEREFS="STYLE4" HEIGHT="105" WIDTH="484" HPOS="1787" VPOS="1616" CONTENT="Einrichtung" WC="0.65" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE14" HEIGHT="111" WIDTH="1972" HPOS="296" VPOS="1719">
+							<String ID="STRING66" STYLEREFS="STYLE4" HEIGHT="78" WIDTH="194" HPOS="296" VPOS="1726" CONTENT="eines" WC="0.49" LANG="deu"/>
+							<SP ID="SP53" WIDTH="38" HPOS="490" VPOS="1726"/>
+							<String ID="STRING67" STYLEREFS="STYLE4" HEIGHT="88" WIDTH="326" HPOS="528" VPOS="1719" CONTENT=".solchen" WC="0.94" LANG="deu"/>
+							<SP ID="SP54" WIDTH="74" HPOS="854" VPOS="1719"/>
+							<String ID="STRING68" STYLEREFS="STYLE4" HEIGHT="82" WIDTH="566" HPOS="928" VPOS="1721" CONTENT="Etabliflements" WC="0.61" LANG="deu"/>
+							<SP ID="SP55" WIDTH="68" HPOS="1494" VPOS="1721"/>
+							<String ID="STRING69" STYLEREFS="STYLE4" HEIGHT="46" WIDTH="172" HPOS="1562" VPOS="1755" CONTENT="zum" WC="0.67" LANG="deu"/>
+							<SP ID="SP56" WIDTH="64" HPOS="1734" VPOS="1755"/>
+							<String ID="STRING70" STYLEREFS="STYLE4" HEIGHT="106" WIDTH="470" HPOS="1798" VPOS="1724" CONTENT="allgemeinen" WC="0.7" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE15" HEIGHT="111" WIDTH="1942" HPOS="294" VPOS="1831">
+							<String ID="STRING71" STYLEREFS="STYLE4" HEIGHT="89" WIDTH="344" HPOS="294" VPOS="1840" CONTENT="Nutzen," WC="0.56" LANG="deu"/>
+							<SP ID="SP57" WIDTH="96" HPOS="638" VPOS="1840"/>
+							<String ID="STRING72" STYLEREFS="STYLE4" HEIGHT="106" WIDTH="282" HPOS="734" VPOS="1834" CONTENT="einigen" WC="0.66" LANG="deu"/>
+							<SP ID="SP58" WIDTH="100" HPOS="1016" VPOS="1834"/>
+							<String ID="STRING73" STYLEREFS="STYLE4" HEIGHT="106" WIDTH="334" HPOS="1116" VPOS="1836" CONTENT="wenigen" WC="0.49" LANG="deu"/>
+							<SP ID="SP59" WIDTH="64" HPOS="1450" VPOS="1836"/>
+							<String ID="STRING74" STYLEREFS="STYLE4" HEIGHT="93" WIDTH="476" HPOS="1514" VPOS="1831" CONTENT="Privatleuten" WC="0.53" LANG="deu"/>
+							<SP ID="SP60" WIDTH="64" HPOS="1990" VPOS="1831"/>
+							<String ID="STRING75" STYLEREFS="STYLE4" HEIGHT="86" WIDTH="182" HPOS="2054" VPOS="1835" CONTENT="über" SUBS_TYPE="HypPart1" SUBS_CONTENT="überladen" WC="1" LANG="deu"/>
+							<HYP CONTENT="-"/>
+						</TextLine>
+						<TextLine ID="LINE16" HEIGHT="88" WIDTH="561" HPOS="300" VPOS="1942">
+							<String ID="STRING76" STYLEREFS="STYLE4" HEIGHT="88" WIDTH="217" HPOS="300" VPOS="1942" CONTENT="laden" SUBS_TYPE="HypPart2" SUBS_CONTENT="überladen" WC="0.94" LANG="deu"/>
+							<SP ID="SP61" WIDTH="69" HPOS="517" VPOS="1942"/>
+							<String ID="STRING77" STYLEREFS="STYLE4" HEIGHT="86" WIDTH="275" HPOS="586" VPOS="1944" CONTENT="würde." WC="0.6" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+					<Illustration xs:type="IllustrationType" ID="ZONE1157911" HEIGHT="968" WIDTH="1034" HPOS="777" VPOS="2355" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1157912" HEIGHT="104" WIDTH="190" HPOS="1314" VPOS="3709" xlink:type="simple"/>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1157913" HEIGHT="107" WIDTH="306" HPOS="1959" VPOS="3714" xlink:type="simple">
+						<TextLine ID="LINE17" HEIGHT="107" WIDTH="306" HPOS="1959" VPOS="3714">
+							<String ID="STRING78" STYLEREFS="STYLE5" HEIGHT="107" WIDTH="306" HPOS="1959" VPOS="3714" CONTENT="Fünfter" WC="0.51" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

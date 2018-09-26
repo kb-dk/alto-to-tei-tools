@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017168100_2_022_024_004.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-15</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Arial" FONTSIZE="19" FONTSTYLE="italics"/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE622" HEIGHT="4680" WIDTH="3108" PHYSICAL_IMG_NR="622" PROCESSING="OCR1" PC="0.64">
+			<TopMargin HEIGHT="0" WIDTH="3108" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="4706" WIDTH="0" HPOS="0" VPOS="0"/>
+			<RightMargin HEIGHT="4706" WIDTH="0" HPOS="3108" VPOS="0"/>
+			<BottomMargin HEIGHT="-28" WIDTH="3108" HPOS="0" VPOS="4708"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="4706" WIDTH="3106" HPOS="1" VPOS="1">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE126932" HEIGHT="4706" WIDTH="3106" HPOS="1" VPOS="1" xlink:type="simple">
+					<Illustration xs:type="IllustrationType" ID="ZONE1302466" HEIGHT="4706" WIDTH="3106" HPOS="1" VPOS="1" xlink:type="simple"/>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1302467" HEIGHT="167" WIDTH="1217" HPOS="1004" VPOS="2711" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="163" WIDTH="1215" HPOS="1005" VPOS="2713">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="134" WIDTH="179" HPOS="1005" VPOS="2731" CONTENT="20." WC="0.3" LANG="nob"/>
+							<SP ID="SP1" WIDTH="57" HPOS="1184" VPOS="2731"/>
+							<String ID="STRING2" STYLEREFS="STYLE1" HEIGHT="159" WIDTH="363" HPOS="1241" VPOS="2713" CONTENT="@cav:" WC="0.26" LANG="dan"/>
+							<SP ID="SP2" WIDTH="37" HPOS="1604" VPOS="2713"/>
+							<String ID="STRING3" STYLEREFS="STYLE1" HEIGHT="138" WIDTH="199" HPOS="1641" VPOS="2729" CONTENT="22." WC="0.34" LANG="dan"/>
+							<SP ID="SP3" WIDTH="53" HPOS="1840" VPOS="2729"/>
+							<String ID="STRING4" STYLEREFS="STYLE1" HEIGHT="121" WIDTH="327" HPOS="1893" VPOS="2755" CONTENT="’A'.'V" WC="0.51" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

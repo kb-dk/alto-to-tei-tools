@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017168143_2_020_012_001.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-19</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Arial" FONTSIZE="39" FONTSTYLE=""/>
+		<TextStyle ID="STYLE2" FONTFAMILY="Arial" FONTSIZE="24" FONTSTYLE=""/>
+		<TextStyle ID="STYLE3" FONTFAMILY="Arial" FONTSIZE="17" FONTSTYLE=""/>
+		<TextStyle ID="STYLE4" FONTFAMILY="Arial" FONTSIZE="50" FONTSTYLE=""/>
+		<TextStyle ID="STYLE5" FONTFAMILY="Arial" FONTSIZE="21" FONTSTYLE=""/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE469" HEIGHT="4485" WIDTH="2760" PHYSICAL_IMG_NR="469" PROCESSING="OCR1" PC="0.71">
+			<TopMargin HEIGHT="369" WIDTH="2760" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="2683" WIDTH="39" HPOS="0" VPOS="369"/>
+			<RightMargin HEIGHT="2683" WIDTH="917" HPOS="1843" VPOS="369"/>
+			<BottomMargin HEIGHT="1431" WIDTH="2760" HPOS="0" VPOS="3054"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="2683" WIDTH="1802" HPOS="40" VPOS="370">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE125368" HEIGHT="2683" WIDTH="1802" HPOS="40" VPOS="370" xlink:type="simple">
+					<TextBlock xs:type="TextBlockType" ID="ZONE1343615" HEIGHT="2683" WIDTH="1802" HPOS="40" VPOS="370" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="286" WIDTH="775" HPOS="554" VPOS="489">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="286" WIDTH="775" HPOS="554" VPOS="489" CONTENT="Gespräch" WC="0.39" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE2" HEIGHT="195" WIDTH="1252" HPOS="313" VPOS="842">
+							<String ID="STRING2" STYLEREFS="STYLE2" HEIGHT="145" WIDTH="203" HPOS="313" VPOS="859" CONTENT="im" WC="0.45" LANG="deu"/>
+							<SP ID="SP1" WIDTH="77" HPOS="516" VPOS="859"/>
+							<String ID="STRING3" STYLEREFS="STYLE2" HEIGHT="195" WIDTH="972" HPOS="593" VPOS="842" CONTENT="Gefüngniß" WC="0.44" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE3" HEIGHT="123" WIDTH="371" HPOS="754" VPOS="1098">
+							<String ID="STRING4" STYLEREFS="STYLE3" HEIGHT="123" WIDTH="371" HPOS="754" VPOS="1098" CONTENT="zwischen" WC="0.35" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE4" HEIGHT="319" WIDTH="1025" HPOS="418" VPOS="1312">
+							<String ID="STRING5" STYLEREFS="STYLE4" HEIGHT="319" WIDTH="1025" HPOS="418" VPOS="1312" CONTENT="Brand" WC="0.35" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE5" HEIGHT="119" WIDTH="252" HPOS="797" VPOS="1761">
+							<String ID="STRING6" STYLEREFS="STYLE5" HEIGHT="119" WIDTH="252" HPOS="797" VPOS="1761" CONTENT="und" WC="0.35" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE6" HEIGHT="376" WIDTH="1773" HPOS="40" VPOS="1982">
+							<String ID="STRING7" STYLEREFS="STYLE4" HEIGHT="376" WIDTH="1773" HPOS="40" VPOS="1982" CONTENT="Struenset/" WC="0.38" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE7" HEIGHT="122" WIDTH="712" HPOS="549" VPOS="2434">
+							<String ID="STRING8" STYLEREFS="STYLE3" HEIGHT="99" WIDTH="324" HPOS="549" VPOS="2434" CONTENT="worinn" WC="0.37" LANG="deu"/>
+							<SP ID="SP2" WIDTH="60" HPOS="873" VPOS="2434"/>
+							<String ID="STRING9" STYLEREFS="STYLE3" HEIGHT="121" WIDTH="328" HPOS="933" VPOS="2435" CONTENT="letzterer" WC="0.39" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE8" HEIGHT="177" WIDTH="1772" HPOS="40" VPOS="2641">
+							<String ID="STRING10" STYLEREFS="STYLE2" HEIGHT="152" WIDTH="292" HPOS="40" VPOS="2644" CONTENT="Men" WC="0.67" LANG="deu"/>
+							<SP ID="SP3" WIDTH="80" HPOS="332" VPOS="2644"/>
+							<String ID="STRING11" STYLEREFS="STYLE2" HEIGHT="177" WIDTH="864" HPOS="412" VPOS="2641" CONTENT="merkwürdigen" WC="0.4" LANG="deu"/>
+							<SP ID="SP4" WIDTH="76" HPOS="1276" VPOS="2641"/>
+							<String ID="STRING12" STYLEREFS="STYLE2" HEIGHT="172" WIDTH="460" HPOS="1352" VPOS="2644" CONTENT="Traum" WC="0.46" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE9" HEIGHT="124" WIDTH="337" HPOS="710" VPOS="2907">
+							<String ID="STRING13" STYLEREFS="STYLE3" HEIGHT="124" WIDTH="337" HPOS="710" VPOS="2907" CONTENT="erzählt." WC="0.36" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

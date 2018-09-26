@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017168097_2_012_peri_006.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-13</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Courier New" FONTSIZE="13" FONTSTYLE=""/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE288" HEIGHT="4684" WIDTH="2946" PHYSICAL_IMG_NR="288" PROCESSING="OCR1" PC="0">
+			<TopMargin HEIGHT="59" WIDTH="2946" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="85" WIDTH="0" HPOS="0" VPOS="59"/>
+			<RightMargin HEIGHT="85" WIDTH="2256" HPOS="690" VPOS="59"/>
+			<BottomMargin HEIGHT="4538" WIDTH="2946" HPOS="0" VPOS="146"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="85" WIDTH="688" HPOS="1" VPOS="60">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE121383" HEIGHT="85" WIDTH="688" HPOS="1" VPOS="60" xlink:type="simple">
+					<TextBlock xs:type="TextBlockType" ID="ZONE1257541" HEIGHT="85" WIDTH="688" HPOS="1" VPOS="60" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="79" WIDTH="688" HPOS="1" VPOS="64">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="79" WIDTH="688" HPOS="1" VPOS="64" CONTENT="SMWWWWWWW" WC="0.97" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

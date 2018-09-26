@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130013373672_3_001_029_001.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-18</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Arial" FONTSIZE="24" FONTSTYLE=""/>
+		<TextStyle ID="STYLE2" FONTFAMILY="Arial" FONTSIZE="10" FONTSTYLE=""/>
+		<TextStyle ID="STYLE3" FONTFAMILY="Arial" FONTSIZE="55" FONTSTYLE=""/>
+		<TextStyle ID="STYLE4" FONTFAMILY="Arial" FONTSIZE="39" FONTSTYLE=""/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE349" HEIGHT="5560" WIDTH="4592" PHYSICAL_IMG_NR="349" PROCESSING="OCR1" PC="0.63">
+			<TopMargin HEIGHT="379" WIDTH="4592" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="4535" WIDTH="60" HPOS="0" VPOS="379"/>
+			<RightMargin HEIGHT="4535" WIDTH="1102" HPOS="3490" VPOS="379"/>
+			<BottomMargin HEIGHT="644" WIDTH="4592" HPOS="0" VPOS="4916"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="4535" WIDTH="3428" HPOS="61" VPOS="380">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE129137" HEIGHT="4535" WIDTH="3428" HPOS="61" VPOS="380" xlink:type="simple">
+					<TextBlock xs:type="TextBlockType" ID="ZONE1326934" HEIGHT="200" WIDTH="1932" HPOS="827" VPOS="380" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="189" WIDTH="1932" HPOS="827" VPOS="384">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="148" WIDTH="220" HPOS="827" VPOS="384" CONTENT="En" WC="0.32" LANG="nob"/>
+							<SP ID="SP1" WIDTH="124" HPOS="1047" VPOS="384"/>
+							<String ID="STRING2" STYLEREFS="STYLE1" HEIGHT="144" WIDTH="592" HPOS="1171" VPOS="398" CONTENT="accurat" WC="0.45" LANG="nob"/>
+							<SP ID="SP2" WIDTH="120" HPOS="1763" VPOS="398"/>
+							<String ID="STRING3" STYLEREFS="STYLE1" HEIGHT="180" WIDTH="876" HPOS="1883" VPOS="393" CONTENT="Afbildning" WC="0.44" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1326935" HEIGHT="94" WIDTH="203" HPOS="1702" VPOS="613" xlink:type="simple">
+						<TextLine ID="LINE2" HEIGHT="76" WIDTH="202" HPOS="1702" VPOS="613">
+							<String ID="STRING4" STYLEREFS="STYLE2" HEIGHT="76" WIDTH="202" HPOS="1702" VPOS="613" CONTENT="Paa" WC="0.67" LANG="dan"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1326936" HEIGHT="431" WIDTH="3217" HPOS="154" VPOS="741" xlink:type="simple">
+						<TextLine ID="LINE3" HEIGHT="427" WIDTH="3216" HPOS="154" VPOS="739">
+							<String ID="STRING5" STYLEREFS="STYLE3" HEIGHT="254" WIDTH="688" HPOS="154" VPOS="804" CONTENT="Gre»" WC="0.46" LANG="nob"/>
+							<SP ID="SP3" WIDTH="168" HPOS="842" VPOS="804"/>
+							<String ID="STRING6" STYLEREFS="STYLE3" HEIGHT="427" WIDTH="2360" HPOS="1010" VPOS="739" CONTENT="Stkllensees" WC="0.4" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1326937" HEIGHT="300" WIDTH="2248" HPOS="667" VPOS="1182" xlink:type="simple">
+						<TextLine ID="LINE4" HEIGHT="298" WIDTH="2248" HPOS="667" VPOS="1186">
+							<String ID="STRING7" STYLEREFS="STYLE4" HEIGHT="298" WIDTH="1136" HPOS="667" VPOS="1186" CONTENT="Grevelige" WC="0.38" LANG="dan"/>
+							<SP ID="SP4" WIDTH="152" HPOS="1803" VPOS="1186"/>
+							<String ID="STRING8" STYLEREFS="STYLE4" HEIGHT="255" WIDTH="960" HPOS="1955" VPOS="1200" CONTENT="Vaake«." WC="0.58" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+					<Illustration xs:type="IllustrationType" ID="ZONE1326938" HEIGHT="3309" WIDTH="3428" HPOS="61" VPOS="1606" xlink:type="simple"/>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

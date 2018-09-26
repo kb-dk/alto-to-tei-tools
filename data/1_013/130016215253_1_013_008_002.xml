@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130016215253_1_013_008_002.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-14</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Times New Roman" FONTSIZE="6.5" FONTSTYLE=""/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE392" HEIGHT="4605" WIDTH="2969" PHYSICAL_IMG_NR="392" PROCESSING="OCR1" PC="0.6">
+			<TopMargin HEIGHT="99" WIDTH="2969" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="3389" WIDTH="595" HPOS="0" VPOS="99"/>
+			<RightMargin HEIGHT="3389" WIDTH="422" HPOS="2547" VPOS="99"/>
+			<BottomMargin HEIGHT="1115" WIDTH="2969" HPOS="0" VPOS="3490"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="3389" WIDTH="1950" HPOS="596" VPOS="100">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE112031" HEIGHT="3389" WIDTH="1950" HPOS="596" VPOS="100" xlink:type="simple">
+					<Illustration xs:type="IllustrationType" ID="ZONE1157752" HEIGHT="54" WIDTH="1947" HPOS="599" VPOS="100" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1157753" HEIGHT="100" WIDTH="1945" HPOS="600" VPOS="124" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1157754" HEIGHT="36" WIDTH="1944" HPOS="601" VPOS="194" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1157755" HEIGHT="140" WIDTH="1946" HPOS="597" VPOS="200" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1157756" HEIGHT="41" WIDTH="1361" HPOS="596" VPOS="310" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1157757" HEIGHT="405" WIDTH="1352" HPOS="599" VPOS="330" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1157758" HEIGHT="227" WIDTH="213" HPOS="1191" VPOS="3262" xlink:type="simple"/>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1157759" HEIGHT="133" WIDTH="396" HPOS="1418" VPOS="3261" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="62" WIDTH="393" HPOS="1420" VPOS="3263">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="62" WIDTH="393" HPOS="1420" VPOS="3263" CONTENT="BIBÜOIHECA" WC="0.25" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE2" HEIGHT="51" WIDTH="281" HPOS="1424" VPOS="3340">
+							<String ID="STRING2" STYLEREFS="STYLE1" HEIGHT="51" WIDTH="188" HPOS="1424" VPOS="3340" CONTENT="REGIA," WC="0.39" LANG="deu"/>
+							<SP ID="SP1" WIDTH="91" HPOS="1612" VPOS="3340"/>
+							<String ID="STRING3" STYLEREFS="STYLE1" HEIGHT="2" WIDTH="2" HPOS="1703" VPOS="3387" CONTENT="." WC="0.55" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1157760" HEIGHT="92" WIDTH="462" HPOS="1423" VPOS="3379" xlink:type="simple">
+						<TextLine ID="LINE3" HEIGHT="10" WIDTH="103" HPOS="1602" VPOS="3381">
+							<String ID="STRING4" STYLEREFS="STYLE1" HEIGHT="10" WIDTH="10" HPOS="1602" VPOS="3381" CONTENT="," WC="1" LANG="deu"/>
+							<SP ID="SP2" WIDTH="91" HPOS="1612" VPOS="3381"/>
+							<String ID="STRING5" STYLEREFS="STYLE1" HEIGHT="2" WIDTH="2" HPOS="1703" VPOS="3387" CONTENT="." WC="0.55" LANG="deu"/>
+						</TextLine>
+						<TextLine ID="LINE4" HEIGHT="82" WIDTH="460" HPOS="1424" VPOS="3386">
+							<String ID="STRING6" STYLEREFS="STYLE1" HEIGHT="82" WIDTH="460" HPOS="1424" VPOS="3386" CONTENT="HAi'NiEiiäL—i" WC="0.38" LANG="deu"/>
+						</TextLine>
+					</TextBlock>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

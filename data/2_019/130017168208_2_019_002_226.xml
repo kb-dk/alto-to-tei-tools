@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017168208_2_019_002_226.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-14</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles/>
+	<Layout>
+		<Page ID="PAGE338" HEIGHT="4684" WIDTH="3145" PHYSICAL_IMG_NR="338" PROCESSING="OCR1" PC="0">
+			<TopMargin HEIGHT="205" WIDTH="3145" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="4490" WIDTH="35" HPOS="0" VPOS="205"/>
+			<RightMargin HEIGHT="4490" WIDTH="1" HPOS="3144" VPOS="205"/>
+			<BottomMargin HEIGHT="-13" WIDTH="3145" HPOS="0" VPOS="4697"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="4490" WIDTH="3107" HPOS="36" VPOS="206">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE124852" HEIGHT="4490" WIDTH="3107" HPOS="36" VPOS="206" xlink:type="simple">
+					<Illustration xs:type="IllustrationType" ID="ZONE1284959" HEIGHT="2133" WIDTH="1059" HPOS="45" VPOS="206" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1284960" HEIGHT="680" WIDTH="3095" HPOS="45" VPOS="2370" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1284961" HEIGHT="732" WIDTH="3089" HPOS="42" VPOS="3036" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1284962" HEIGHT="172" WIDTH="3089" HPOS="39" VPOS="3754" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1284963" HEIGHT="260" WIDTH="3099" HPOS="38" VPOS="3912" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1284964" HEIGHT="22" WIDTH="3088" HPOS="37" VPOS="4158" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1284965" HEIGHT="300" WIDTH="3093" HPOS="37" VPOS="4166" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1284966" HEIGHT="244" WIDTH="3107" HPOS="36" VPOS="4452" xlink:type="simple"/>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

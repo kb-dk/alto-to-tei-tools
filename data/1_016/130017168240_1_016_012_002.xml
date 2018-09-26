@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>130017168240_1_016_012_002.tif</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR1">
+			<ocrProcessingStep>
+				<processingDateTime>2018-09-13</processingDateTime>
+				<processingAgency>Zissor AS</processingAgency>
+				<processingStepSettings>Combined OCR</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>Zissor AS</softwareCreator>
+					<softwareName>ContentOCR-11; ContentOCR-Tesseract</softwareName>
+					<softwareVersion>2.0.2; 2.0.0</softwareVersion>
+					<applicationDescription>OCR Component for Zissor Content System</applicationDescription>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="STYLE1" FONTFAMILY="Arial" FONTSIZE="7" FONTSTYLE="bold italics"/>
+	</Styles>
+	<Layout>
+		<Page ID="PAGE180" HEIGHT="4722" WIDTH="3037" PHYSICAL_IMG_NR="180" PROCESSING="OCR1" PC="0">
+			<TopMargin HEIGHT="0" WIDTH="3037" HPOS="0" VPOS="0"/>
+			<LeftMargin HEIGHT="4729" WIDTH="0" HPOS="0" VPOS="0"/>
+			<RightMargin HEIGHT="4729" WIDTH="34" HPOS="3003" VPOS="0"/>
+			<BottomMargin HEIGHT="-9" WIDTH="3037" HPOS="0" VPOS="4731"/>
+			<PrintSpace ID="PRINTSPACE1" HEIGHT="4729" WIDTH="3001" HPOS="1" VPOS="1">
+				<ComposedBlock xs:type="ComposedBlockType" ID="ARTICLE114026" HEIGHT="4729" WIDTH="3001" HPOS="1" VPOS="1" xlink:type="simple">
+					<Illustration xs:type="IllustrationType" ID="ZONE1177589" HEIGHT="3913" WIDTH="2975" HPOS="27" VPOS="1" xlink:type="simple"/>
+					<Illustration xs:type="IllustrationType" ID="ZONE1177590" HEIGHT="792" WIDTH="774" HPOS="1" VPOS="3938" xlink:type="simple"/>
+					<TextBlock xs:type="TextBlockType" ID="ZONE1177591" HEIGHT="35" WIDTH="27" HPOS="1108" VPOS="4202" xlink:type="simple">
+						<TextLine ID="LINE1" HEIGHT="35" WIDTH="25" HPOS="1109" VPOS="4202">
+							<String ID="STRING1" STYLEREFS="STYLE1" HEIGHT="35" WIDTH="25" HPOS="1109" VPOS="4202" CONTENT="ø" WC="0.06" LANG="nob"/>
+						</TextLine>
+					</TextBlock>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

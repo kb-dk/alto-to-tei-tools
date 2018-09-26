@@ -4,13 +4,18 @@
 	       xmlns:h="http://www.w3.org/1999/xhtml"
 	       xmlns:xlink="http://www.w3.org/1999/xlink"
 	       xmlns="http://www.tei-c.org/ns/1.0"
+	       xmlns:t="http://www.tei-c.org/ns/1.0"
 	       version="2.0">
 
-  <xsl:param name="alto_list">1_001.xml</xsl:param>
+  <xsl:import href="do_alto_pages.xsl"/>
 
+  <xsl:param name="volume">1_001</xsl:param>
+  <xsl:param name="pages" select="document(concat($volume,'.xml'))"/>
+
+  
 
   <xsl:template match="/">
-    <TEI>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
       <teiHeader>
 	<fileDesc>
 	  <titleStmt>
@@ -21,87 +26,30 @@
 	    <publisher>
 	    </publisher>
 	  </publicationStmt>
-	  <sourceDesc><p/></sourceDesc>
+	  <sourceDesc>
+	    <xsl:copy-of select="//t:listBibl[contains(@xml:id,$volume)]"/>
+	  </sourceDesc>
 	</fileDesc>
       </teiHeader>
       <text>
 	<body>
-	  <xsl:apply-templates select="h:p"/>
+	  <xsl:for-each select="//t:listBibl[contains(@xml:id,$volume)]">
+	     <xsl:for-each select="t:bibl">
+	       <xsl:element name="div">
+		 <xsl:attribute name="xml:id"><xsl:value-of select="concat('workid',substring-after(@xml:id,'bibl'))"/></xsl:attribute>
+		 <xsl:attribute name="decls"><xsl:value-of select="@xml:id"/></xsl:attribute>
+		 <xsl:variable name="work" select="substring-after(@xml:id,'bibl')"/>
+		 <xsl:for-each select="$pages//h:a[contains(@href,$work)]">
+		   <xsl:variable name="alto" select="document(@href)"/>
+		   <xsl:apply-templates select="$alto/a:alto"/>
+		 </xsl:for-each>
+	       </xsl:element>
+	     </xsl:for-each>
+	  </xsl:for-each>
 	</body>
       </text>
     </TEI>
   </xsl:template>
 
-  <xsl:template match="h:a">  
-    <xsl:apply-templates select="doc(@href)/a:alto">
-      <xsl:with-param name="href" select="@href"/>
-      <xsl:with-param name="file" select="position()"/>
-    </xsl:apply-templates>
-  </xsl:template>
-
-  <xsl:template match="a:alto">
-    <xsl:param name="href" select="''"/>
-    <xsl:param name="file" select="''"/>
-    <xsl:apply-templates select="a:Layout">
-      <xsl:with-param name="href" select="$href"/>
-      <xsl:with-param name="file" select="$file"/>
-    </xsl:apply-templates>
-  </xsl:template>
-
-  <xsl:template match="a:Layout">
-    <xsl:param name="href" select="''"/>
-    <xsl:param name="file" select="''"/>
-    <div>
-      <xsl:apply-templates>
-	<xsl:with-param name="href" select="$href"/>
-	<xsl:with-param name="file" select="$file"/>
-      </xsl:apply-templates>
-    </div>
-  </xsl:template>
-
-  <xsl:template match="a:Page">
-    <xsl:param name="href" select="''"/>
-    <xsl:param name="file" select="''"/>
-    <pb xml:id="{concat('file',$file,@ID)}"/>
-    <xsl:apply-templates>
-      <xsl:with-param name="href" select="$href"/>
-      <xsl:with-param name="file" select="$file"/>
-    </xsl:apply-templates>
-  </xsl:template>
-
-  <xsl:template match="a:TextBlock">
-    <xsl:param name="href" select="''"/>
-    <xsl:param name="file" select="''"/>
-    <p>
-      <xsl:apply-templates>
-	<xsl:with-param name="href" select="$href"/>
-	<xsl:with-param name="file" select="$file"/>
-      </xsl:apply-templates>
-    </p>
-  </xsl:template>
-
-  <xsl:template match="a:TextLine">
-    <xsl:param name="href" select="''"/>
-    <xsl:param name="file" select="''"/>
-    <xsl:apply-templates>
-      <xsl:with-param name="href" select="$href"/>
-      <xsl:with-param name="file" select="$file"/>
-    </xsl:apply-templates>
-    <lb/>
-  </xsl:template>
-
-  <xsl:template match="a:SP">
-    <xsl:text>
-    </xsl:text>
-  </xsl:template>
-
-  <xsl:template match="a:String">
-    <xsl:param name="href" select="''"/>
-    <xsl:param name="file" select="''"/>
-    <xsl:variable name="id">
-      <xsl:value-of select="concat('file',$file,'H',@HEIGHT,'W',@WIDTH,'V',@VPOS,'H',@HPOS)"/>
-    </xsl:variable>
-    <w xml:id="{$id}"><xsl:apply-templates select="@CONTENT"/></w>
-  </xsl:template>
 
 </xsl:transform>

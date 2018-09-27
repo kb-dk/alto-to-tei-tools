@@ -9,10 +9,9 @@
 
   <xsl:import href="do_alto_pages.xsl"/>
 
-  <xsl:param name="volume">1_001</xsl:param>
-  <xsl:param name="pages" select="document(concat($volume,'.xml'))"/>
-
-  
+  <xsl:param name="alto_files"  select="alto_file_lists/1_001.xml"/>
+  <xsl:param name="pages"  select="document(alto_files)"/>
+  <xsl:param name="volume" select="substring-before(substring-after($alto_files,'file_lists/'),'.xml')"/>
 
   <xsl:template match="/">
     <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -20,6 +19,9 @@
 	<fileDesc>
 	  <titleStmt>
 	    <title>
+	      <xsl:for-each select="//t:listBibl[contains(@xml:id,$volume)]">
+		<xsl:value-of select="t:head"/>
+	      </xsl:for-each>
 	    </title>
 	  </titleStmt>
 	  <publicationStmt>

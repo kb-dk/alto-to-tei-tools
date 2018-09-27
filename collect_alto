@@ -1,7 +1,5 @@
 #!/usr/bin/perl
 
-# find data/ -type d -print | sort |
-
 while(my $dir = <data/*>) {
     chomp $dir;
     my $alto_list = $dir;

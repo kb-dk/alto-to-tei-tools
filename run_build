@@ -1,9 +1,7 @@
-#!/bin/bash
+#!/usr/bin/perl -w
 
-#
-# sorry, this will most likely not work on your computer
-# 
+while(my $file = <alto_file_lists/*.xml>) {
 
-#java -jar  ~/saxon/saxon9he.jar -s:luxdorph-bibliografi.xml -xsl:altototei.xsl
+    system("saxon-xslt luxdorph-bibliografi.xml altototei.xsl > $tei_file");
 
-saxon-xslt luxdorph-bibliografi.xml altototei.xsl
+}

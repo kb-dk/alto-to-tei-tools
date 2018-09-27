@@ -8,3 +8,6 @@
  run_build
 
 ```
+
+Requires saxon xslt, perl and bash
+

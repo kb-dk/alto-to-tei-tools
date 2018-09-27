@@ -2,6 +2,9 @@
 
 while(my $file = <alto_file_lists/*.xml>) {
 
-    system("saxon-xslt luxdorph-bibliografi.xml altototei.xsl > $tei_file");
+    my $tei_file = $file;
+    $tei_file =~ s/alto_file_lists/tei_dir/;
+
+    system("saxon-xslt luxdorph-bibliografi.xml altototei.xsl alto_files=$file | xmllint --format - > $tei_file");
 
 }

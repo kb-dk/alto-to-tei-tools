@@ -42,22 +42,31 @@
     <xsl:param name="work" select="''"/>
     <xsl:param name="n" select="''"/>
     <pb n="{$n}" xml:id="w{$work}_p{$n}" facs="{$volume}/{substring-before($img_src,'.tif')}"/>
-    <xsl:apply-templates/>
+    <xsl:apply-templates>
+	<xsl:with-param name="n" select="$n"/>
+    </xsl:apply-templates>
   </xsl:template>
 
   <xsl:template match="a:ComposedBlock">
+    <xsl:param name="n" select="''"/>
     <p>
-      <xsl:apply-templates/>
+      <xsl:apply-templates>
+	<xsl:with-param name="n" select="$n"/>
+      </xsl:apply-templates>
     </p>
   </xsl:template>
 
   <xsl:template match="a:TextBlock">
+    <xsl:param name="n" select="''"/>
     <lb/>
-    <xsl:apply-templates/>
+    <xsl:apply-templates>
+	<xsl:with-param name="n" select="$n"/>
+    </xsl:apply-templates>
   </xsl:template>
 
   <xsl:template match="a:TextLine">
-    <xsl:apply-templates/><xsl:text>
+    <xsl:param name="n" select="''"/>
+    <xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates><xsl:text>
 </xsl:text>
   </xsl:template>
 
@@ -66,10 +75,12 @@
   </xsl:template>
 
   <xsl:template match="a:String">
+    <xsl:param name="n" select="''"/>
+    <!-- xsl:value-of select="concat('vol',$volume,'_H',@HEIGHT,'W',@WIDTH,'V',@VPOS,'H',@HPOS)"/ >
     <xsl:variable name="id">
-      <xsl:value-of select="concat('file','H',@HEIGHT,'W',@WIDTH,'V',@VPOS,'H',@HPOS)"/>
-    </xsl:variable>
-    <w><xsl:apply-templates select="@CONTENT"/></w>
+      <xsl:value-of select="concat('vol',$volume,$n,'_',@ID)"/>
+    </xsl:variable -->
+    <xsl:apply-templates select="@CONTENT"/><xsl:text> </xsl:text>
   </xsl:template>
 
 </xsl:transform>

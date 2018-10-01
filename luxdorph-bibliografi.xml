@@ -2779,35 +2779,63 @@ element date:      År
 
 	<listBibl xml:id="vol1_020" sameAs="130017168224">
 	  <head>Række 1 bind 20</head>
-	  <bibl n="1">
+	  <bibl n="1" xml:id="bibl1_020_001">
 	    <title>Samlinger udgivne af Peter Friedrich Suhm. 1. Bind 1. Stykke</title>
 	    <publisher>Brødrene Berling</publisher>
 	    <extent>8°, 80</extent>
 	    <author>P.F. Suhm</author>
 	    <date>1771</date>
 	  </bibl>
-	  <bibl n="2">
+	  <bibl n="2" xml:id="bibl1_020_002">
 	    <title>Et Brev til Forfatteren af de kiøbenhavnske Samlinger, angaaende Skrive-Friheden</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 20</extent>
 	    <author>[Peder Kofod Ancher]</author>
 	    <date>1771</date>
 	  </bibl>
-	  <bibl n="3">
+	  <bibl n="3" xml:id="bibl1_020_003">
 	    <title>Et Brev til Forfatteren af de kiøbenhavnske Samlinger, angaaende Skrivefriheden, Paa nye trykt med Anmærkninger til Forsvar for Skrive-Friheden.</title>
 	    <publisher>Brødrene Berling</publisher>
 	    <extent>8°, 32</extent>
 	    <author>anmærk.: [B.G. Sporon]</author>
 	    <date>1771</date>
 	  </bibl>
-	  <bibl n="4">
+	  <bibl n="4" xml:id="bibl1_020_004">
 	    <title>Hr. F.A. de Voltaires Brev til Hans Majestæt Kongen af Danmark angaaende den udi hans Stater forundte Tryk-Frihed. Tilligemed nogle afhandlinger af beslegtet Indhold.</title>
 	    <publisher>L.N. Svare</publisher>
 	    <extent>8°, 31</extent>
 	    <author>F. Voltaire, D. Hume</author>
 	    <date>?</date>
 	  </bibl>
-	  <bibl n="5, 6, 7, 8, 9">
+	  <bibl n="5" xml:id="bibl1_020_005" >
+	    <title>Den poetiske Gartner-Kniv at beskiære Trykke- og Skrive-Frihedens Frugter med. Skrevet for det smukke Kiøn. 1.-5. stykke jan.-maj måned 1771</title>
+	    <publisher>J.R. Thiele</publisher>
+	    <extent>8°, 80</extent>
+	    <author>[J.C. Bie]</author>
+	    <date>1771</date>
+	  </bibl>
+	  <bibl n="6" xml:id="bibl1_020_006" >
+	    <title>Den poetiske Gartner-Kniv at beskiære Trykke- og Skrive-Frihedens Frugter med. Skrevet for det smukke Kiøn. 1.-5. stykke jan.-maj måned 1771</title>
+	    <publisher>J.R. Thiele</publisher>
+	    <extent>8°, 80</extent>
+	    <author>[J.C. Bie]</author>
+	    <date>1771</date>
+	  </bibl>
+	  <bibl n="7" xml:id="bibl1_020_007" >
+	    <title>Den poetiske Gartner-Kniv at beskiære Trykke- og Skrive-Frihedens Frugter med. Skrevet for det smukke Kiøn. 1.-5. stykke jan.-maj måned 1771</title>
+	    <publisher>J.R. Thiele</publisher>
+	    <extent>8°, 80</extent>
+	    <author>[J.C. Bie]</author>
+	    <date>1771</date>
+	  </bibl>
+	  <bibl n="8" xml:id="bibl1_020_008" >
+	    <title>Den poetiske Gartner-Kniv at beskiære Trykke- og Skrive-Frihedens Frugter med. Skrevet for det smukke Kiøn. 1.-5. stykke jan.-maj måned 1771</title>
+	    <publisher>J.R. Thiele</publisher>
+	    <extent>8°, 80</extent>
+	    <author>[J.C. Bie]</author>
+	    <date>1771</date>
+	  </bibl>
+	  <bibl n="9" xml:id="bibl1_020_009" >
 	    <title>Den poetiske Gartner-Kniv at beskiære Trykke- og Skrive-Frihedens Frugter med. Skrevet for det smukke Kiøn. 1.-5. stykke jan.-maj måned 1771</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 80</extent>

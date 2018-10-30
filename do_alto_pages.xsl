@@ -80,7 +80,16 @@
     <xsl:variable name="id">
       <xsl:value-of select="concat('vol',$volume,$n,'_',@ID)"/>
     </xsl:variable -->
-    <xsl:apply-templates select="@CONTENT"/><xsl:text> </xsl:text>
+    <xsl:choose>
+      <xsl:when test="@SUBS_TYPE='HypPart1'">
+	<xsl:apply-templates select="@SUBS_CONTENT"/><xsl:text> </xsl:text>
+      </xsl:when>
+      <xsl:when test="@SUBS_TYPE='HypPart2'">
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:apply-templates select="@CONTENT"/><xsl:text> </xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
 </xsl:transform>

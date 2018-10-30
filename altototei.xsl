@@ -41,7 +41,7 @@
 	     <xsl:for-each select="t:bibl">
 	       <xsl:element name="div">
 		 <xsl:attribute name="xml:id"><xsl:value-of select="concat('workid',substring-after(@xml:id,'bibl'))"/></xsl:attribute>
-		 <xsl:attribute name="decls"><xsl:value-of select="@xml:id"/></xsl:attribute>
+		 <xsl:attribute name="decls"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute>
 		 <xsl:variable name="work" select="substring-after(@xml:id,'bibl')"/>
 		 <xsl:for-each select="$pages//h:a[contains(@href,$work)]">
 		   <xsl:variable name="alto" select="document(concat($root,@href))"/>

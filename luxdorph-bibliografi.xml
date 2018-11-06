@@ -1580,7 +1580,7 @@ element date:      År
 	    <author>?</author>
 	    <date>1771</date>
 	  </bibl>
-	  <bibl n="6" xml:id="bibl1_013_007">
+	  <bibl n="6" xml:id="bibl1_013_006">
 	    <title>Sendschreiben eines Russen aus St. Petersburg an den Russen aus Deutschland der Dänische Anecdoten zum Gebrauch der Gewürzkrämer sammlet</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 12</extent>
@@ -6688,6 +6688,27 @@ element date:      År
 	    <extent/>
 	    <author>M. Haas</author>
 	    <date/>
+	  </bibl>
+	</listBibl>
+      </div>
+      <div>
+	<head>Fortegnelse paa alle de Skrifter som Trykfriheden har givet Anledning til.</head>
+	<p>Et tidsskrift som ikke katalogiserats i <persName role="author" key="Horstbøll, Henrik">Henrik Horstbølls</persName>
+	<title>Luxdorphs samling af trykkefrihedens skrifter 1770-1773</title></p>
+	<listBibl xml:id="vol4_001" sameAs="130019454682" >
+	  <bibl n="1" xml:id="bibl4_001">
+	    <title>Fortegnelse paa alle de Skrifter som Trykfriheden har givet Anledning til hvori findes anført Stederne hvor de sælges, hvad de koste, og hvor mange Ark de indeholde samt en kort Erindring om et hvert Skrift til Efterretning for Liebhavere. (I)</title>
+	    
+	  </bibl>
+	</listBibl>
+	<listBibl xml:id="vol4_002" sameAs="130019454690">
+	  <bibl n="1" xml:id="bibl4_002">
+	    <title>Fortegnelse paa alle de Skrifter som Trykfriheden har givet Anledning til hvori findes anført Stederne hvor de sælges, hvad de koste, og hvor mange Ark de indeholde samt en kort Erindring om et hvert Skrift til Efterretning for Liebhavere. (II)</title>
+	  </bibl>
+	</listBibl>
+	<listBibl xml:id="vol4_003" sameAs="130019454704">
+	  <bibl n="1" xml:id="bibl4_003">
+	    <title>Fortegnelse paa alle de Skrifter som Trykfriheden har givet Anledning til hvori findes anført Stederne hvor de sælges, hvad de koste, og hvor mange Ark de indeholde samt en kort Erindring om et hvert Skrift til Efterretning for Liebhavere (III)</title>
 	  </bibl>
 	</listBibl>
       </div>

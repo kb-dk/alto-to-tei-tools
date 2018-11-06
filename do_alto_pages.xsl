@@ -42,32 +42,23 @@
     <xsl:param name="work" select="''"/>
     <xsl:param name="n" select="''"/>
     <pb n="{$n}" xml:id="w{$work}_p{$n}" facs="{$volume}/{substring-before($img_src,'.tif')}"/>
-    <xsl:apply-templates>
-	<xsl:with-param name="n" select="$n"/>
-    </xsl:apply-templates>
+    <xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates>
   </xsl:template>
 
   <xsl:template match="a:ComposedBlock">
     <xsl:param name="n" select="''"/>
-    <p>
-      <xsl:apply-templates>
-	<xsl:with-param name="n" select="$n"/>
-      </xsl:apply-templates>
-    </p>
+    <p><xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates></p>
   </xsl:template>
 
   <xsl:template match="a:TextBlock">
     <xsl:param name="n" select="''"/>
-    <lb/>
-    <xsl:apply-templates>
-	<xsl:with-param name="n" select="$n"/>
-    </xsl:apply-templates>
+    <xsl:variable name="block"><xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates></xsl:variable>
+    <lb/><xsl:value-of select="normalize-space($block)"/>
   </xsl:template>
 
   <xsl:template match="a:TextLine">
     <xsl:param name="n" select="''"/>
-    <xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates><xsl:text>
-</xsl:text>
+    <xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates><xsl:text> </xsl:text>
   </xsl:template>
 
   <xsl:template match="a:SP">
@@ -82,12 +73,12 @@
     </xsl:variable -->
     <xsl:choose>
       <xsl:when test="@SUBS_TYPE='HypPart1'">
-	<xsl:apply-templates select="@SUBS_CONTENT"/><xsl:text> </xsl:text>
+	<xsl:value-of select="normalize-space(@SUBS_CONTENT)"/>
       </xsl:when>
       <xsl:when test="@SUBS_TYPE='HypPart2'">
       </xsl:when>
       <xsl:otherwise>
-	<xsl:apply-templates select="@CONTENT"/><xsl:text> </xsl:text>
+	<xsl:value-of select="normalize-space(@CONTENT)"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>

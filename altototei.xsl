@@ -14,7 +14,7 @@
   <xsl:param name="pages"  select="document($alto_files)"/>
   <xsl:param name="volume" select="substring-before(substring-after($alto_files,'file_lists/'),'.xml')"/>
 
-  <xsl:output indent="yes" />
+  <xsl:output indent="no" />
 
   <xsl:template match="/">
     <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="root">

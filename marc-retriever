@@ -10,6 +10,8 @@ my $marc_dir = './marc_dir';
 my $sysno = '1823352';
 # my $sysno = '823352';
 
+my $barcodes = $ARGV[0] ? $ARGV[0] : "barcodes.text";
+
 # print $sysno;
 # print " ";
 # print &query($sysno);
@@ -18,7 +20,7 @@ my $xserver = "aleph.kb.dk";
 
 # my $request = "GET 'http" . $xserver . "/X?op=find&base=kgl01&code=&request=BAR%3D" . $sysno . "'";
 
-if( open(my $in, '<barcodes.text') ) {
+if( open(my $in, "<$barcodes") ) {
     while(my $line = <$in>) {
 	chomp $line;
 	my $file = $line . '.marc';

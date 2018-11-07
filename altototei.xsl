@@ -22,6 +22,7 @@
 	<fileDesc>
 	  <titleStmt>
 	    <title>
+	      <xsl:apply-templates select="//t:fileDesc/t:titleStmt/t:title"/><xsl:text>: </xsl:text>
 	      <xsl:for-each select="//t:listBibl[contains(@xml:id,$volume)]">
 		<xsl:value-of select="t:head"/>
 	      </xsl:for-each>

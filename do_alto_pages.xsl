@@ -47,19 +47,19 @@
 
   <xsl:template match="a:ComposedBlock">
     <xsl:param name="n" select="''"/>
-    <p><xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates></p>
+    <div><xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates></div>
   </xsl:template>
 
   <xsl:template match="a:TextBlock">
     <xsl:param name="n" select="''"/>
     <xsl:variable name="block"><xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates></xsl:variable>
-    <lb/><xsl:value-of select="normalize-space($block)"/>
+    <p><xsl:value-of select="normalize-space($block)"/></p>
   </xsl:template>
 
   <xsl:template match="a:TextLine">
     <xsl:param name="n" select="''"/>
-    <xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates><xsl:text> </xsl:text>
-  </xsl:template>
+    <xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates><lb/><xsl:text>
+</xsl:text></xsl:template>
 
   <xsl:template match="a:SP">
     <xsl:text> </xsl:text>

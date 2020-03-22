@@ -1,10 +1,12 @@
 #!/usr/bin/perl -w
 
+my $saxon = "java -jar ~/saxon/saxon9he.jar";
+
 while(my $file = <alto_file_lists/*.xml>) {
 
     my $tei_file = $file;
     $tei_file =~ s/alto_file_lists/tei_dir/;
-
-    system("saxon-xslt luxdorph-bibliografi.xml altototei.xsl alto_files=$file | xmllint --format - > $tei_file");
+    print "doing $file\n";
+    system("$saxon luxdorph-bibliografi.xml altototei.xsl alto_file=$file | xmllint --format - > $tei_file");
 
 }

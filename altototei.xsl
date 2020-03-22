@@ -9,14 +9,15 @@
 
   <xsl:import href="do_alto_pages.xsl"/>
 
-  <xsl:param name="alto_files"  select="alto_file_lists/1_001.xml"/>
-  <xsl:param name="root" select="'/home/slu/projects/trykkefrihedsskrifter/'"/>
-  <xsl:param name="pages"  select="document($alto_files)"/>
-  <xsl:param name="volume" select="substring-before(substring-after($alto_files,'file_lists/'),'.xml')"/>
+  <xsl:param name="alto_file"  select="'alto_file_lists/1_001.xml'"/>
+  <xsl:param name="root" select="'../trykkefrihedsskrifter/'"/>
+  <xsl:param name="pages"  select="document($alto_file)"/>
+  <xsl:param name="volume" select="substring-before(substring-after($alto_file,'file_lists/'),'.xml')"/>
 
   <xsl:output indent="no" />
 
   <xsl:template match="/">
+    <xsl:message>Doing volume <xsl:value-of select="$volume"/></xsl:message>
     <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="root">
       <teiHeader>
 	<fileDesc>

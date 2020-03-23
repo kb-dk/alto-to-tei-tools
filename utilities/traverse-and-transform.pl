@@ -2,7 +2,8 @@
 
 use strict;
 
-my $sheet = "/home/slu/projects/solr-and-snippets/utilities/add-id.xsl";
+my $saxon = "java -jar ~/saxon/saxon9he.jar";
+my $sheet = "../solr-and-snippets/utilities/add-id.xsl";
 
 if(open(FIND,"find . -name '*.xml' -print |")) {
     while(my $file = <FIND>) {
@@ -11,7 +12,7 @@ if(open(FIND,"find . -name '*.xml' -print |")) {
 	print $file;
 	chomp $file;
 	my $out = $file."_shit";
-	system "saxon-xslt $file $sheet > $out";
+	system "$saxon $file $sheet > $out";
 	system "xmllint --format $out > $file";
 	system "rm $out";
     }

@@ -3,7 +3,7 @@
 Requires saxon xslt, perl and bash
 
 ```
- sudo apt install libsaxon-xslt
+ sudo apt install libsaxon-java
  export SAXON_PATH=/usr/share/java/saxon.jar
 ```
 

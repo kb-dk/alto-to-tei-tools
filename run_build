@@ -1,6 +1,7 @@
 #!/usr/bin/perl -w
 
-my $saxon = "java -jar ~/saxon/saxon9he.jar";
+$saxon_path = $ENV{'SAXON_PATH'};
+my $saxon = "java -jar $saxon_path";
 
 while(my $file = <alto_file_lists/*.xml>) {
 

@@ -9,7 +9,12 @@
 
   <xsl:import href="do_alto_pages.xsl"/>
 
+  <!-- this one is set as an argument when running -->
+
   <xsl:param name="alto_file"  select="'alto_file_lists/1_001.xml'"/>
+
+  <!-- I believe that this can be replaced with ./ but haven't dared to test -->
+  
   <xsl:param name="root" select="'../trykkefrihedsskrifter/'"/>
   <xsl:param name="pages"  select="document($alto_file)"/>
   <xsl:param name="volume" select="substring-before(substring-after($alto_file,'file_lists/'),'.xml')"/>

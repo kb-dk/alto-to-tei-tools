@@ -19,6 +19,12 @@ Requires saxon (xslt 3 processor), perl and bash. For instance:
 ./import_alto.pl  | /bin/bash
 ```
 
+You may, if you think it's useful, validate the files. E.g.,
+
+```
+find data -name '*.xml' -exec xmllint --noout --schema alto-3-1.xsd {} \; 2>&1 > validation.text
+```
+
 ### 2. create lists of ALTO files related to each publication in the collection
 
 ```
@@ -33,4 +39,4 @@ Requires saxon (xslt 3 processor), perl and bash. For instance:
 
 ### 4. store into database and index
 
-The code for this is in [solr-and-snippets](../solr-and-snippets)
+The code for this is in [solr-and-snippets](https://github.com/Det-Kongelige-Bibliotek/solr-and-snippets)

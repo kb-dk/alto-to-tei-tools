@@ -22,7 +22,7 @@ Requires saxon (xslt 3 processor), perl and bash. For instance:
 You may, if you think it's useful, validate the files. E.g.,
 
 ```
-find data -name '*.xml' -exec xmllint --noout --schema alto-3-1.xsd {} \; 2>&1 > validation.text
+find data -name '*.xml' -exec xmllint --noout --schema alto-3-1.xsd {} \; > validation.text  2>&1 
 ```
 
 ### 2. create lists of ALTO files related to each publication in the collection
@@ -37,6 +37,13 @@ find data -name '*.xml' -exec xmllint --noout --schema alto-3-1.xsd {} \; 2>&1 >
  run_build
 ```
 
+You may, if you think it's useful, validate the files. E.g.,
+
+```
+find tei_dir/ -name '*xml' -exec xmllint --noout --relaxng ./tei_all.rng {} \;  > tei_validation.text  2>&1 
+```
+
 ### 4. store into database and index
 
 The code for this is in [solr-and-snippets](https://github.com/Det-Kongelige-Bibliotek/solr-and-snippets)
+

@@ -21,11 +21,19 @@ Some scripts will need to know how to run saxon. They read the  SAXON_PATH eniro
 
 ### 1. copy ALTO files into the data area of this project
 
+If you by any chance have old stuff in your directory, make sure it is really clean.
+
+```
+clean_really_clean.sh
+```
+
+The get all the alto files into the ./data directories.
+
 ```
 ./import_alto.pl  | /bin/bash
 ```
-
-You may, if you think it's useful, validate the files. E.g.,
+This is basic data maintained elsewhere, and should **not** be under version control
+here. You may, if you think it's useful, validate the files. E.g.,
 
 ```
 find data -name '*.xml' -exec xmllint --noout --schema alto-3-1.xsd {} \; > validation.text  2>&1 
@@ -56,6 +64,8 @@ You may, if you think it's useful, validate the files. E.g.,
 ```
 find tei_dir/ -name '*xml' -exec xmllint --noout --relaxng ./tei_all.rng {} \;  > tei_validation.text  2>&1 
 ```
+
+Again, these files should not (it is derived data) be under version control in this project.
 
 ### 4. store into database and index
 

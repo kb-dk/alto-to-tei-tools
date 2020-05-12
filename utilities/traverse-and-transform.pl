@@ -2,10 +2,10 @@
 
 use strict;
 
-my $saxon = "java -jar ~/saxon/saxon9he.jar";
-my $sheet = "../solr-and-snippets/utilities/add-id.xsl";
+my $saxon = "java -jar " . $ENV{'SAXON_PATH'};
+my $sheet = "./utilities/add-id.xsl";
 
-if(open(FIND,"find . -name '*.xml' -print |")) {
+if(open(FIND,"find ./tei_dir/ -name '*.xml' -print |")) {
     while(my $file = <FIND>) {
 	next if $file =~ /schemas.xml/;
 	next if $file =~ /capabiliti.*xml/;

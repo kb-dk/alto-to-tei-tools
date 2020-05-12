@@ -23,7 +23,8 @@
   <xsl:template match="t:*">
     <xsl:element name="{name()}">
       <xsl:if test="not(@xml:id)">
-	<xsl:attribute name="xml:id"><xsl:value-of select="concat('id',uuid:randomUUID())"/></xsl:attribute>
+	<xsl:attribute name="xml:id"><xsl:value-of select="generate-id(.)"/></xsl:attribute>
+        <!-- xsl:attribute name="xml:id"><xsl:value-of select="concat('id',uuid:randomUUID())"/></xsl:attribute -->
       </xsl:if>
       <xsl:apply-templates select="@*|node()"/>
     </xsl:element>

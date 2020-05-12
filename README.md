@@ -1,4 +1,4 @@
-# Trykkefrihedens Skrifter
+# Trykkefrihedens Skrifter: ALTO tools
 
 This project contains tools for transforming ALTO into TEI P5 for import to the text service
 
@@ -8,6 +8,12 @@ Requires saxon (xslt 3 processor), perl and bash. For instance:
 
 ```
  sudo apt install libsaxon-java
+```
+You have to have ALTO data available in order to use these tools.
+
+Some scripts will need to know how to run saxon. They read the  SAXON_PATH enironmental variable.
+
+```
  export SAXON_PATH=/usr/share/java/saxon.jar
 ```
 
@@ -32,6 +38,14 @@ find data -name '*.xml' -exec xmllint --noout --schema alto-3-1.xsd {} \; > vali
 ```
 
 ### 3. transform all the ALTO into TEI
+
+Here java need to know the complete path to you saxon jar file. For instance
+
+```
+ export SAXON_PATH=/usr/share/java/saxon.jar
+```
+
+Then make the TEI files
 
 ```
  run_build

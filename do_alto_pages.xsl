@@ -41,7 +41,8 @@
     <xsl:param name="volume" select="''"/>
     <xsl:param name="work" select="''"/>
     <xsl:param name="n" select="''"/>
-    <pb n="{$n}" xml:id="w{$work}_p{$n}" facs="{$volume}/{substring-before($img_src,'.tif')}"/>
+    <xsl:param name="barcode" select="substring-before($img_src,'_')"/>
+    <pb n="{$n}" xml:id="w{$work}_p{$n}" facs="{concat($volume,'_',$barcode,'/',substring-before($img_src,'.tif'))}"/>
     <xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates>
   </xsl:template>
 

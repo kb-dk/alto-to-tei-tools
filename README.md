@@ -4,7 +4,7 @@ This project contains tools for transforming ALTO into TEI P5 for import to the 
 
 ## Prerequisites
 
-Requires saxon (xslt 3 processor), perl and bash. For instance:
+Requires saxon (xslt 3 processor), xmllint, perl and bash. For instance:
 
 ```
  sudo apt install libsaxon-java

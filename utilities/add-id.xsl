@@ -2,8 +2,10 @@
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
 	       xmlns:t="http://www.tei-c.org/ns/1.0"
 	       xmlns="http://www.tei-c.org/ns/1.0"
-	       xmlns:uuid="java:java.util.UUID"
-	       exclude-result-prefixes="t uuid"
+               xmlns:a="http://www.loc.gov/standards/alto/ns-v3#"
+               xmlns:h="http://www.w3.org/1999/xhtml"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+	       exclude-result-prefixes="t xlink h a"
 	       version="2.0">
 
   <xsl:output
@@ -20,11 +22,25 @@
     </TEI>
   </xsl:template>
 
+  <xsl:template match="t:pb[@n=1]"/>
+  
+  <xsl:template match="t:div[@decls]">
+    <xsl:element name="pb">
+      <xsl:apply-templates select="t:pb[@n=1]/@*"/>
+    </xsl:element>
+    <xsl:element name="{name()}">
+      <xsl:if test="not(@xml:id)">
+	<xsl:attribute name="xml:id"><xsl:value-of select="generate-id(.)"/></xsl:attribute>
+      </xsl:if>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates select="node()"/>
+    </xsl:element>
+ </xsl:template>
+  
   <xsl:template match="t:*">
     <xsl:element name="{name()}">
       <xsl:if test="not(@xml:id)">
 	<xsl:attribute name="xml:id"><xsl:value-of select="generate-id(.)"/></xsl:attribute>
-        <!-- xsl:attribute name="xml:id"><xsl:value-of select="concat('id',uuid:randomUUID())"/></xsl:attribute -->
       </xsl:if>
       <xsl:apply-templates select="@*|node()"/>
     </xsl:element>

@@ -3,7 +3,6 @@
 	       xmlns:a="http://www.loc.gov/standards/alto/ns-v3#"
 	       xmlns:xlink="http://www.w3.org/1999/xlink"
 	       xmlns="http://www.tei-c.org/ns/1.0" 
-	       xmlns:uuid="java:java.util.UUID"
 	       exclude-result-prefixes="a xlink uuid"
 	       version="2.0">
 

@@ -3,7 +3,7 @@
 	       xmlns:a="http://www.loc.gov/standards/alto/ns-v3#"
 	       xmlns:xlink="http://www.w3.org/1999/xlink"
 	       xmlns="http://www.tei-c.org/ns/1.0" 
-	       exclude-result-prefixes="a xlink uuid"
+	       exclude-result-prefixes="a xlink"
 	       version="2.0">
 
 
@@ -56,18 +56,43 @@
     <xsl:param name="work" select="''"/>
     <xsl:param name="n" select="''"/>
 
-    <xsl:apply-templates>
-      <xsl:with-param name="img_src" select="$img_src"/>
-      <xsl:with-param name="volume" select="$volume"/>
-      <xsl:with-param name="work" select="$work"/>
-      <xsl:with-param name="n" select="$n"/>
-    </xsl:apply-templates>
+    <xsl:for-each select="a:TextBlock">
+    
+      <xsl:variable name="line_count"
+                    select="count(preceding-sibling::a:TextBlock)"/>
+    
+      <xsl:choose>
+        <xsl:when test="$n=1 and $line_count&lt;=4">
+          <head>
+            <xsl:variable name="block_id" select="concat('head_w',$work,'_p',$n,'_b',@ID)"/>
+            <xsl:attribute name="xml:id" select="$block_id"/>
+            <xsl:apply-templates select=".">
+              <xsl:with-param name="img_src" select="$img_src"/>
+              <xsl:with-param name="volume" select="$volume"/>
+              <xsl:with-param name="work" select="$work"/>
+              <xsl:with-param name="mode">head</xsl:with-param>
+              <xsl:with-param name="n" select="$n"/>
+            </xsl:apply-templates>
+          </head>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates select=".">
+            <xsl:with-param name="img_src" select="$img_src"/>
+            <xsl:with-param name="volume" select="$volume"/>
+            <xsl:with-param name="work" select="$work"/>
+            <xsl:with-param name="mode">body</xsl:with-param>
+            <xsl:with-param name="n" select="$n"/>
+          </xsl:apply-templates>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
   </xsl:template>
 
   <xsl:template match="a:TextBlock">
     <xsl:param name="img_src" select="''"/>
     <xsl:param name="volume" select="''"/>
     <xsl:param name="work" select="''"/>
+    <xsl:param name="mode" select="'body'"/>
     <xsl:param name="n" select="''"/>
 
     <xsl:variable name="bid" select="@ID"/>
@@ -83,10 +108,17 @@
     <xsl:choose>
       <xsl:when
           test="string-length(normalize-space($block)) &gt; 0">
-        <xsl:element name="p">
-          <xsl:attribute name="xml:id"><xsl:value-of select="$block_id"/></xsl:attribute>
-          <xsl:value-of select="normalize-space($block)"/>
-        </xsl:element>
+        <xsl:choose>
+          <xsl:when test="$mode='body'">
+            <xsl:element name="p">
+              <xsl:attribute name="xml:id"><xsl:value-of select="$block_id"/></xsl:attribute>
+              <xsl:value-of select="normalize-space($block)"/>
+            </xsl:element>
+          </xsl:when>
+          <xsl:otherwise>
+              <xsl:value-of select="normalize-space($block)"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
         <xsl:comment> Block <xsl:attribute name="xml:id"><xsl:value-of select="$block_id"/></xsl:attribute> is empty</xsl:comment>
@@ -97,8 +129,8 @@
   <xsl:template match="a:TextLine">
     <xsl:param name="n" select="''"/>
     <xsl:param name="work" select="''"/>
-    <xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates><lb/><xsl:text>
-</xsl:text></xsl:template>
+    <xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates><lb/><xsl:text></xsl:text>
+  </xsl:template>
 
   <xsl:template match="a:SP">
     <xsl:text> </xsl:text>

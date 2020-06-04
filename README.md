@@ -58,13 +58,6 @@ Then make the TEI files
 ```
  run_build
 ```
-Before you load the TEI into text service, they have to have xml:id attributes on all relevant elements,
-i.e., all elemnts that do not have it yet.
-
-```
-./utilities/traverse-and-transform.pl
-```
-That script is also using the saxon jar file, and reads its file path from SAXON_PATH
 
 You may, if you think it's useful, validate the files. E.g.,
 

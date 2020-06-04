@@ -11,3 +11,7 @@ while(my $file = <alto_file_lists/*.xml>) {
     system("$saxon luxdorph-bibliografi.xml altototei.xsl alto_file=$file | xmllint --format - > $tei_file");
 
 }
+
+print "postprocessing:\n";
+
+system("./utilities/traverse-and-transform.pl");

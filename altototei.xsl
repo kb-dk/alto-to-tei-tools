@@ -44,13 +44,14 @@
       </teiHeader>
       <text>
 	<body>
-	  <xsl:for-each select="//t:listBibl[contains(@xml:id,$volume)]">
-	     <xsl:for-each select="t:bibl">
+	  <xsl:for-each select="//t:listBibl[contains(@xml:id,concat('vol',$volume))]">
+	     <xsl:for-each select="t:bibl[contains(@xml:id,concat('bibl',$volume))]">
 	       <xsl:element name="div">
 		 <xsl:attribute name="xml:id"><xsl:value-of select="concat('workid',substring-after(@xml:id,'bibl'))"/></xsl:attribute>
 		 <xsl:attribute name="decls"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute>
 		 <xsl:variable name="work" select="substring-after(@xml:id,'bibl')"/>
-		 <xsl:for-each select="$pages//h:a[contains(@href,$work)]">
+                 <xsl:message> Trying <xsl:value-of select="$work"/> </xsl:message>
+		 <xsl:for-each select="$pages//h:a[matches(@href,concat($work,'_\d\d\d'))]">
 		   <xsl:variable name="alto" select="document(concat($root,@href))"/>
 		   <xsl:apply-templates select="$alto/a:alto">
 		     <xsl:with-param name="volume" select="$volume"/>

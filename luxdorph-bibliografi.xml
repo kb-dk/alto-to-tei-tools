@@ -2,41 +2,43 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="root">
 <!--
 2018-09-26, BOKS@kb.dk, converted from Word/PDF to XML.
-2020-06-01, BOKS@kb.dk, many changes following input from Ulrik L. and Frederik S. (BOKS has corrected many errors in spreadsheet).
+2020-06-01, BOKS@kb.dk, many changes following spreadsheet from Ulrik L. and Frederik S. 2019-11-04 (plus, BOKS has corrected many errors in spreadsheet).
+2020-08-20, BOKS@kb.dk, Incorporated subdivision of 4_001, 4_002 and 4_003 (performed by BOKS@kb.dk).
+2020-08-22, BOKS@kb.dk, <bibl> sections previously commented out due numbering with a letter in xml:id have now been included since ALTO and TIFF files have been renamed accordingly.
 
-Correspondence btw. table headers in the original PDF/Word document and the atributes/elements below:
-Element: Original table headers
-attribute bibl[n]: Nr.
-element title:     Titel
-element publisher: Bogtrykker/ forlægger, evt. sted
-element extent:    Format, sider
-element author:    Forfatter (anonym)
-	Tilskrevne forfattere til ano- og pseudonyme skrifter angivet i kantet parentes efterfulgt af kilde
-	efter følgende nøgle:   LUX: Luxdorph; ECM: Ehrencron-Müller; HLS: Horstbøll-Langen-Stjernfelt;
-	? Angiver usikkerhed.
-element date type=release:    År
-element date type=announced:  Dato, evt. notBefore & notAfter
-	Dato for avertering i AA eller B.T.  For avis-artikler: udgivelsesdato eller -måned
+
+There is correspondence btw. table headers in the original PDF/Word document (and Excel spreadsheet) and the following atributes/elements:
+
+Containing element is <TEI><text><body><div><listBibl><bibl>:
+	attribute n:                 Number (BOKS@kb.dk is uncertain if this attribute is used in 'tekstportalen')
+	attribute xml:id:            Systematic number, e.g. "bibl1_003_006" means series 1, volume 3, document 6. Note that a letter can appear as postfix, e.g. "bibl1_014_001b"
+	element title:               Document title
+	element publisher:           Printer/publisher
+	element extent:              Format, no. of pages
+	element author:              Author (possibly anonymous)
+		Danish: Tilskrevne forfattere til ano- og pseudonyme skrifter angivet i kantet parentes efterfulgt af kilde
+		efter følgende nøgle:   LUX: Luxdorph; ECM: Ehrencron-Müller; HLS: Horstbøll-Langen-Stjernfelt;
+		? indicates uncertainty.
+	element date type=release:   Year (ISO format in attribute 'when')
+	element date type=announced: Year, Month.year,  Date.month.year (ISO format in attribute 'when', or 'notBefore' and 'notAfter')
+		Date for announcement in "AA" or "B.T."  For newspaper articles: publishing date or month
 -->
+
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Luxdorphs samling af trykkefrihedens skrifter 1770-1773</title>
-        <author>Henrik  Horstbøll</author>
+        <author>Henrik Horstbøll m.fl.</author>
       </titleStmt>
       <publicationStmt>
         <publisher>Det Kgl. Bibliotek</publisher>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <note> 
-	    Bibliografi over samlingens 46 bind:<lb/>
-	    1. række: 20  bind fra 14. september 1770 frem til 17. januar 1772<lb/>
-	    2. række: 25  bind fra tiden efter Struensees fald 17. Januar 1772, samt et enkelt bind i kvart-format.<lb/>
-	    <lb/>
-	    <lb/>Samlingen er præsenteret i Fund og Forskning, bd. 44, 2005, s. 397-440.<lb/>
-	    URL: http://www.kb.dk/kb/publikationer/fundogforskning/online/artikler/luxdorph-sml.pdf<lb/>
-	    Date of publication: 2005-10-05
+          <note>1. række: 20  bind fra 14. september 1770 frem til 17. januar 1772<lb/>
+2. række: 25  bind fra tiden efter Struensees fald 17. januar 1772<lb/>
+"3. række": et enkelt bind i kvartformat.<lb/>
+"4. række": Fortegnelse paa alle de Skrifter som Trykfriheden har givet Anledning til (tidsskrift ikke katalogiseret af Henrik Horstbøll)
 	  </note>
         </bibl>
       </sourceDesc>
@@ -45,11 +47,11 @@ element date type=announced:  Dato, evt. notBefore & notAfter
   <text>
     <front>
       <titlePage>
-        <docAuthor>Henrik Horstbøll</docAuthor>
+        <docAuthor>Henrik Horstbøll m.fl.</docAuthor>
         <docTitle>
           <titlePart>Luxdorphs samling af trykkefrihedens skrifter 1770-1773</titlePart>
         </docTitle>
-        <note>Fund  og Forskning  is published by  The  Royal Library, Copenhagen, http://www.kb.dk.<lb/>
+        <note>Published by the Royal Danish Library, Copenhagen, http://www.kb.dk<lb/>
 All rights reserved.</note>
       </titlePage>
     </front>
@@ -1809,15 +1811,15 @@ All rights reserved.</note>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-03-25">25.03.1771</date>
 	  </bibl>
-	  <!-- Cannot easily find this piece below. Could be a section inside the one above -->
-	  <!-- bibl n="1b" > 
+	  <!-- letter in xml:id -->
+	  <bibl n="1b" xml:id="bibl1_014_001b">
 	    <title>Patrioten eller den gode Borger. Efter Begiering oversat af P.T.W [Peder Topp Wandal]</title>
 	    <publisher>? Kanneworff</publisher>
 	    <extent>8°, 29</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-09-09">09.09.1771</date>
-	  </bibl -->
+	  </bibl>
 	  <bibl n="2" xml:id="bibl1_014_002">
 	    <title>Nye Prøve af Skrive-Frihed.</title>
 	    <publisher>? [A.F. Stein]Trykt i Pressens gyldne Alder</publisher>
@@ -1834,7 +1836,6 @@ All rights reserved.</note>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-10-04">04.10.1771</date>
 	  </bibl>
-	  <!-- The one below is verified -->
 	  <bibl n="4" xml:id="bibl1_014_004">
 	    <title>Samtale i de Dødes Rige, imellem den gamle Erke-Bisp Absalon og en nylig afdød Dansk Historicus.</title>
 	    <publisher>? Kiøbenhavn</publisher>
@@ -1939,7 +1940,6 @@ All rights reserved.</note>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-07-30">30.07.1771</date>
 	  </bibl>
-	  <!-- verified -->
 	  <bibl n="17" xml:id="bibl1_014_017">
 	    <title>En nye Forordning fra Samvittigheden, til Straf for de ukydske Ægtemænd og til Trøst for de fornærmede Ægtefæller.</title>
 	    <publisher>? Kiøbenhavn</publisher>
@@ -1948,8 +1948,8 @@ All rights reserved.</note>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced"/>
 	  </bibl>
-	  <!-- verified -->
-	  <bibl n="18a." xml:id="bibl1_014_018">
+	  <!-- letter in xml:id -->
+	  <bibl n="18a" xml:id="bibl1_014_018a">
 	    <title>Hiertet er min Dronning, Fornuften er min Konge. Eller Svar paa det i Magasinet fremsatte Spørgsmaal No. 72. Er det mueligt, at en Hustrues Bolere kan være hendes Mands oprigtige Ven og troe Raadgivere? Naar Manden tager ham til sin Fortrolige, hvad bliver da Følgerne deraf for dem alle tre og Børnene? Her er et svar, men her spørges, om det er grundig, og efter Ønske?</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 14</extent>
@@ -1957,15 +1957,15 @@ All rights reserved.</note>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-08-12">12.08.1771</date>
 	  </bibl>
-	  <!-- bibl n="18b.">
+	  <!-- letter in xml:id -->
+	  <bibl n="18b" xml:id="bibl1_014_018b">
 	    <title>Et par Ord til vore Tiders Hoerkoner.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 10</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-08-12">12.08.1771</date>
-	  </bibl -->
-	  <!-- verified -->
+	  </bibl>
 	  <bibl n="19" xml:id="bibl1_014_019">
 	    <title>Betragtninger over Det Spørsmaal: Kan en Kones Boelere være hendes Mands oprigtige Ven og troe Raadgivere? Naar Manden tager ham til sin Fortrolige, hvad bliver da Følgerne deraf for dem alle tre og Børnene? Indrykt i Magazinet for patriotiske Skribentere No. 72.</title>
 	    <publisher>M. Hallager</publisher>
@@ -2014,7 +2014,6 @@ All rights reserved.</note>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-09-09">09.09.1771</date>
 	  </bibl>
-	  <!-- verified -->
 	  <bibl n="25" xml:id="bibl1_014_025">
 	    <title>Et sælsomt og græsseligt Qvinde-Spøgelse, seet og observeret ved adskillige Leiligheder og paa adskillige Steder her i Kiøbenhavn og i nogle Egne her i Nærheden, af nogle philosophiske Skildvagter. Sammenskreven til Skræk og Advarsel for alle, og til Forbedring for nogle af den politiske Speider.</title>
 	    <publisher>? Kiøbenhavn</publisher>
@@ -2023,15 +2022,15 @@ All rights reserved.</note>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-09-11">11.09.1771</date>
 	  </bibl>
-	  <!-- bibl n="25b">
+	  <!-- letter in xml:id -->
+	  <bibl n="25b" xml:id="bibl1_014_025b">
 	    <title>Et Speil at bruge udi sine ledige Timer, hvorudi man nogenledes kan faae at see hvordan man seer ud i vore nuværende Tider. Se og husk!</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 14</extent>
 	    <author>[Martin Brun]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-09-11">11.09.1771</date>
-	  </bibl -->
-	  <!-- verified -->
+	  </bibl>
 	  <bibl n="26" xml:id="bibl1_014_026">
 	    <title>Jens Pedersens alvorlige Betænkninger, da han kiørte forbi Hirschholms Have. Tilligemed hans Klage.Brev over vore nærværende Tider.</title>
 	    <publisher>?</publisher>
@@ -2123,15 +2122,17 @@ All rights reserved.</note>
 	    <date type="release" when="1770">1770</date>
 	    <date type="announced" when="1771-01-04">04.01.1771</date>
 	  </bibl>
-	  <!-- bibl n="1b">
-	    <title>Mirzahs Syn i Skiæbnens Tempel ([oversat af tysk Das Gesicht des Mirzah]</title>
+	  <!-- letter in xml:id -->
+	  <bibl n="1b" xml:id="bibl1_015_001b">
+	    <title>Mirzahs Syn i Skiæbnens Tempel [oversat af tysk Das Gesicht des Mirzah]</title>
 	    <publisher>[Morten Hallager]</publisher>
 	    <extent>8°, 29</extent>
 	    <author>[Morten Hallager]</author>
 	    <date type="release" when="1770">1770</date>
 	    <date type="announced" when="1771-02-04">04.02.1771</date>
 	  </bibl>
-	  <bibl n="1c">
+	  <!-- letter in xml:id -->
+	  <bibl n="1c" xml:id="bibl1_015_001c">
 	    <title>Den 145 Aars gamle norske Bondes *** Spaadomme om forunderlige Tildragelser som skal ske; og Apocryphiske Tanker om høie Hemmeligheder. – 169*.</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 20</extent>
@@ -2139,14 +2140,15 @@ All rights reserved.</note>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-02-05">05.02.1771</date>
 	  </bibl>
-	  <bibl n="1d">
+	  <!-- letter in xml:id -->
+	  <bibl n="1d" xml:id="bibl1_015_001d">
 	    <title>Martin Zadecks forunderlige og merkværdige Spaadom, om det ottomanniske eller tyrkiske Riges totale Undergang, og Europas eller Christenhedens florerende Tilstand i Fremtiden, [...] Oversat efter det Baseler-nyrnbergiske Exemplar og confereret med den Danziger Copie. 1770.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 8</extent>
 	    <author>?</author>
 	    <date type="release" when="1770">1770</date>
 	    <date type="announced"/>
-	  </bibl -->
+	  </bibl>
 	  <bibl n="2" xml:id="bibl1_015_002">
 	    <title>Den 124 Aars gamle Norske Bondes Børge Olsens Syn om forunderlige Tildragelser og Tanker om høie Hemmeligheder skrevne Aar efter Guds Byrd 1693 og til trykken befordrede ved hans Sønnesøn Ole Børgesen 1771. [ved Skoleholder Conrado Aunemoen]</title>
 	    <publisher>?Nr 8 Børsen</publisher>
@@ -2171,8 +2173,8 @@ All rights reserved.</note>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-02-04">04.02.1771</date>
 	  </bibl>
-	  <!-- verified -->
-	  <bibl n="5a" xml:id="bibl1_015_005">
+	  <!-- letter in xml:id -->
+	  <bibl n="5a" xml:id="bibl1_015_005a">
 	    <title>En Norsk Hyrdes Indtagelse i et Bierg. Virg. Eclog. IV.</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 47</extent>
@@ -2180,15 +2182,15 @@ All rights reserved.</note>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-03-12">12.03.1771</date>
 	  </bibl>
-	  <!-- bibl n="5b">
+	  <!-- letter in xml:id -->
+	  <bibl n="5b" xml:id="bibl1_015_005b">
 	    <title>En meget sælsom Begivenhed med en Perle- eller Corallfisker ved Navn Nicolay. Hvorledes han efter Kongens af Sicilien hans Befalning, optog et Guldbæger, som var nedsenkt imellem de store Havsvælg Scylla og Charybdis, og hvad for underlige Ting han saae der. [...]</title>
 	    <publisher>A.H. Godiches Efterl.</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-03-13">13.03.1771</date>
-	  </bibl -->
-	  <!-- verified -->
+	  </bibl>
 	  <bibl n="6" xml:id="bibl1_015_006">
 	    <title>Den forundelige og over al Verden berømte og navnkundige Drømme-Sahl i Nørre Skotland, beskreven af Søren Mahler-Svend.</title>
 	    <publisher>L.N. Svare</publisher>
@@ -4345,15 +4347,15 @@ All rights reserved.</note>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-03-10">10.03.1772</date>
 	  </bibl>
-	  <!-- We don't have data for this title -->
-	  <!--bibl n="28b" xml:id="bibl2_006_028b"> 
+	  <!-- letter in xml:id -->
+	  <bibl n="28b" xml:id="bibl2_006_028b"> 
 	    <title>Grev Struensees opvaagnede Samvittighed med Devise: Sic fuit in Fatis.</title>
 	    <publisher>P.H. Høecke</publisher>
 	    <extent>8°, 8</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-03-10">10.03.1772</date>
-	  </bibl -->
+	  </bibl>
 	  <bibl n="29" xml:id="bibl2_006_029">
 	    <title>Struensees Bod- og Poenitentses-Vise til sit forestaaende Endeligt og Afskeed fra denne Verden. Af ham selv forfattet i hans Fængsel.</title>
 	    <publisher>L.N. Svare</publisher>
@@ -4931,14 +4933,15 @@ All rights reserved.</note>
 	    <date type="release"/>
 	    <date type="announced"/>
 	  </bibl>
-	  <!-- bibl n="2a">
-	    <title>2tes Schrieben von Copenhagen, wegen der am 17ten Januar 1772. arretirten Staatsgefangenen.[træsnit af Struensee på titelbladet, af Brandt på dettes verso.] 3tes Schreiben. Von Copenhagen, den 24. März wegen der Staatsgefangenen. 4tes Schreiben. Von Copenhagen, nebst der Rede welche der Gerichtsprocurator Uldahl in dem hohen Königlichen Gerichte am 16 März gehalten hat. 5tes Schreiben. Von Copenhagen, vom 25 April, worin von dem Verhör und Urtheil der Grafen Struensee und Brand ertheilet wird.</title>
+	  <!-- letter in xml:id -->
+	  <bibl n="2a" xml:id="bibl2_009_002a">
+	    <title>2tes Schrieben von Copenhagen, wegen der am 17ten Januar 1772. arretirten Staatsgefangenen. [træsnit af Struensee på titelbladet, af Brandt på dettes verso.] 3tes Schreiben. Von Copenhagen, den 24. März wegen der Staatsgefangenen. 4tes Schreiben. Von Copenhagen, nebst der Rede welche der Gerichtsprocurator Uldahl in dem hohen Königlichen Gerichte am 16 März gehalten hat. 5tes Schreiben. Von Copenhagen, vom 25 April, worin von dem Verhör und Urtheil der Grafen Struensee und Brand ertheilet wird.</title>
 	    <publisher>?</publisher>
-	    <extent>8. 25-64 (40s)</extent>
+	    <extent>8°, 25-64 (40s)</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced"/>
-	  </bibl -->
+	  </bibl>
 	  <bibl n="3" xml:id="bibl2_009_003">
 	    <title>Die Bücher der Chronica des Grafen Struensee, […] aufgezeichnet von Ismael Nerias. Vorsänger in der Synagoge.</title>
 	    <publisher>?</publisher>
@@ -5567,14 +5570,15 @@ All rights reserved.</note>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced"/>
 	  </bibl>
-	  <!-- bibl n="7a">
+	  <!-- letter in xml:id -->
+	  <bibl n="7a" xml:id="bibl2_013_007a">
 	    <title>No. 2. Den almindelige Pleie-Anstalt. Bergen den 2den April 1772.</title>
 	    <publisher>H. Dedechen, Bergen</publisher>
 	    <extent>8°, 16</extent>
 	    <author>? Philobergus</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced"/>
-	  </bibl -->
+	  </bibl>
 	  <bibl n="8" xml:id="bibl2_013_008">
 	    <title>En kort Samtale, hvorudi viises at Overdaadighed fornemmelig er Aarsag til endeel Borgeres ubillige og alt for store Klagemaal over svære Skatter og Byrder. Samt bevises at de Geistlige bærer lige Byrder med deres Medborgere. Holden imellem Demas og Theophilus, begge Borgere i en liden Kiøbstæd i Norge.</title>
 	    <publisher>J.R. Thiele</publisher>
@@ -5845,14 +5849,14 @@ All rights reserved.</note>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-07-31">31.07.1772</date>
 	  </bibl>
-	  <!-- bibl n="14">
+	  <bibl n="15" xml:id="bibl2_015_015">
 	    <title>En gammel erfaren Statsmands politiske [Briller afbildet] tienlige til den grandseende Publici [Næse afbildet]</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-08-05">05.08.1772</date>
-	  </bibl -->
+	  </bibl>
 	</listBibl>
 	<listBibl xml:id="vol2_016" sameAs="130017168186">
 	  <head>Række 2 bind 16</head>
@@ -6220,15 +6224,17 @@ All rights reserved.</note>
 	    <date type="release"/>
 	    <date type="announced"/>
 	  </bibl>
-	  <!-- bibl n="13a">
+	  <!-- letter in xml:id -->
+	  <bibl n="13a" xml:id="bibl2_020_013a">
 	    <title>Anmerkungen zur Brandtischen Bekehrungsgeschichte. (Zu der auf 3 Bogen gedruckten alten Edition.)</title>
 	    <publisher>?</publisher>
 	    <extent>2 blade</extent>
 	    <author>?</author>
 	    <date type="release"/>
 	    <date type="announced"/>
-	  </bibl -->
-	  <bibl n="13" xml:id="bibl2_020_013">
+	  </bibl>
+	  <!-- letter in xml:id -->
+	  <bibl n="13b" xml:id="bibl2_020_013b">
 	    <title>Sämtliche Anmerkungen zu den Bekehrungs-Geschichten der beyden Grafen Struensee und Brandt.</title>
 	    <publisher>Hamburg und Leipzig, Hechtel</publisher>
 	    <extent>8°, 30</extent>
@@ -7441,14 +7447,15 @@ All rights reserved.</note>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-05-08">08.05.1772</date>
 	  </bibl>
-	  <!-- bibl n="38 a">
+	  <!-- letter in xml:id -->
+	  <bibl n="38a" xml:id="bibl3_001_038a">
 	    <title>Sentence prononcée, par la Commission d'Enquête autorisée à cette effet et tenue au Château de Christiansbourg le 25 d'avril 1772, contre Enevold Brandt, avec l'approbation Du Roi donnée le 27 Avril 1772.</title>
 	    <publisher>Peter Steinmann, boghandler</publisher>
 	    <extent>4°, (33-40)</extent>
 	    <author>Guldberg, Luxdorph m.fl.</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-05-08">08.05.1772</date>
-	  </bibl -->
+	  </bibl>
 	  <bibl n="39" xml:id="bibl3_001_039">
 	    <title>Urtheile der Königlichen Inquisitions-Commission über die Grafen, Struensee und Brandt, mit der darauf erfolgten Königlichen Approbation. Aus dem Dänischen übersetzt.</title>
 	    <publisher>A.F. Stein</publisher>
@@ -7563,7 +7570,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="53" xml:id="bibl3_001_053">
 	    <title>Kobberstik af medalje med Dronning Juliane Marie fra 1777. Medaljen fra arveprinsens fødselsdag 11. Oktober 1776</title>
-	    <publisher/>
+	    <publisher>Stik med ledsagende håndskreven kommentar af Luxdorph</publisher>
 	    <extent/>
 	    <author>M. Haas</author>
 	    <date type="release" when="1776">[1776]</date>
@@ -7576,36 +7583,644 @@ All rights reserved.</note>
 	<p>Et tidsskrift som ikke er katalogiseret i <persName role="author" key="Horstbøll, Henrik">Henrik Horstbølls</persName>
 	<title>Luxdorphs samling af trykkefrihedens skrifter 1770-1773</title></p>
 	<listBibl xml:id="vol4_001" sameAs="130019454682" >
-	  <head>Fortegnelsen, bind 1</head>
-	  <bibl n="1" xml:id="bibl4_001">
-	    <title>Fortegnelse paa alle de Skrifter som Trykfriheden har givet Anledning til, stk. 1-24, anm. nr. 1-332, dækkende 14.09.70-13.09.71</title>
+	  <head>Fortegnelsen bind 1, Fortegnelse paa alle de Skrifter som Trykfriheden har givet Anledning til, stk. 1-24, anm. nr. 1-332, dækkende 14.09.70-13.09.71</head>
+	  <bibl n="1" xml:id="bibl4_001_001">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 1-2</title>
 	    <publisher>Kanneworff</publisher>
-	    <extent>8°, 385 + reg.</extent>
-	    <author>Flere anonyme</author>
-		<date type="release" when="1771">1771</date>
-		<date type="announced" notBefore="1771-02-18" notAfter="1771-10-23">18.02.1771-23.10.1771</date>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-02-18">18.02.1771</date>
+	  </bibl>
+	  <bibl n="2" xml:id="bibl4_001_002">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 3-4</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-03-06">06.03.1771</date>
+	  </bibl>
+	  <bibl n="3" xml:id="bibl4_001_003">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 5-6</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-04-06">06.04.1771</date>
+	  </bibl>
+	  <bibl n="4" xml:id="bibl4_001_004">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 7-8</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-04-15">15.04.1771</date>
+	  </bibl>
+	  <bibl n="5" xml:id="bibl4_001_005">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 9-10</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-04-30">30.04.1771</date>
+	  </bibl>
+	  <bibl n="6" xml:id="bibl4_001_006">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 11-12</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-05-29">29.05.1771</date>
+	  </bibl>
+	  <bibl n="7" xml:id="bibl4_001_007">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 13</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-06-07">07.06.1771</date>
+	  </bibl>
+	  <bibl n="8" xml:id="bibl4_001_008">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 14</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-06-17">17.06.1771</date>
+	  </bibl>
+	  <bibl n="9" xml:id="bibl4_001_009">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 15</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-07-05">05.07.1771</date>
+	  </bibl>
+	  <bibl n="10" xml:id="bibl4_001_010">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 16</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-07-10">10.07.1771</date>
+	  </bibl>
+	  <bibl n="11" xml:id="bibl4_001_011">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 17</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-07-26">26.07.1771</date>
+	  </bibl>
+	  <bibl n="12" xml:id="bibl4_001_012">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 18</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-08-23">23.08.1771</date>
+	  </bibl>
+	  <bibl n="13" xml:id="bibl4_001_013">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 19</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-08-23">23.08.1771</date>
+	  </bibl>
+	  <bibl n="14" xml:id="bibl4_001_014">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 20</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-08-23">03.09.1771</date>
+	  </bibl>
+	  <bibl n="15" xml:id="bibl4_001_015">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 21 [Der annonceres 25. sept. for Fortegnelsen over Trykkefrihedens Skrifters "Første, Andet og Syvende Stykke"; antagelig en fejlhøring af "Første- og Andettyvende Stykke"]</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-09-25">[25.09.1771]</date>
+	  </bibl>
+	  <bibl n="16" xml:id="bibl4_001_016">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 22</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-09-25">[25.09.1771]</date>
+	  </bibl>
+	  <bibl n="17" xml:id="bibl4_001_017">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 23</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-09-30">30.09.1771</date>
+	  </bibl>
+	  <bibl n="18" xml:id="bibl4_001_018">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, stk. 24</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced" when="1771-10-23">23.10.1771</date>
+	  </bibl>
+	  <bibl n="19" xml:id="bibl4_001_019">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter I, Register</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1771">1771</date>
+	    <date type="announced"/>
 	  </bibl>
 	</listBibl>
 	<listBibl xml:id="vol4_002" sameAs="130019454690">
-	  <head>Fortegnelsen, bind 2</head>
-	  <bibl n="1" xml:id="bibl4_002">
-	    <title>Fortegnelse paa alle de Skrifter som siden Trykfriheden ere udkomne, stk. 1-30, anm. nr. 1-447, dækkende 14.09.71-13.09.72</title>
+	  <head>Fortegnelsen bind 2, Fortegnelse paa alle de Skrifter som siden Trykfriheden ere udkomne, stk. 1-30, anm. nr. 1-447, dækkende 14.09.71-13.09.72</head>
+	  <bibl n="1" xml:id="bibl4_002_001">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 1</title>
 	    <publisher>Kanneworff</publisher>
-	    <extent>8°, 480 + reg.</extent>
-	    <author>Flere anonyme</author>
+	    <extent>8°</extent>
+	    <author/>
 	    <date type="release" when="1772">1772</date>
-	    <date type="announced" notBefore="1771-11-08" notAfter="1772-11-18">08.11.1771-18.11.1772</date>
+	    <date type="announced" when="1771-11-08">08.11.1771</date>
+	  </bibl>
+	  <bibl n="2" xml:id="bibl4_002_002">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 2</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1771-11-15">15.11.1771</date>
+	  </bibl>
+	  <bibl n="3" xml:id="bibl4_002_003">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 3</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1771-11-15">15.11.1771</date>
+	  </bibl>
+	  <bibl n="4" xml:id="bibl4_002_004">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 4</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1771-11-15">15.11.1771</date>
+	  </bibl>
+	  <bibl n="5" xml:id="bibl4_002_005">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 5</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1771-12-13">13.12.1771</date>
+	  </bibl>
+	  <bibl n="6" xml:id="bibl4_002_006">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 6</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1771-12-13">13.12.1771</date>
+	  </bibl>
+	  <bibl n="7" xml:id="bibl4_002_007">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 7</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-02-26">26.02.1772</date>
+	  </bibl>
+	  <bibl n="8" xml:id="bibl4_002_008">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 8</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-02-26">26.02.1772</date>
+	  </bibl>
+	  <bibl n="9" xml:id="bibl4_002_009">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 9</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-02-26">26.02.1772</date>
+	  </bibl>
+	  <bibl n="10" xml:id="bibl4_002_010">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 10</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-02-26">26.02.1772</date>
+	  </bibl>
+	  <bibl n="11" xml:id="bibl4_002_011">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 11</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1771-03-10">10.03.1771</date>
+	  </bibl>
+	  <bibl n="12" xml:id="bibl4_002_012">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 12</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-05-04">04.05.1772</date>
+	  </bibl>
+	  <bibl n="13" xml:id="bibl4_002_013">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 13</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-05-04">04.05.1772</date>
+	  </bibl>
+	  <bibl n="14" xml:id="bibl4_002_014">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 14</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-05-04">04.05.1772</date>
+	  </bibl>
+	  <bibl n="15" xml:id="bibl4_002_015">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 15</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-05-04">04.05.1772</date>
+	  </bibl>
+	  <bibl n="16" xml:id="bibl4_002_016">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 16</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-05-22">22.05.1772</date>
+	  </bibl>
+	  <bibl n="17" xml:id="bibl4_002_017">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 17</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-05-22">22.05.1772</date>
+	  </bibl>
+	  <bibl n="18" xml:id="bibl4_002_018">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 18</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-06-24">24.06.1772</date>
+	  </bibl>
+	  <bibl n="19" xml:id="bibl4_002_019">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 19</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-06-24">24.06.1772</date>
+	  </bibl>
+	  <bibl n="20" xml:id="bibl4_002_020">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 20</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-08-17">17.08.1772</date>
+	  </bibl>
+	  <bibl n="21" xml:id="bibl4_002_021">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 21</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-08-17">17.08.1772</date>
+	  </bibl>
+	  <bibl n="22" xml:id="bibl4_002_022">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 22</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-08-17">17.08.1772</date>
+	  </bibl>
+	  <bibl n="23" xml:id="bibl4_002_023">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 23</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-09-21">21.09.1772</date>
+	  </bibl>
+	  <bibl n="24" xml:id="bibl4_002_024">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 24</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-09-21">21.09.1772</date>
+	  </bibl>
+	  <bibl n="25" xml:id="bibl4_002_025">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 25</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-10-02">02.10.1772</date>
+	  </bibl>
+	  <bibl n="26" xml:id="bibl4_002_026">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 26</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-10-20">20.10.1772</date>
+	  </bibl>
+	  <bibl n="27" xml:id="bibl4_002_027">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 27</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-10-20">20.10.1772</date>
+	  </bibl>
+	  <bibl n="28" xml:id="bibl4_002_028">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 28</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-11-13">13.11.1772</date>
+	  </bibl>
+	  <bibl n="29" xml:id="bibl4_002_029">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 29</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-11-13">13.11.1772</date>
+	  </bibl>
+	  <bibl n="30" xml:id="bibl4_002_030">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, stk. 30</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced" when="1772-11-18">18.11.1772</date>
+	  </bibl>
+	  <bibl n="31" xml:id="bibl4_002_031">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter II, Register</title>
+	    <publisher>Kanneworff</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1772">1772</date>
+	    <date type="announced"/>
 	  </bibl>
 	</listBibl>
 	<listBibl xml:id="vol4_003" sameAs="130019454704">
-	  <head>Fortegnelsen, bind 3</head>
-	  <bibl n="1" xml:id="bibl4_003">
-	    <title>Fortegnelse paa alle de Skrifter som siden Trykfriheden ere udkomne, stk. 1-27, anm. nr. 1-272, dækkende 14.09.72-14.09.73</title>
+	  <head>Fortegnelsen bind 3, Fortegnelse paa alle de Skrifter som siden Trykfriheden ere udkomne, stk. 1-27, anm. nr. 1-272, dækkende 14.09.72-14.09.73 [stk. 2-27 ikke averteret i AA]</head>
+	  <bibl n="1" xml:id="bibl4_003_001">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 1</title>
 	    <publisher>Gyldendal</publisher>
-	    <extent>8°, 436 + reg.</extent>
-	    <author>Flere anonyme</author>
+	    <extent>8°</extent>
+	    <author/>
 	    <date type="release" when="1773">1773</date>
-	    <date type="announced" notBefore="1772-12-01" notAfter="1773-09">01.12.1772 - [sep. 1773?]</date>
+	    <date type="announced" when="1772-12-01">01.12.1772</date>
+	  </bibl>
+	  <bibl n="2" xml:id="bibl4_003_002">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 2</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="3" xml:id="bibl4_003_003">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 3</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="4" xml:id="bibl4_003_004">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 4</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="5" xml:id="bibl4_003_005">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 5</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="6" xml:id="bibl4_003_006">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 6</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="7" xml:id="bibl4_003_007">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 7</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="8" xml:id="bibl4_003_008">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 8</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="9" xml:id="bibl4_003_009">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 9</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="10" xml:id="bibl4_003_010">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 10</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="11" xml:id="bibl4_003_011">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 11</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="12" xml:id="bibl4_003_012">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 12</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="13" xml:id="bibl4_003_013">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 13</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="14" xml:id="bibl4_003_014">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 14</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="15" xml:id="bibl4_003_015">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 15</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="16" xml:id="bibl4_003_016">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 16</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="17" xml:id="bibl4_003_017">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 17</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="18" xml:id="bibl4_003_018">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 18</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="19" xml:id="bibl4_003_019">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 19</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="20" xml:id="bibl4_003_020">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 20</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="21" xml:id="bibl4_003_021">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 21</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="22" xml:id="bibl4_003_022">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 22</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="23" xml:id="bibl4_003_023">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 23</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="24" xml:id="bibl4_003_024">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 24</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="25" xml:id="bibl4_003_025">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 25</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="26" xml:id="bibl4_003_026">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 26</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="27" xml:id="bibl4_003_027">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, stk. 27</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="28" xml:id="bibl4_003_028">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, Til Læserne</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
+	  </bibl>
+	  <bibl n="29" xml:id="bibl4_003_029">
+	    <title>Fortegnelsen over Trykkefrihedens Skrifter III, Register</title>
+	    <publisher>Gyldendal</publisher>
+	    <extent>8°</extent>
+	    <author/>
+	    <date type="release" when="1773">1773</date>
+	    <date type="announced"/>
 	  </bibl>
 	</listBibl>
       </div>

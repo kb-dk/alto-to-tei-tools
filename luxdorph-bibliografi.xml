@@ -5,6 +5,7 @@
 2020-06-01, BOKS@kb.dk, many changes following spreadsheet from Ulrik L. and Frederik S. 2019-11-04 (plus, BOKS has corrected many errors in spreadsheet).
 2020-08-20, BOKS@kb.dk, Incorporated subdivision of 4_001, 4_002 and 4_003 (performed by BOKS@kb.dk).
 2020-08-22, BOKS@kb.dk, <bibl> sections previously commented out due numbering with a letter in xml:id have now been included since ALTO and TIFF files have been renamed accordingly.
+2020-09-01, BOKS@kb.dk, Various strings corrected.
 
 
 There is correspondence btw. table headers in the original PDF/Word document (and Excel spreadsheet) and the following atributes/elements:
@@ -62,7 +63,7 @@ All rights reserved.</note>
 	  <head>Række 1 bind 1</head>
 	  <bibl n="1" xml:id="bibl1_001_001">
 	    <title>Philopatreias trende Anmærkninger 1. Om de dyre Tider og Handelens Svaghed. 2. Om Rettergang. 3. Om Geistlighedens Indkomster.</title>
-	    <publisher>Sorø. Lindgren/ J.G. Rothe</publisher>
+	    <publisher>Sorø, Lindgren/ J.G. Rothe</publisher>
 	    <extent>8°, 46</extent>
 	    <author>[J.C. Bie]</author>
 	    <date type="release" when="1770">1770</date>
@@ -70,7 +71,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="2" xml:id="bibl1_001_002">
 	    <title>Philopatreias første Fortsættelse, indeholdende fire Anmærkninger. 1. Om Handelen. 2. Om Krigsstanden. 3. Om Tingsvidners Førelse. 4. Om Videnskabernes Opkomst- Skrevne i Kiøbenhavn 1770</title>
-	    <publisher>J.G. Rothes forlag/Børsen</publisher>
+	    <publisher>J.G. Rothes forlag/ Børsen</publisher>
 	    <extent>8°, 55</extent>
 	    <author>[J.C. Bie]</author>
 	    <date type="release" when="1770">1770</date>
@@ -126,7 +127,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="9" xml:id="bibl1_001_009">
 	    <title>Plan til en aarlig staaende Penge-Løn for Præsterne overalt paa Landet i Dannemark. Forfattet og paa allerhøieste Steder for meer end to Aar siden insinueret af en Præst i Siellands Stift, men nu med Autors Tilladelse til Trykken befordret af Comphilopatreias.</title>
-	    <publisher>?/J.G. Rothe, Børsen</publisher>
+	    <publisher>?/ J.G. Rothe, Børsen</publisher>
 	    <extent>8°, 88</extent>
 	    <author>[L. Jæger]</author>
 	    <date type="release" when="1771">1771</date>
@@ -136,13 +137,13 @@ All rights reserved.</note>
 	    <title>Urigtigheden i Comphilopatrejases Plan til en aarlig staaende Pengeløn for Præsterne overalt paa Landet i Dannemark. Tydelig forestillet af Philadelphus.</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 36</extent>
-	    <author>Philadelpus?</author>
+	    <author>Philadelphus?</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-08-27">27.08.1771</date>
 	  </bibl>
 	  <bibl n="11" xml:id="bibl1_001_011">
 	    <title>Velfortient Apologie for Forfatteren af Planen til en aarlig staaende Penge-Løn for Præsterne overalt paa Landet i Dannemark imod Philadelphum […] Af Comphilopatreias Minor.</title>
-	    <publisher>?</publisher>
+	    <publisher>Trykt i Polsk-Preussen</publisher>
 	    <extent>8°, 64</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -158,7 +159,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="13" xml:id="bibl1_001_013">
 	    <title>Tilfældige Tanker om Forandring i Kirkestanden. Første Stykke om Lønnen og Indkomsterne.</title>
-	    <publisher>Sorø, Lindgren/Rothens Arvinger</publisher>
+	    <publisher>Sorø, Lindgren/ Rothens Arvinger og Prost</publisher>
 	    <extent>8°, 35</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -168,7 +169,7 @@ All rights reserved.</note>
 	    <title>Tanker om Geistligheden i en Stat. Ved Fr.Chr. Scheffer.</title>
 	    <publisher>Borups Efterleverske</publisher>
 	    <extent>8°, 31</extent>
-	    <author>Fr. Chr. Scheffer</author>
+	    <author>F.C. Scheffer</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-03-18">18.03.1771</date>
 	  </bibl>
@@ -187,15 +188,15 @@ All rights reserved.</note>
 	    <title>Om Philopatreias trende Anmærkninger. I et Brev til en Høi Herre fra F***g.</title>
 	    <publisher>H.J. Graae</publisher>
 	    <extent>8°, 36</extent>
-	    <author>F***g</author>
+	    <author>F***g. [Pflueg?]</author>
 	    <date type="release" when="1770">1770</date>
 	    <date type="announced" when="1770-12-24">24.12.1770</date>
 	  </bibl>
 	  <bibl n="2" xml:id="bibl1_002_002">
 	    <title>Nye Tanker over Indholden af Philopatreias Anmærkninger.</title>
-	    <publisher>Paul H. Høecke</publisher>
+	    <publisher>Paul Herman Höecke</publisher>
 	    <extent>8°, 16</extent>
-	    <author>[Cantor Lund]</author>
+	    <author>[Hans Lund]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-01-25">25.01.1771</date>
 	  </bibl>
@@ -211,7 +212,7 @@ All rights reserved.</note>
 	    <title>Upartiske Erindringer til Philopatreias, og Compatrioter, angaaende Deres udgivne Patriotiske Skrivter, forfattede af en Eenfoldig Borger</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 40</extent>
-	    <author>Em. Balling]</author>
+	    <author>[E. Balling]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-03-12">12.03.1771</date>
 	  </bibl>
@@ -219,7 +220,7 @@ All rights reserved.</note>
 	    <title>Bondens første Betænkninger, om de Aarsager Philopatreias har anbragt for de dyre Tider.</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 38</extent>
-	    <author>(G E A P) [Hans Hansen]</author>
+	    <author>G E A P [Hans Hansen]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-02-01">01.02.1771</date>
 	  </bibl>
@@ -257,9 +258,9 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="10" xml:id="bibl1_002_010">
 	    <title>Nogle faa Tanker, i Anledning af Philopatreiæ Trende Anmærkninger, […]. skrevne og over samme Materier udi Trende Afhandlinger forfattede af von Erdenklosz, hvornæst følger hans Ansøgning til Kongen for hans nærmeste Ven Philantropos.</title>
-	    <publisher>udgiver A. Bruun</publisher>
+	    <publisher>? "Er tilkiøbs hos A. Bruun, boende hos Brændeviins-brænder P. Jørgensen i store Strandstrædet."</publisher>
 	    <extent>8°, 36</extent>
-	    <author>[Martin Brun]</author>
+	    <author>[? Martin Brun]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-08-28">28.08.1771</date>
 	  </bibl>
@@ -275,7 +276,7 @@ All rights reserved.</note>
 	    <title>Grundede Tanker over Philopatreias Anmærkninger, saavidt Geistligheden i sær angaaer til høiere Eftertanke og Syge-Cassens Tarv, om noget ved Afsetningen vindes offentlig meddelte.</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 40</extent>
-	    <author>[B.G. Sporon]</author>
+	    <author>[B.G Sporon]</author>
 	    <date type="release" when="1770">1770</date>
 	    <date type="announced" when="1770-12-21">21.12.1770</date>
 	  </bibl>
@@ -297,7 +298,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="15" xml:id="bibl1_002_015">
 	    <title>Svar til Philopatreia angaaende de Geistliges Indkomster, af Philalethes.</title>
-	    <publisher>A.F. Stein</publisher>
+	    <publisher>A. F. Stein</publisher>
 	    <extent>8°, 39</extent>
 	    <author>[Jacob Baden]</author>
 	    <date type="release" when="1771">1771</date>
@@ -323,7 +324,7 @@ All rights reserved.</note>
 	    <title>Philalethi Patriotiske Anmærkninger over Hr. Philopatreias Afhandling om Geistlighedens Indkomster</title>
 	    <publisher>L.N. Svare</publisher>
 	    <extent>8°, 31</extent>
-	    <author>[D.H. Huusfeld?]</author>
+	    <author>[D.H. Huusfeld ?]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-03-06">06.03.1771</date>
 	  </bibl>
@@ -373,8 +374,8 @@ All rights reserved.</note>
 	  <bibl n="3" xml:id="bibl1_003_003">
 	    <title>Philocosmi Betænkninger over adskillige vigtige Politiske Materier, i Anledning af Philodani Undersøgelse, meddeelte en god Ven paa Landet.</title>
 	    <publisher>A.F. Stein</publisher>
-	    <extent>8°, 459</extent>
-	    <author>[Chr. Martfeldt]</author>
+	    <extent>8°, 460</extent>
+	    <author>[Chr. Martfelt]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-05-21">21.05.1771</date>
 	  </bibl>
@@ -382,7 +383,7 @@ All rights reserved.</note>
 	    <title>Philocosmi Indfald ved Giennemlæsning af Philodani Undersøgelse, Philopatreias angaaende. Medeelte en god Ven paa Landet.</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 64</extent>
-	    <author>[Chr. Martfeldt]</author>
+	    <author>[Chr. Martfelt]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -398,23 +399,23 @@ All rights reserved.</note>
 	    <title>Philocosmi Brev til Philodanus, som Svar paa hans Tanker over Philocosmi Betænkninger.</title>
 	    <publisher>N. Møller</publisher>
 	    <extent>8°, 16</extent>
-	    <author>[Chr. Martfeldt]</author>
+	    <author>[Chr. Martfeltt]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-06-13">13.06.1771</date>
 	  </bibl>
 	  <bibl n="7" xml:id="bibl1_003_007">
 	    <title>Forslag til en Kongelig Reformasions-Kommission, i Hensigt at forfatte en retskaffen varig Plan for Ekonomie- Kommerse- og Finants-Væsenet i Dannemark.</title>
 	    <publisher>A.F. Stein</publisher>
-	    <extent>8°, 71</extent>
-	    <author>Chr. Martfeldt</author>
+	    <extent>8°, 72</extent>
+	    <author>Chr. Martfelt</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-08-12">12.08.1771</date>
 	  </bibl>
 	  <bibl n="8" xml:id="bibl1_003_008">
 	    <title>Vorschlag zu einer koniglichen Reformationscommission, um einen rechtschaffenen und dauerhaften Plan für das Oeconomie- Commerz- und Finanz-Wesen in Dännemark zu legen.</title>
-	    <publisher>A. F Stein</publisher>
+	    <publisher>A.F Stein</publisher>
 	    <extent>8°, 88</extent>
-	    <author>Chr. Martfeldt</author>
+	    <author>Chr. Martfelt</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-08-26">26.08.1771</date>
 	  </bibl>
@@ -503,7 +504,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="11" xml:id="bibl1_004_011">
 	    <title>Jødernes Renkers Aabenbaring. Tredje Hæfte.</title>
-	    <publisher>? Alle 3 Hæfter kan købes hos Kanevorf i Silkegaden og i Børsen nr.8</publisher>
+	    <publisher>? Alle 3 Hæfter er til Kiøbs hos Kanevorf i Silke-Gaden for 1 Mark 8 Skilling og i No. 8 paa Børsen.</publisher>
 	    <extent>8°, 64</extent>
 	    <author>[Søren Rosenlund]</author>
 	    <date type="release" when="1771">1771</date>
@@ -596,7 +597,7 @@ All rights reserved.</note>
 	    <title>Enfoldige Danske og Norske Tanker, hensigtende til de Danske, Norske og tilhørende Landes Indvaaneres Huusholdnings Maader, i Sammenhæng med Rigets Huusholdning, til Rigets Nytte. Første Hefte. [Indeholder s. 52-80: Linnæi Tanker om Grunden til Huusholdings-Kunsten, efter Natur-Kundskab og Natur-Lære. En Oversettelse af det Kongelige Svenske Videnskabers Akademis Afhandlinger udi Aaret 1740]</title>
 	    <publisher>N. Møller</publisher>
 	    <extent>8°, 80</extent>
-	    <author>?, Carl von Linné</author>
+	    <author>?; Carl von Linné</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-04-03">03.04.1771</date>
 	  </bibl>
@@ -634,7 +635,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="9" xml:id="bibl1_005_009">
 	    <title>Den Danske Landmands Ven.</title>
-	    <publisher>F.C. Godiche</publisher>
+	    <publisher>A.H. Godiches Efterleverske ved Frid. Christ. Godiche</publisher>
 	    <extent>8°, 79</extent>
 	    <author>[Jørgen Andersen Schjøt]</author>
 	    <date type="release" when="1771">1771</date>
@@ -652,7 +653,7 @@ All rights reserved.</note>
 	    <title>Fremmedes Tanker, eller Forsøg til Udbredelse af læseværdige og nyttige Oversettelser, samlede og udgivne for at bidrage til den Danske Stats og Oeconomies Forbedring, samt Smagens Opkomst. [S. 1-34: Brevvexling mellem tvende reysende Perser angaaende Aarsagerne til Folkemængdens Aftagelse i Verden. Udtaget af Hr. Montesquieu persiske Breve. S. 35-40: Anmerkninger over de Romere angaaendes Agerdyrkningen. S. 41- 48: Om Fattige og Tiggere. S. 49-59: Om Agerdyrknings Skoler, S. 59-60: Om Mistbede.]</title>
 	    <publisher>P.H. Høecke</publisher>
 	    <extent>8°, 60</extent>
-	    <author>?, Montesquieu</author>
+	    <author>Montesquieu; ?, ?, ?, ?</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1772-02-17">17.02.1772 ?</date>
 	  </bibl>
@@ -663,7 +664,7 @@ All rights reserved.</note>
 	    <title>Betænkning om Fællesskabets Afskaffelse saa og om Tiende og Tienestefolk paa Landet.</title>
 	    <publisher>N. Møller</publisher>
 	    <extent>8°, 53</extent>
-	    <author>[Carl L. v. Scherewien]</author>
+	    <author>[Carl L. von Scherewien]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -695,7 +696,7 @@ All rights reserved.</note>
 	    <title>Hyæne- Jagden. Komedie i fem Handlinger, oversat efter Marquis de saint Mirabelles: Les gros mangent les petits.</title>
 	    <publisher>[A.F. Stein]</publisher>
 	    <extent>8°, 78</extent>
-	    <author>[Fred. Andr. Pflueg]</author>
+	    <author>[Frederik Andreas Pflueg]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-04-15">15.04.1771</date>
 	  </bibl>
@@ -709,9 +710,9 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="7" xml:id="bibl1_006_007">
 	    <title>Danophili Besvarelse paa de i det Danske Magazin for patriotiske Skribenters No. 38 fremsatte 5 Spørsmaale. Hvorhos ved hver Besvarelse er føiet en Moral til Danmarks Riges Opkomst.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 32</extent>
-	    <author>[A.C. Teilmann]</author>
+	    <author>[A. C. Teilmann]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-08-06">06.08.1771</date>
 	  </bibl>
@@ -751,7 +752,7 @@ All rights reserved.</note>
 	    <title>Tre Patriotiske Samtaler imellem to Danske Reysende om Deres Fædrenelands Tilstand.</title>
 	    <publisher>? Kiøbenhavn og Bergen</publisher>
 	    <extent>8°, 80</extent>
-	    <author>[F.C.T. v. Lüttichau]</author>
+	    <author>[F.C. T. v. Lüttichau]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-02-01">01.02.1771</date>
 	  </bibl>
@@ -797,7 +798,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="18" xml:id="bibl1_006_018">
 	    <title>Patriotiske Tanker udi Anledning af et Skrift, kaldet: Korte Betragtninger over Hoveriets Afskaffelse i Danmark.</title>
-	    <publisher>J.P. Holzberg Aalborg</publisher>
+	    <publisher>J.P. Holzberg, Aalborg</publisher>
 	    <extent>8°, 14</extent>
 	    <author>?</author>
 	    <date type="release" when="1770">1770</date>
@@ -813,7 +814,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="20" xml:id="bibl1_006_020">
 	    <title>Bonde-Plageren eller Danske Fogders og Forpagteres Skilderie. Skreven af Ladefogden paa Gaarden: Christen.</title>
-	    <publisher>Hos J.G. Rothe på Børsen Nr. 8</publisher>
+	    <publisher>Sælges hos J.G. Rothe i No. 8 paa Børsen</publisher>
 	    <extent>8°, 24</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -1139,7 +1140,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="21" xml:id="bibl1_008_021">
 	    <title>Tanker om Brændeviins- Brænden. Skienket til Stiftelsen for nyefødte Børns Opdragelse.</title>
-	    <publisher>Svare</publisher>
+	    <publisher>L.N. Svare</publisher>
 	    <extent>8°, 52</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -1157,7 +1158,7 @@ All rights reserved.</note>
 	    <title>Saufhalses trøst til Brændeviinslauget som et Beviis at det er utroeligt at Regieringen vil forbyde at brænde Brændeviin.</title>
 	    <publisher>Paul H. Høecke</publisher>
 	    <extent>8°, 24</extent>
-	    <author>?</author>
+	    <author>? [Josias Bynch]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-11-06">06.11.1771</date>
 	  </bibl>
@@ -1222,7 +1223,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="8" xml:id="bibl1_009_008">
 	    <title>Azan eller den fra Gield Udfriede Fyrste. En Fortælling.</title>
-	    <publisher>A, F, Stein</publisher>
+	    <publisher>A,F, Stein</publisher>
 	    <extent>8°, 120</extent>
 	    <author>[Ove Guldberg]</author>
 	    <date type="release" when="1771">1771</date>
@@ -1323,7 +1324,7 @@ All rights reserved.</note>
 	    <title>Adskillige Tanker som Skrive-Friheden har givet Anledning til.</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 79</extent>
-	    <author>[J. Balthasar Winterfeldt]</author>
+	    <author>[J. Balthasar Winterfeldt]**</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-04-30">30.04.1771</date>
 	  </bibl>
@@ -1331,13 +1332,13 @@ All rights reserved.</note>
 	    <title>Tanker om Krigsstanden og dens Forbedring.</title>
 	    <publisher>? J.G. Rothe Børsen nr.8</publisher>
 	    <extent>8°, 71</extent>
-	    <author>[W.H. F. Abrahamson]</author>
+	    <author>[W.H.F. Abrahamson]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-06-12">12.06.1771</date>
 	  </bibl>
 	  <bibl n="3" xml:id="bibl1_010_003">
 	    <title>Anmerkungen eines Officiers in R*ndsb*rg über die im Kopenhagener Magazin für patriotische Skribenten eingerückte Noten wieder den Kriegsstand in Dännemark.</title>
-	    <publisher>Kopenhagen?</publisher>
+	    <publisher>Kopenhagen ?</publisher>
 	    <extent>8°, 30</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -1403,14 +1404,14 @@ All rights reserved.</note>
 	    <title>Philets Forslag om Pebersvendene, som vist vil blive iværksat.</title>
 	    <publisher>N. Møller</publisher>
 	    <extent>8°, 112</extent>
-	    <author>[Johs. Ewald]</author>
+	    <author>[Johannes Ewald]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-04">april 1771</date>
 	  </bibl>
 	  <bibl n="12" xml:id="bibl1_010_012">
 	    <title>Klage og Formaning til Egteskab af en gammel Frøken.</title>
 	    <publisher>N. Møller</publisher>
-	    <extent>8°, 68</extent>
+	    <extent>8°, 69</extent>
 	    <author>[Peter Schønning]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-10-11">11.10.1771</date>
@@ -1430,7 +1431,7 @@ All rights reserved.</note>
 	    <title>Om Oeconomien, særdeles Norges. Af Peter Friderich Suhm.</title>
 	    <publisher>Brødrene Berling</publisher>
 	    <extent>8°, 96</extent>
-	    <author>P.F. Suhm</author>
+	    <author>P. F. Suhm</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-05-07">07.05.1771</date>
 	  </bibl>
@@ -1446,7 +1447,7 @@ All rights reserved.</note>
 	    <title>Philo Dano-Norvagi oprigtige Tanker til bedste Eftertanke udgivet i Trykkefrihedens 8de Maaned i Norge.</title>
 	    <publisher>Christiania, S.C. Schwach</publisher>
 	    <extent>8°, 96</extent>
-	    <author>[Gust. Strømbo]</author>
+	    <author>[Gustav Strømbo]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-08-20">20.08.1771</date>
 	  </bibl>
@@ -1454,13 +1455,13 @@ All rights reserved.</note>
 	    <title>Anmærkninger over Drammens Oeconomiske Beskaffenhed og nu værende Handel. Skrevne i Kiøbenhavn 1771. Ved</title>
 	    <publisher>N. Møller</publisher>
 	    <extent>8°, 64</extent>
-	    <author>Christen Lohrmann </author>
+	    <author>Christen Lohrmann</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-03-05">05.03.1771</date>
 	  </bibl>
 	  <bibl n="5" xml:id="bibl1_011_005">
 	    <title>En kort Underretning om det beneficerede Gods i Norge.</title>
-	    <publisher>Bødrene Berling</publisher>
+	    <publisher>Brødrene Berling</publisher>
 	    <extent>8°, 28</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -1468,7 +1469,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="6" xml:id="bibl1_011_006">
 	    <title>Det frievillige Slaverie, eller kort Begreb om Sølvverket Kongsbergs nærværende Tilstand.</title>
-	    <publisher>L. N Svare</publisher>
+	    <publisher>L. N. Svare</publisher>
 	    <extent>8°, 16</extent>
 	    <author>[J. Fr. Voss]</author>
 	    <date type="release" when="1771">1771</date>
@@ -1476,9 +1477,9 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="7" xml:id="bibl1_011_007">
 	    <title>Anhang til det frievillige Slaverie.</title>
-	    <publisher>L.N. Svare</publisher>
+	    <publisher>L. N. Svare</publisher>
 	    <extent>8°, 8</extent>
-	    <author>Gert Christ. Schwingel</author>
+	    <author>Gert Christian Schwingel</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-05-22">22.05.1771</date>
 	  </bibl>
@@ -1518,7 +1519,7 @@ All rights reserved.</note>
 	    <title>Bergens Byes Klage-Brev over sidste Ildebrand til Hans Majest. Kongen.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 14</extent>
-	    <author>N.N.M.[Niels Chr. Friis]</author>
+	    <author>N.N.M. [Niels Chr. Friis]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-05-21">21.05.1771</date>
 	  </bibl>
@@ -1615,7 +1616,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="5" xml:id="bibl1_012_005">
 	    <title>Studenternes Skiæbne, Sic fuit in fatis – </title>
-	    <publisher>Paul Herman Høcke</publisher>
+	    <publisher>Paul Herman Høecke</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -1631,7 +1632,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="7" xml:id="bibl1_012_007">
 	    <title>Forslag til en forbedret Indretning ved de Latinske Skoler.</title>
-	    <publisher>A.F. Stein</publisher>
+	    <publisher>A. F. Stein</publisher>
 	    <extent>8°, 32</extent>
 	    <author>[Rasmus Fleischer]</author>
 	    <date type="release" when="1771">1771</date>
@@ -1655,7 +1656,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="10" xml:id="bibl1_012_010">
 	    <title>En Præstes Tanker om Universitetets Forbedring og om et Universitets Oprettelse i Norge. I en Skrivelse til sin Ven.</title>
-	    <publisher>Borups enke</publisher>
+	    <publisher>Borups Enke</publisher>
 	    <extent>8°, 8</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -1689,7 +1690,7 @@ All rights reserved.</note>
 	    <title>Nærmere Betragtninger af Philokalus. Om Studeringers nærværende Tilstand og bedre Indretning. I Anledning af Raisonnemens over Kiøbenhavns Universitet.</title>
 	    <publisher>Brødrene Berling</publisher>
 	    <extent>8°, 66</extent>
-	    <author>[B.G. Sporon]</author>
+	    <author>[Benjamin G. Sporon]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-03-25">25.03.1771</date>
 	  </bibl>
@@ -1711,7 +1712,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="17" xml:id="bibl1_012_017">
 	    <title>Betænkninger over Efterretningen om Professorernes Løn ved Kiøbenhavns Universitet, indført i Adresse-Contoirs Efterretningerne No. 156.</title>
-	    <publisher> Sorø [Lindgren]</publisher>
+	    <publisher>Sorø [Lindgren]</publisher>
 	    <extent>8°, 32</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -1727,7 +1728,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="19" xml:id="bibl1_012_019">
 	    <title>Essay sur l'Etât Présent des Sciences, des Belles Lettres et des Beaux Arts dans le Danemarc et dans la Norvegue par un Anglois.</title>
-	    <publisher>?, Friebourg </publisher>
+	    <publisher>?, Friebourg</publisher>
 	    <extent>8°, 32</extent>
 	    <author>[P.F. Suhm]</author>
 	    <date type="release" when="1771">1771</date>
@@ -1748,7 +1749,7 @@ All rights reserved.</note>
 	    <title>Anekdoten eines reisenden Russen über die Staatsverfassung, Sitten und Gebräuche der Dänen, in Briefen an seine Freunde. Herausgegeben von K.</title>
 	    <publisher>? Lübeck [Kbh] auf Kosten des Herausgebers</publisher>
 	    <extent>8°, 78</extent>
-	    <author>[Jo. Adolph Scheibe]</author>
+	    <author>[Johann Adolph Scheibe]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-04-05">05.04.1771</date>
 	  </bibl>
@@ -1756,7 +1757,7 @@ All rights reserved.</note>
 	    <title>Anekdoten eines reisenden Russen über die Staatsverfassung, Sitten und Gebräuche der Dänen, in Briefen an seine Freunde. Herausgegeben von K. Zweyte verbesserte und vermehrte Auflage.</title>
 	    <publisher>? Lübeck [Kbh] auf Kosten des Herausgebers</publisher>
 	    <extent>8°, 60</extent>
-	    <author>[Jo. Adolph Scheibe]</author>
+	    <author>[Johann Adolph Scheibe]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-06-12">12.06.1771</date>
 	  </bibl>
@@ -1764,7 +1765,7 @@ All rights reserved.</note>
 	    <title>En reisende Russers Anekdoter over De Danskes Statsforfatning, Sæder og Skikke, i Breve til sine Venner. Udgivne af K. Men nu af det Tydske oversatte.</title>
 	    <publisher>? Kbh</publisher>
 	    <extent>8°, 64</extent>
-	    <author>[Jo. Adolph Scheibe]</author>
+	    <author>[Johann Adolph Scheibe]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-05-03">03.05.1771</date>
 	  </bibl>
@@ -1772,7 +1773,7 @@ All rights reserved.</note>
 	    <title>En reisende Russes Anekdoter over de Danskes Statsforfatning, Sæder og Skikke, i Breve til sine Venner. Udgiven i det Tydske Sprog af K. Til almindelig Underretning efter et nyt forbedret og formeret Oplag oversat i det Danske af M.C.R.</title>
 	    <publisher>? Kbh. Børsen 11, 12 og13, hos Rothes Arvinger og Proft</publisher>
 	    <extent>8°, 78</extent>
-	    <author>[Jo. Adolph Scheibe]</author>
+	    <author>[Johann Adolph Scheibe]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-05-06">06.05.1771</date>
 	  </bibl>
@@ -1796,7 +1797,7 @@ All rights reserved.</note>
 	    <title>Briefe eines Dänen an den Verfasser der Anekdoten eines angeblichen reisenden Russen. 1tes Stück, 2tes Stück.</title>
 	    <publisher>Philibert</publisher>
 	    <extent>8°, (32) 96</extent>
-	    <author> [Jo. Carl Fr. v Hellfried]</author>
+	    <author>[Jo. Carl Fr. von Hellfried]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-05-27">Dansk udg. 27.05.1771</date>
 	  </bibl>
@@ -1816,13 +1817,13 @@ All rights reserved.</note>
 	    <title>Patrioten eller den gode Borger. Efter Begiering oversat af P.T.W [Peder Topp Wandal]</title>
 	    <publisher>? Kanneworff</publisher>
 	    <extent>8°, 29</extent>
-	    <author>?</author>
+	    <author>[Isaak Iselin]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-09-09">09.09.1771</date>
 	  </bibl>
 	  <bibl n="2" xml:id="bibl1_014_002">
 	    <title>Nye Prøve af Skrive-Frihed.</title>
-	    <publisher>? [A.F. Stein]Trykt i Pressens gyldne Alder</publisher>
+	    <publisher>? [A.F. Stein] Trykt i Pressens gyldne Alder 1771.</publisher>
 	    <extent>8°, 39</extent>
 	    <author>[Jacob Langebek]</author>
 	    <date type="release" when="1771">1771</date>
@@ -1928,7 +1929,7 @@ All rights reserved.</note>
 	    <title>En Grønlænders Beskrivelse over Kiøbenhavn med Betænkning over de Ti Buds Helligholdelse.</title>
 	    <publisher>Paul Herman Høecke</publisher>
 	    <extent>8°, 22</extent>
-	    <author>[? Martin Brun]</author>
+	    <author>[Martin Brun]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-11-15">15.11.1771</date>
 	  </bibl>
@@ -1953,7 +1954,7 @@ All rights reserved.</note>
 	    <title>Hiertet er min Dronning, Fornuften er min Konge. Eller Svar paa det i Magasinet fremsatte Spørgsmaal No. 72. Er det mueligt, at en Hustrues Bolere kan være hendes Mands oprigtige Ven og troe Raadgivere? Naar Manden tager ham til sin Fortrolige, hvad bliver da Følgerne deraf for dem alle tre og Børnene? Her er et svar, men her spørges, om det er grundig, og efter Ønske?</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 14</extent>
-	    <author>?</author>
+	    <author>[Martin Brun ?] HLS</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-08-12">12.08.1771</date>
 	  </bibl>
@@ -1962,7 +1963,7 @@ All rights reserved.</note>
 	    <title>Et par Ord til vore Tiders Hoerkoner.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 10</extent>
-	    <author>?</author>
+	    <author>[Martin Brun ?] HLS</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-08-12">12.08.1771</date>
 	  </bibl>
@@ -2026,7 +2027,7 @@ All rights reserved.</note>
 	  <bibl n="25b" xml:id="bibl1_014_025b">
 	    <title>Et Speil at bruge udi sine ledige Timer, hvorudi man nogenledes kan faae at see hvordan man seer ud i vore nuværende Tider. Se og husk!</title>
 	    <publisher>?</publisher>
-	    <extent>8°, 14</extent>
+	    <extent>8°, 14 [19-32]</extent>
 	    <author>[Martin Brun]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-09-11">11.09.1771</date>
@@ -2083,7 +2084,7 @@ All rights reserved.</note>
 	    <title>Dronningen for Fuglene, eller Nattergalens Afskeds-Sang fra Rosenborg Have.</title>
 	    <publisher>L.N. Svare</publisher>
 	    <extent>8°, 19</extent>
-	    <author>?</author>
+	    <author>[Martin Brun ?] HLS</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-10-18">18.10.1771</date>
 	  </bibl>
@@ -2091,15 +2092,15 @@ All rights reserved.</note>
 	    <title>Hiertet er min Dievel, Croesus er min Slave Eller et Par Ord til Dannemark. Saa og fire Fabler: 1.) Den forvandlede Havfrue. 2.) Forsonings Oxen. 3.) Den kaade Høne, en Fortælling. 4.) Hunden og Plukkefisken.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 23</extent>
-	    <author>?</author>
+	    <author>[Josias Bynch] HLS</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-09-27">27.09.1771</date>
 	  </bibl>
 	  <bibl n="34" xml:id="bibl1_014_034">
 	    <title>Tre fabelagtige Fortælninger om Børnetugten. 1) Den gale Hingst eller Den ulydige Søn. 2) Den sletopdragne Skade eller Den nyebagte Dommers Dumhed. 3) Katten, Kattekillingen og Rotterne eller Skolemesterne som Børnene spiller paa Næsen. Tilligemed noget om Fabelmagerie ved Jesper Tyndskiæg.</title>
-	    <publisher>P.H. Høecke</publisher>
+	    <publisher>P. H. Høecke</publisher>
 	    <extent>8°, 27</extent>
-	    <author>?</author>
+	    <author>[Josias Bynch] HLS</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-10-16">16.10.1771</date>
 	  </bibl>
@@ -2116,7 +2117,7 @@ All rights reserved.</note>
 	  <head>Række 1 bind 15</head>
 	  <bibl n="1" xml:id="bibl1_015_001">
 	    <title>Spaadom af den berømte Eremit Martin Zadeck angaaende hvad som skal skee i de tilkommende Tider hvorover hele Verden skal forundre sig, som han i sin Alders 106 Aar ved Solothurn i Sveitzerland har aabenbaret sine Venner den 20 Dec. 1769.</title>
-	    <publisher>?Nr. 8 Børsen</publisher>
+	    <publisher>?Nr. 8 Børsen [Schmettau]</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1770">1770</date>
@@ -2178,7 +2179,7 @@ All rights reserved.</note>
 	    <title>En Norsk Hyrdes Indtagelse i et Bierg. Virg. Eclog. IV.</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 47</extent>
-	    <author>[Imman. Chr. Grave]</author>
+	    <author>[Immanuel Chr. Grave]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-03-12">12.03.1771</date>
 	  </bibl>
@@ -2251,7 +2252,7 @@ All rights reserved.</note>
 	    <title>Tolv Breve, fra en Bonde til sin Herremand.</title>
 	    <publisher>Borups Efterl.</publisher>
 	    <extent>8°, 32</extent>
-	    <author>[F.A. Pflug]</author>
+	    <author>[F.A. Pflueg]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-03-20">20.03.1771</date>
 	  </bibl>
@@ -2259,7 +2260,7 @@ All rights reserved.</note>
 	    <title>Konstmaleren. Oversat af det Lettiske Sprog efter en i Mietau funden Haandskrift.</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 56</extent>
-	    <author>[F.A. Pflug]</author>
+	    <author>[F.A. Pflueg]</author>
 	    <date type="release" when="1770">1770</date>
 	    <date type="announced" when="1771-10-23">23.10.1771</date>
 	  </bibl>
@@ -2321,9 +2322,9 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="22" xml:id="bibl1_015_022">
 	    <title>Den Danske Halte-Fandens historiske Beretning, om alle de forunderlige Syner og Opdagelser, som han ved Hielp af en Messing-Kugle har set. Tilligemed et rart Vers, som blev funden inden i Kuglen, med mere Historien indeholder.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 32</extent>
-	    <author>[F.C. Scheffer]</author>
+	    <author>[F. C. Scheffer]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-04-12">12.04.1771</date>
 	  </bibl>
@@ -2353,7 +2354,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="26" xml:id="bibl1_015_026">
 	    <title>Fandens Liv og Levnet første gang til Trykken befordret ved Doctor Faust.</title>
-	    <publisher>Venedig?</publisher>
+	    <publisher>Venedig ?</publisher>
 	    <extent>8°, 16</extent>
 	    <author>[Martin Brun]</author>
 	    <date type="release" when="1771">1771</date>
@@ -2371,13 +2372,13 @@ All rights reserved.</note>
 	    <title>Et Himmel-Brev nedfaldet og fundet i Faard**-up af Stedets Degn og nogle andre hæderlige og dydzirede Matroner. Men nu ved samme Mand til Trykken befordret og forøget med en liden Fortale.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 24</extent>
-	    <author>[J.C. Bie]</author>
+	    <author>[J. C. Bie]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-05-14">14.05.1771</date>
 	  </bibl>
 	  <bibl n="29" xml:id="bibl1_015_029">
 	    <title>Et Himmel-Skrift nedfalden paa Veien fra Kiøbenhavn til Emdrup, og ved dets Nedfald optagen af Jens Larsen Gaardmand i bemeldte Bye, Og ved hannem til Trykken befordret.</title>
-	    <publisher>A.f. Stein</publisher>
+	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 15</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -2427,7 +2428,7 @@ All rights reserved.</note>
 	    <title>Et merkværdigt Syn over Kiøbenhavn, i Følge med den Allegoriske Drøm.</title>
 	    <publisher>Borups Efterleverske</publisher>
 	    <extent>8°, 15</extent>
-	    <author>?</author>
+	    <author>[Martin Brun ?] HLS</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-08-14">14.08.1771</date>
 	  </bibl>
@@ -2454,21 +2455,21 @@ All rights reserved.</note>
 	    <title>En saare mærkværdig Tildragelse som er skeet i den Stad Antwerpen med et forhexet Drengebarn der var en Nisse men omskabte sig til en Skoebørste med mere som Historien fortæller. Først skrevet i Hollandsk ved Heer de Calmuysen og i det Danske oversat ved Claus Lille, fordum Sogne-Degn, og nu til Trykken befordret ved Casper Ebletoft samt hosføiet en Lovtale over Skoebørsterne.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 29</extent>
-	    <author>[C.P. Rothe?]</author>
+	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-01-30">30.01.1771</date>
 	  </bibl>
 	  <bibl n="2" xml:id="bibl1_016_002">
 	    <title>Æreminde over Salig Hr. Etatsraad Nissen.</title>
 	    <publisher>A.H. Godiches Efterleverske</publisher>
-	    <extent>8°, 16 </extent>
-	    <author>[Hans Jørg. Birch]</author>
+	    <extent>8°, 16</extent>
+	    <author>[Hans Jørgen Birch]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-02-01">B.T. 01.02.1771</date>
 	  </bibl>
 	  <bibl n="3" xml:id="bibl1_016_003">
 	    <title>Pro Memoria til den vanartige Æbeltoft, eller Forfatteren af det forhexede Drengebarn, sammensat af Tiener-Lauget.</title>
-	    <publisher>A.F. Stein</publisher>
+	    <publisher>A. F. Stein</publisher>
 	    <extent>8°, 14</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -2476,7 +2477,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="4" xml:id="bibl1_016_004">
 	    <title>Lygtemandens, Heldhestens, Varulvens og Marens, Fødsel og fuldkomne Liv og Levnets Beskrivelse indtil denne Dag. Skreven af Simon Troldkarl.</title>
-	    <publisher>8, 16</publisher>
+	    <publisher>8°, 16</publisher>
 	    <extent>?</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -2486,7 +2487,7 @@ All rights reserved.</note>
 	    <title>Pilati Livs- og Levnets-Beskrivelse fra hans første Ungdom op, indtil han blev Dommere. Med hosføiet Register eller Catalogus paa adskillige rare Sager, som ved offentlig Auction bleve bortsolgte, deels efter Pilati, deels efter Herodes Død i Jerusalem. Beskrevet af en Gallilæer, og til Trykken befordret af en spansk Munk, og af Spansk igien paa Dansk oversat af F*****. [F.C. Scheffer]</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 16</extent>
-	    <author> [Seb. D. Ferd. Gonzala]</author>
+	    <author>Sebastian Dell Ferdinand Gonzala; [F.C. Scheffer]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-05-13">13.05.1771</date>
 	  </bibl>
@@ -2500,7 +2501,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="7" xml:id="bibl1_016_007">
 	    <title>Den forvandlede Gedebuk, en forunderlig Tildragelse kiøbt i Manuscript efter en afdød Hyrde, og nu for sin Selsomhed udgivet i Trykken ved Sandrue.</title>
-	    <publisher>Haag?</publisher>
+	    <publisher>Haag ?</publisher>
 	    <extent>8°, 29</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -2526,7 +2527,7 @@ All rights reserved.</note>
 	    <title>Den saa kaldede nye Autor-Igle. En vigtig Opdagelse for alle skiønsomme Insekt Elskere.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 5</extent>
-	    <author>[Chr. Bagge] </author>
+	    <author>[Chr. Bagge]</author>
 	    <date type="release" when="1771-03-21">21.03.1771</date>
 	    <date type="announced" when="1771-04-03">03.04.1771</date>
 	  </bibl>
@@ -2638,7 +2639,7 @@ All rights reserved.</note>
 	    <title>Svar paa den nyelig udkomne PIece: Jeg ligger for Døden, kom og beret mig.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 8</extent>
-	    <author>?Philopoimen</author>
+	    <author>? Philopoimen</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-08-26">26.08.1771</date>
 	  </bibl>
@@ -2660,7 +2661,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="27" xml:id="bibl1_016_027">
 	    <title>Sandsigerens Betænkning over den PIece: Jeg ligger for Døden, kom og beret mig. Da den blev af ham igiennemseet, rettet, forbedret, besvaret og siden til Trykken befordret.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 20</extent>
 	    <author>[Chr. Thura]</author>
 	    <date type="release" when="1771">1771</date>
@@ -2686,7 +2687,7 @@ All rights reserved.</note>
 	    <title>Tanker om Cassererens Forhold ved den franske Comoedie i Landecasuppen. Opsat af Studenten og til Trykken befordret af Bakkelse-Konen.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 16</extent>
-	    <author>[Josias Leo. Bynch]</author>
+	    <author>[Josias Bynch]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-09-20">20.09.1771</date>
 	  </bibl>
@@ -2705,13 +2706,13 @@ All rights reserved.</note>
 	    <title>Celadon og Cloris. En Fortælling.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 16</extent>
-	    <author>[J. v. Besser]</author>
+	    <author>[J. von Besser]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-04-15">15.04.1771</date>
 	  </bibl>
 	  <bibl n="2" xml:id="bibl1_017_002">
 	    <title>Overkiolernes forunderlige Hendelser En Roman.</title>
-	    <publisher>Poul Herman Høecke</publisher>
+	    <publisher>Poul Herman Höecke</publisher>
 	    <extent>8°, 32</extent>
 	    <author>[Chr. Gormsen Biering]</author>
 	    <date type="release" when="1770">1770</date>
@@ -2721,7 +2722,7 @@ All rights reserved.</note>
 	    <title>En Skrivelse fra Caroline, Mamaes eneste Datter, til Pastor Fido, hendes Skrifte-Fader. [Den Danske Democrit-Heraclit 1]</title>
 	    <publisher>[Svare]</publisher>
 	    <extent>8°, 15</extent>
-	    <author>[Martin Brun] </author>
+	    <author>[Martin Brun]</author>
 	    <date type="release" when="1771">[1771]</date>
 	    <date type="announced" when="1770-10-31">31.10.1770</date>
 	  </bibl>
@@ -2775,7 +2776,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="10" xml:id="bibl1_017_010">
 	    <title>Et Brev, fra den Forfløine til det Forfløine.</title>
-	    <publisher>Borups efterleverske</publisher>
+	    <publisher>Borups Efterleverske</publisher>
 	    <extent>8°, 16</extent>
 	    <author>[F.C. Scheffer]</author>
 	    <date type="release" when="1771">1771</date>
@@ -2809,7 +2810,7 @@ All rights reserved.</note>
 	    <title>Vor Salig' Beste-Mamaes Evas Natklokke med en nye Historie om Syndefaldet i Lommen sammenflikket af Galimathias.</title>
 	    <publisher>Paul Herman Høcke</publisher>
 	    <extent>8°, 80</extent>
-	    <author>[Jos. Leop. Bynch]</author>
+	    <author>[Josias Bynch]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-10-30">30.10.1771</date>
 	  </bibl>
@@ -2817,7 +2818,7 @@ All rights reserved.</note>
 	    <title>Adams Slaabrok, nok saa god som Fortunati Ønske-Hat, funden bag en tyk Busk i den bekiendte Have. Sammendragen og til Trykken befordret af Archituriel, den gamle Adams Sekretær.</title>
 	    <publisher>L.N. Svare</publisher>
 	    <extent>8°, 16</extent>
-	    <author>[Jos. Leop. Bynch]</author>
+	    <author>? [Josias Bynch]ECM; [Martin Brun] FORT</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-11-15">15.11.1771</date>
 	  </bibl>
@@ -2825,7 +2826,7 @@ All rights reserved.</note>
 	    <title>Den skinhellige Skoeflikker en Satire ved Mette Slævhæls.</title>
 	    <publisher>Paul Herman Høecke</publisher>
 	    <extent>8°, 24</extent>
-	    <author>[Jos. Leop. Bynch]</author>
+	    <author>[Josias Bynch]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-11-20">20.11.1771</date>
 	  </bibl>
@@ -2833,7 +2834,7 @@ All rights reserved.</note>
 	    <title>Den paaseende Bias. Iste Stykke.</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 28</extent>
-	    <author>[Jos. Leop. Bynch]</author>
+	    <author>[Josias Bynch]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-01-14">14.01.1772</date>
 	  </bibl>
@@ -2914,9 +2915,9 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="2" xml:id="bibl1_018_002">
 	    <title>Den Franske Reputations merkværdige Sygdom og derpaa fulgte Død og Begravelse. Med en endnu aldrig saa holden Liig-Procession ved hendes Biesettelse i Forglemmelsens-Tempel under en kort men ziirlig Parentation. Tilligemed en curieux Skrivelse fra de Elisæiske Marker af den avanturieuse Ridder Don Quixott til en fornemme Dame Donna Grandezza. Samt en Samtale imellem tvende vandrende Riddere Don Sebastian og Don Pedro, Halvbrødre til Donna Grandezza, og Don Quixotts Blodsforvandte. [oversat fra tysk af M.L. og dedikeret til Conrad Wilhelm von Alefeldt, guvernør i Kbh.]</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 72</extent>
-	    <author>?</author>
+	    <author>[Johann Friedrich Vetter]</author>
 	    <date type="release" when="1770">1770</date>
 	    <date type="announced" when="1770-11-02">02.11.1770</date>
 	  </bibl>
@@ -2924,7 +2925,7 @@ All rights reserved.</note>
 	    <title>En almindelig Recept som af Grunden helbreder Skrueløse-Hierner. Saa at Taaber, Daarer og Narre af alle Sorter, besynderlig de der ere befængte med Franske Moder kan ved samme igien erlange den sunde Fornuft. [Dediceret til St. Germain af S.C.F**; oversat af Fred. Chr. Scheffer]</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 32</extent>
-	    <author>[Jean Soret]</author>
+	    <author>[N.J. Sélis og Jean Soret 1762] HLS</author>
 	    <date type="release" when="1770">1770</date>
 	    <date type="announced" when="1771-01-02">02.01.1771</date>
 	  </bibl>
@@ -2932,7 +2933,7 @@ All rights reserved.</note>
 	    <title>Den almindelige Recept For Daarer og Skrueløse Hierner. Forflyttet fra Paris til Kiøbenhavn,</title>
 	    <publisher>Borups Efterleverske</publisher>
 	    <extent>8°, 32</extent>
-	    <author>[Jean Soret]</author>
+	    <author>S.F.C. [F.C. Scheffer] HLS</author>
 	    <date type="release"/>
 	    <date type="announced"/>
 	  </bibl>
@@ -2940,15 +2941,15 @@ All rights reserved.</note>
 	    <title>Politiske Grundregler eller Konsten at regiere.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 47</extent>
-	    <author>[Frederik 2. af Preussen]</author>
+	    <author>[Frederik den Store: Matinées Royales, ou Entretiens sur l’Art du Regner, 1766] HLS</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-02-15">15.02.1771</date>
 	  </bibl>
 	  <bibl n="6" xml:id="bibl1_018_006">
 	    <title>En Skrivelse fra Diævelen til Hr. Voltaire, [s.1-18] Den lærde Misundelse eller den landflygtige Kierlighed. [s.19-32]</title>
 	    <publisher>A.F. Stein</publisher>
-	    <extent>8°, 32 </extent>
-	    <author>[Cl. Mar. Giraud]</author>
+	    <extent>8°, 32</extent>
+	    <author>[Claude Marie Giraud]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -2964,7 +2965,7 @@ All rights reserved.</note>
 	    <title>En artig Sammenblanding af indeholdende Nyt og Gammelt. 1.) Tungens forskiellige Brug. 2.)Beviis, at de sandselige Redskaber hos Mennesket ikke ere bygte paa een og den samme Maade. 3.) Fruentimmerets Sammenkomst i de nyere Tider.</title>
 	    <publisher>Borups Efterleverske</publisher>
 	    <extent>8°, 32</extent>
-	    <author>[F.C. Scheffer]</author>
+	    <author>Frans Christens Søn [F.C. Scheffer]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-04-15">15.04.1771</date>
 	  </bibl>
@@ -3061,7 +3062,7 @@ All rights reserved.</note>
 	  <head>Række 1 bind 19</head>
 	  <bibl n="1" xml:id="bibl1_019_001">
 	    <title>Den Lære om Helvedes Evighed prøvet, og dens skræksomme Følger viste af en Selvtænkende. Betænkning over den Lære om Arvesynden.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 48</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -3071,7 +3072,7 @@ All rights reserved.</note>
 	    <title>Nødvendige Erindringer til Forfatteren af Skriftet om Helvedes Evighed og Arve-Synden ved en efter Skriften tænkende.</title>
 	    <publisher>P.H. Høecke</publisher>
 	    <extent>8°, 47</extent>
-	    <author>?M.P.O.</author>
+	    <author>M.P.O. [Martin Peter Ohm]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-10-14">14.10.1771</date>
 	  </bibl>
@@ -3087,7 +3088,7 @@ All rights reserved.</note>
 	    <title>Guds Villie efter det Siette Bud i en Prædiken forklaret ved Adam Struense. Af det Tydske sprog oversat. [af Gutz. Mich. Münster]</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 52</extent>
-	    <author>Adam Struense</author>
+	    <author>Adam Struensee</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-09-09">09.09.1771</date>
 	  </bibl>
@@ -3095,7 +3096,7 @@ All rights reserved.</note>
 	    <title>Den nu herskende Religions 1. Beskaffenhed. 2. Liighed med den Sande, 3. Mangler, 4. Farlige Følger,</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 61</extent>
-	    <author>? M.P.O.</author>
+	    <author>M.P.O. [Martin Peter Ohm] HLS</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1772-01-14">14.01.1772</date>
 	  </bibl>
@@ -3111,7 +3112,7 @@ All rights reserved.</note>
 	    <title>DE VITA MENTALI. Eller: Om det overnaturlige Liv. Fremsat udi en Samtale Imellem en Mester og en Discipel […] Skrevet i 1622 af Jacob Böhmen. Oversat […] af Mette Magdalena Kyhneln.</title>
 	    <publisher>S.E. Schwach, Christiania</publisher>
 	    <extent>8°, 68</extent>
-	    <author>Jacob Bøhme</author>
+	    <author>Jacob Böhme</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-11-08">08.11.1771</date>
 	  </bibl>
@@ -3125,17 +3126,17 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="9" xml:id="bibl1_019_009">
 	    <title>Godhed uden Retviished er ingen moralsk Dyd.</title>
-	    <publisher>A.H. Godiches efterleverske</publisher>
+	    <publisher>A.H. Godiches Efterleverske</publisher>
 	    <extent>8°, 14</extent>
-	    <author>J. Gh. Krüger</author>
+	    <author>[J. G. Krüger]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-02-13">13.02.1771</date>
 	  </bibl>
 	  <bibl n="10" xml:id="bibl1_019_010">
 	    <title>Godhed uden Retviished er ingen moralsk Dyd. En Continuation af det forige.</title>
-	    <publisher>A.H. Godiches efterleverske</publisher>
+	    <publisher>A.H. Godiches Efterleverske</publisher>
 	    <extent>8°, 16</extent>
-	    <author>J. Gh. Krüger</author>
+	    <author>[J. G. Krüger]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-03-04">04.03.1771</date>
 	  </bibl>
@@ -3162,7 +3163,7 @@ All rights reserved.</note>
 	    <title>Et Brev til Forfatteren af de Kiøbenhavnske Samlinger, angaaende Skrive-Friheden, Paa nye trykt med Anmærkninger til Forsvar for Skrive-Friheden.</title>
 	    <publisher>Brødrene Berling</publisher>
 	    <extent>8°, 32</extent>
-	    <author>anmærk.: [B.G. Sporon]</author>
+	    <author>[B.G. Sporon]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-05-31">31.05.1771</date>
 	  </bibl>
@@ -3234,7 +3235,7 @@ All rights reserved.</note>
 	    <title>Afhandling om overdrevne Satirer eller indklædte Skandskrifter. Oversat.</title>
 	    <publisher>Brødrene Berling</publisher>
 	    <extent>8°, 22</extent>
-	    <author>[Knud Bredenberg]</author>
+	    <author>[Frederik den Store; ovs. af Knud Bredenberg?] HLS</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1771-09-06">B.T. 06.09.1771</date>
 	  </bibl>
@@ -3256,7 +3257,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="15" xml:id="bibl1_020_015">
 	    <title>De danske Skriveres Skiebne, ved Skrivefrihedens Indskrænkelse, skreven af Philomathes den 10 October 1771.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -3280,7 +3281,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="18" xml:id="bibl1_020_018">
 	    <title>Fortegnelse paa alle de siden den Kongelig allernaadigst forundte Trykkefrihed udkomne Skrifter, i den Orden de ere udkomne, som alle til Kiøbs og til Leie ere at bekomme hos Møller og Junge […]</title>
-	    <publisher>J. R Thiele</publisher>
+	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 14</extent>
 	    <author/>
 	    <date type="release" when="1771">1771</date>
@@ -3350,7 +3351,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="8" xml:id="bibl2_001_008">
 	    <title>Herrens visse Hevn Guds Folk til Advarsel og Trøst. Forestillet i en Prædiken til Aftensang i St. Nicolay Kirke Paa den Fierde Søndag efter Nyt-Aar 1772.</title>
-	    <publisher>H. J Graae</publisher>
+	    <publisher>H.J Graae</publisher>
 	    <extent>8°, 40</extent>
 	    <author>Jørgen Østrup</author>
 	    <date type="release"/>
@@ -3368,7 +3369,7 @@ All rights reserved.</note>
 	    <title>Herrens vor Guds Tale om Fred og Frelse til et Folk, der søger ham, forestillet i en Prædiken, som blev holden udi Christiansborgs Slots-Kirke paa tredje Søndag efter Hellig Tre-Konger 1772 […] Efter Befaling til Trykken leveret af L. Harboe.</title>
 	    <publisher>N. Møller</publisher>
 	    <extent>8°, 40</extent>
-	    <author>L. Harbo</author>
+	    <author>L. Harboe</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -3414,7 +3415,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="16" xml:id="bibl2_001_016">
 	    <title>(Håndskreven prædiken sendt i et brev ti Luxdorph 17. Marts 1772 fra Frid. Herman Schwings) Send-Predigt zur Erinnerung des 17. Januarij 1772 um Sonntagen Sexagesimæ […]</title>
-	    <publisher>manus </publisher>
+	    <publisher>manus</publisher>
 	    <extent>34 s.</extent>
 	    <author>Frederik H. Schwings</author>
 	    <date type="release" when="1772">1772</date>
@@ -3422,7 +3423,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="17" xml:id="bibl2_001_017">
 	    <title>J. Hees Tale ved tvende Orlogs- Skibes, Holstein og Dannebrog, udløb af Stabelen d. 11. April 1772.</title>
-	    <publisher>manus </publisher>
+	    <publisher>manus</publisher>
 	    <extent>30 s.</extent>
 	    <author>J. Hee</author>
 	    <date type="release" when="1772">1772</date>
@@ -3434,8 +3435,8 @@ All rights reserved.</note>
 	  <bibl n="1" xml:id="bibl2_002_001">
 	    <title>Guds besynderlige Forsyn for sine Salvede. I Anledning af den vor allernaadigste Konge nyelig beviiste Naadige Frelse, forestillet paa allerhøistsammes glædelige Fødsels-Dag i en høitidelig Forsamling paa Horsens Latinske Skole</title>
 	    <publisher>Morten Hallager</publisher>
-	    <extent>8°, 39</extent>
-	    <author>Peder Tetens, Skolen Rector</author>
+	    <extent>8°, 40</extent>
+	    <author>Peder Tetens, Skolens Rector</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1771-03-20">20.03.1771</date>
 	  </bibl>
@@ -3499,7 +3500,7 @@ All rights reserved.</note>
 	    <title>Communicanteres nødvendige Selvprøvelse.</title>
 	    <publisher>R. Møller</publisher>
 	    <extent>8°, 18</extent>
-	    <author>[Fr. Lütken]</author>
+	    <author>[Frederik Lütken]</author>
 	    <date type="release" when="1773">1773</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -3507,7 +3508,7 @@ All rights reserved.</note>
 	    <title>Skaberens Viisdom og Godhed ved Synets Indrettelse.</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 8</extent>
-	    <author>[Jac. Hegelahr]</author>
+	    <author>[Jacob Hegelahr]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -3598,7 +3599,7 @@ All rights reserved.</note>
 	    <title>Et kort men fuldstændigt Udtog af de henrettede Grevers sidste Omvendelses-Historie. Forfattet og beskrevet over Johan Friderich Struensee af Hr. Dr. Münther, og over Enewold Brandt af Hr. Provst Hee.</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 128</extent>
-	    <author>Thiele, Münther og Hee</author>
+	    <author>Münter og Hee; Thiele</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-09-15">15.09.1772</date>
 	  </bibl>
@@ -3637,8 +3638,8 @@ All rights reserved.</note>
 	  <bibl n="16" xml:id="bibl2_003_016">
 	    <title>Cento (ex Virgilio) cujus autor est Christ. Frid. Temlerus</title>
 	    <publisher>?</publisher>
-	    <extent>2 blade 8°</extent>
-	    <author>[Chr. Frid. Temler]</author>
+	    <extent>2 blade oktav</extent>
+	    <author>Chr. Frid. Temler</author>
 	    <date type="release"/>
 	    <date type="announced"/>
 	  </bibl>
@@ -3648,8 +3649,8 @@ All rights reserved.</note>
 	  <bibl n="1" xml:id="bibl2_004_001">
 	    <title>I Anledning af Fredagen den 17 Januari 1772, den Freds og Frelsesdag for Tvillingen.</title>
 	    <publisher>?</publisher>
-	    <extent>2 blade 8°</extent>
-	    <author>Ferd. Ulrich Fried. Treu</author>
+	    <extent>2 blade 8</extent>
+	    <author>Ferdinand Ulrich Friedrich Treu</author>
 	    <date type="release"/>
 	    <date type="announced" when="1772-01-20">20.01.1772</date>
 	  </bibl>
@@ -3657,7 +3658,7 @@ All rights reserved.</note>
 	    <title>Tanker i Anledning af Natten imellem den 16de og 17de Januarii 1772, da Grev Struensee og hans Complot bleve fængslede.</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 8</extent>
-	    <author>? </author>
+	    <author>?</author>
 	    <date type="release"/>
 	    <date type="announced" when="1772-01-24">24.01.1772</date>
 	  </bibl>
@@ -3671,7 +3672,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="4" xml:id="bibl2_004_004">
 	    <title>De betydelige Forandringer ved det Kongelige Hof, som af Kiøbenhavns Indvaanere med Glæde hørtes og saaes, Fredagen den 17 Januarii 1772. Tilligemed en kort Beskrivelse om Pøbelens Opførsel samme Nat. Kan og synges som: Sørge-Takter, sorte Noder etc.</title>
-	    <publisher>L. N Svare</publisher>
+	    <publisher>L.N. Svare</publisher>
 	    <extent>8°, 8</extent>
 	    <author>[Martin Brun]</author>
 	    <date type="release" when="1772">1772</date>
@@ -3719,7 +3720,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="10" xml:id="bibl2_004_010">
 	    <title>Om Dagen den syttende Januarii 1772. Ved T.R**. Efter Befalning trykt.</title>
-	    <publisher>? Efter Befalning trykt</publisher>
+	    <publisher>?</publisher>
 	    <extent>8°, 16</extent>
 	    <author>[Tyge Rothe]</author>
 	    <date type="release"/>
@@ -3783,7 +3784,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="18" xml:id="bibl2_004_018">
 	    <title>Velmeente Glædskabs-Tanker til vores dyrebare Monark Kong Christian den Syvende, Arve-Prints Friderich og Dronning Juliane Marie, i Anledning af den 17 Januarii.</title>
-	    <publisher>L. N Svare</publisher>
+	    <publisher>L.N. Svare</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -3871,7 +3872,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="29" xml:id="bibl2_004_029">
 	    <title>Den lille C***s Glæde over at hun slap frie fra at blive forført fra *B*s Voldsomheder samt hendes Taksigelse til Forsynet, som ved en ny Tildragelse den 17 Januarii hialp hende til at bevare sin Kyskhed og Ære.</title>
-	    <publisher>L. N Svare</publisher>
+	    <publisher>L.N. Svare</publisher>
 	    <extent>8°, 8</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -3932,7 +3933,7 @@ All rights reserved.</note>
 	    <title>Følelser paa Kong Christian den Syvendes Fødselsfest den 29de Januarii 1772.</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 16</extent>
-	    <author>Josias Leopold Bynch</author>
+	    <author>Josias Bynch</author>
 	    <date type="release"/>
 	    <date type="announced" when="1772-02-11">11.02.1772</date>
 	  </bibl>
@@ -4213,7 +4214,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="12" xml:id="bibl2_006_012">
 	    <title>Fastelavnsløberne, eller de gale Mennesker, som et Portrait af de den 17.de Januarii 1772 i Citadellet arresterede Personer.</title>
-	    <publisher>J. R Thiele</publisher>
+	    <publisher>J . R Thiele</publisher>
 	    <extent>8°, 8</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -4368,7 +4369,7 @@ All rights reserved.</note>
 	    <title>Den henrettede Johan Friderik Struensees allersidste Sørge-Suk til et fortørnet Rige. Skreven af ham selv Dagen førend hans Henrettelse den 27 April Aar 1772. og efter nogle Venners Begiering med Tilladelse overleveret til Trykken.</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 8</extent>
-	    <author>?</author>
+	    <author>[Bynch ?] HLS</author>
 	    <date type="release"/>
 	    <date type="announced" when="1772-05-05">05.05.1772</date>
 	  </bibl>
@@ -4489,7 +4490,7 @@ All rights reserved.</note>
 	  <head>Række 2 bind 7</head>
 	  <bibl n="1" xml:id="bibl2_007_001">
 	    <title>Grev Struenses mærkværdige Testamente, opsat af ham selv og confirmeeret af Lucifer.</title>
-	    <publisher>P.H. Höecke</publisher>
+	    <publisher>P. H. Höecke</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -4497,17 +4498,17 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="2" xml:id="bibl2_007_002">
 	    <title>Frøken-Contorernes udødelige Navnes ynkelige Ruin, Forfatted i Riim under den Melodie: De Røvere skulle at stiele gaae, saa langt i fremmed Lande. See Peer 7. Kiempe Vise.</title>
-	    <publisher>?[A.F. Stein]</publisher>
+	    <publisher>? [A.F. Stein]</publisher>
 	    <extent>8°, 8</extent>
-	    <author>[Imm. Chr. Grave]</author>
+	    <author>[Immanuel Chr. Grave]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced"/>
 	  </bibl>
 	  <bibl n="3" xml:id="bibl2_007_003">
 	    <title>No. 2. Fortsættelse af Frøken-Contorernes Ruin. Under samme Melodie som Det forrige.</title>
-	    <publisher>?[A.F. Stein]</publisher>
+	    <publisher>? [A.F. Stein]</publisher>
 	    <extent>8°, 8</extent>
-	    <author>[Imm. Chr. Grave]</author>
+	    <author>[Immanuel Chr. Grave]</author>
 	    <date type="release"/>
 	    <date type="announced"/>
 	  </bibl>
@@ -4531,7 +4532,7 @@ All rights reserved.</note>
 	    <title>Det ulykkelige Udlæg, som skeete uden Dom og Execution Natten imellem den 17 og 18 Januarii paa de 56 Ponse-Contoirer og Ølkippere, samt Betienternes Ubarmhiertighed imod det smukke Kiøn, som giorde Forretningen.</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 20</extent>
-	    <author>?</author>
+	    <author>[? Bynch] HLS</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-02-07">07.02.1772</date>
 	  </bibl>
@@ -4657,7 +4658,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="22" xml:id="bibl2_007_022">
 	    <title>En Vise af en af Stadens Nymfer, som beklager sin og hendes Søstres Nød over Greve Johan Friderich Struenses hastige og nedrige Fald […] Tilligemed hendes Levnets-Beskrivelse til Dato.</title>
-	    <publisher>L.N. Svare</publisher>
+	    <publisher>L. N. Svare</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -4665,7 +4666,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="23" xml:id="bibl2_007_023">
 	    <title>En tilforladelig Efterretning over de største og fornemste Ponche-Mænds Eftermæle, samt deres Fortrydelse over det Antal af de endnu tilbageblevne og paa Sahlene siddende Nympher.</title>
-	    <publisher>L.N. Svare</publisher>
+	    <publisher>L. N. Svare</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -4673,7 +4674,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="24" xml:id="bibl2_007_024">
 	    <title>De Kiøbenhavnske Rufferskers og Pioskernes Tab og velfortiente Skiebne formedelst uforsagte og nidkiere Undersaatter Forlystelser til Glædes-Tegn den 17. Januarii 1772.</title>
-	    <publisher>P.H. Höecke</publisher>
+	    <publisher>P. H. Höecke</publisher>
 	    <extent>8°, 8</extent>
 	    <author>[Martin Brun]</author>
 	    <date type="release" when="1772">1772</date>
@@ -4681,7 +4682,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="25" xml:id="bibl2_007_025">
 	    <title>En artig Samtale imellem en gammel Jydsk Rofferske og en gammel Siællandsk Bondemand, som havde en Kurv paa Nakken og raabte med Æg.</title>
-	    <publisher>L.N. Svare</publisher>
+	    <publisher>L. N. Svare</publisher>
 	    <extent>8°, 16</extent>
 	    <author>[Martin Brun]</author>
 	    <date type="release"/>
@@ -4734,7 +4735,7 @@ All rights reserved.</note>
 	    <title>En fornemme dames Bebreidelsesbrev og Torden-Vers til Grev Struensee i sit Fængsel.</title>
 	    <publisher>P.H. Höecke</publisher>
 	    <extent>8°, 16</extent>
-	    <author>? Forord underskrev F</author>
+	    <author>? Forord undeskrev F</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-03-20">20.03.1772</date>
 	  </bibl>
@@ -4790,7 +4791,7 @@ All rights reserved.</note>
 	    <title>Ein original Brief an den Grafen J.F. Struensee von seinem Vater.</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 8</extent>
-	    <author>A. Struensee</author>
+	    <author>Adam Struensee [iflg. 5.6.10]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-05-27">27.05.1772</date>
 	  </bibl>
@@ -4798,29 +4799,29 @@ All rights reserved.</note>
 	    <title>Et originalt Brev til Grev J.F. Struensee fra hans Fader. Af det tydske Sprog oversat.</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 8</extent>
-	    <author>A. Struensee</author>
+	    <author>Adam Struensee [iflg. 5.6.10]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-05-27">27.05.1772</date>
 	  </bibl>
 	  <bibl n="12" xml:id="bibl2_008_012">
 	    <title>Et mærkværdigt Brev til Grev J.F. Struensee fra hans fader. En Oversættelse.</title>
-	    <publisher>J. R Thiele</publisher>
+	    <publisher>J R. Thiele</publisher>
 	    <extent>8°, 24</extent>
-	    <author>?</author>
+	    <author>[Bynch?] HLS</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-02-03">03.02.1772</date>
 	  </bibl>
 	  <bibl n="13" xml:id="bibl2_008_013">
 	    <title>Et mærkværdigt Brev til Græv J.F. Struensee fra hans Moder. Fordansket ved Oversætteren af hans Faders Brev.</title>
-	    <publisher>J. R Thiele</publisher>
+	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 16</extent>
-	    <author>?</author>
+	    <author>[Bynch?] HLS - er forsk. fra brevet fra moderen i 5.6.10</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-02-14">14.02.1772</date>
 	  </bibl>
 	  <bibl n="14" xml:id="bibl2_008_014">
 	    <title>Grev Struenses mærkværdig Svar paa hans Faders Brev. Efter hans Begiering besvaret.</title>
-	    <publisher>J. R Thiele</publisher>
+	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 14</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -4946,7 +4947,7 @@ All rights reserved.</note>
 	    <title>Die Bücher der Chronica des Grafen Struensee, […] aufgezeichnet von Ismael Nerias. Vorsänger in der Synagoge.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 48</extent>
-	    <author>?</author>
+	    <author>Ismael Nerias ?</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -4960,7 +4961,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="5" xml:id="bibl2_009_005">
 	    <title>Merkwürdigkeiten von der den 17ten Januar 1772 in Copenhagen vorgefallenen Staatsveränderung. I. A. C. Ode über Dännemarks Errettung. Herrn Dr. Münters erste geistliche Unterredung mit dem inhaftirten Staatsverbrecher, dem unglücklichen Grafen Struensee. Verschiedene Briefe und Ermahnungen von Dr. Adam Struensee an seinen Sohn, nebst Dessen Antwort darauf. Thränen der Wehmuth der bekümmerten Mutter [...]</title>
-	    <publisher>J.C. Brüning, Itzehoe</publisher>
+	    <publisher>J. C. Brüning, Itzehoe</publisher>
 	    <extent>8°, 56</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -4984,7 +4985,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="8" xml:id="bibl2_009_008">
 	    <title>Des unglüchlichen und gewesenen Grafen Struensee Erstes Verhör. Aus dem Dänischen des zu Copenhagen 1772 bey August Friderich Stein gedrucktes Exenplar übersetzt, und darauf erfolgte Gespräch mit sich selbst und den Kerkermeister, [...] Den 22sten Februar 1772.</title>
-	    <publisher>Kopenhagen?</publisher>
+	    <publisher>Kopenhagen ?</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -4992,7 +4993,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="9" xml:id="bibl2_009_009">
 	    <title>Gespräch zwischen Struensee, Brand, Philantrope und dem Schliesser. Aus dem Dänischen ins Hochdeutsche übersetzt.</title>
-	    <publisher>Humelhof?</publisher>
+	    <publisher>Humelhof ?</publisher>
 	    <extent>8°, 20</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -5009,7 +5010,7 @@ All rights reserved.</note>
 	  <bibl n="11" xml:id="bibl2_009_011">
 	    <title>Gespräch im Gefängnis zwischen Brand und Struensee, worin letzterer einen merkwürdigen Traum erzählt. [Samme som2.9.10, men anden udgave]</title>
 	    <publisher/>
-	    <extent/>
+	    <extent>8°, 8</extent>
 	    <author/>
 	    <date type="release"/>
 	    <date type="announced"/>
@@ -5213,7 +5214,7 @@ All rights reserved.</note>
 	    <title>COPIE af et retskaffen patriotisk Brev, indsendt til Kongen af Hr. Conferents-Raad SUHM, i Anledning af de overhængende Farer og Ulykker for Kongen, det kongelige Huus, samt disse Lande og Riger; saa og Norske Bierges ECHO tilligemed en SONNET eller Synge-Digt til Talsmandens Ære. [af M.]</title>
 	    <publisher>Dedechen, Bergen</publisher>
 	    <extent>8°, 8</extent>
-	    <author>P.F. Suhm</author>
+	    <author>P.F. Suhm &amp; M.</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -5245,7 +5246,7 @@ All rights reserved.</note>
 	    <title>De Retsindiges Kritik over Hr. Conferentsraad Peter Friderich Suhms Moraler til Kongen. Opsat, efter manges Begiering af en Veldømmende. [med Suhms brev genoptrykt som appendix]</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 64</extent>
-	    <author>J.L. Bynch</author>
+	    <author>[Josias Bynch]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-02-21">21.02.1772</date>
 	  </bibl>
@@ -5253,7 +5254,7 @@ All rights reserved.</note>
 	    <title>Brev til Kongen paa alle Underdanernes vegne. Af B.</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 16</extent>
-	    <author>J.L. Bynch</author>
+	    <author>[Josias Bynch]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-04-01">01.04.1772</date>
 	  </bibl>
@@ -5275,7 +5276,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="15" xml:id="bibl2_010_015">
 	    <title>Daglig Bøn af Alle Danske og Norske for Kongen, Fædrenelandet og hver Mand.</title>
-	    <publisher>A.F. Stein</publisher>
+	    <publisher>A. F. Stein</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -5283,7 +5284,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="16" xml:id="bibl2_010_016">
 	    <title>Til mine Landsmænd og Medborgere De Danske, Norske og Holstenere.</title>
-	    <publisher>A.F. Stein</publisher>
+	    <publisher>A. F. Stein</publisher>
 	    <extent>8°, 32</extent>
 	    <author>[P.F. Suhm]</author>
 	    <date type="release" when="1772">1772</date>
@@ -5291,7 +5292,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="17" xml:id="bibl2_010_017">
 	    <title>Beelzebuls Breve til Nogle sine Venner i Kiøbenhavn.</title>
-	    <publisher>A.F. Stein</publisher>
+	    <publisher>A. F. Stein</publisher>
 	    <extent>8°, 32</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -5299,9 +5300,9 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="18" xml:id="bibl2_010_018">
 	    <title>Gabriels Giensvar, til Helvedes Fyrste, om hans Beskyldning imod Nordfolket. Et Manuskript af Sal. Geheimeraad ***.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 48</extent>
-	    <author>?</author>
+	    <author>[Bynch] HLS</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1773-01-18">18.01.1773</date>
 	  </bibl>
@@ -5359,7 +5360,7 @@ All rights reserved.</note>
 	  <bibl n="5" xml:id="bibl2_011_005">
 	    <title>Samtaler i de Dødes Rige.</title>
 	    <publisher>A.F. Stein</publisher>
-	    <extent/>
+	    <extent>8°, 56</extent>
 	    <author>[P.F. Suhm]</author>
 	    <date type="release" when="1773">1773</date>
 	    <date type="announced" when="1773-01-22">22.01.1773</date>
@@ -5379,7 +5380,7 @@ All rights reserved.</note>
 	    <title>Den 124 Aar gamle norske Bondes Børge Olsens Syner, som han har havt i Aaret 1672, 14 eller 15 Dage for Kyndelsmisse, om utroelige Ting, og Tanker om høie Hemmeligheder. Til Trykken befordret ved hans Sønne Søn Ole Børgesen.</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 32</extent>
-	    <author>[J.C. Bie]</author>
+	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -5473,7 +5474,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="14" xml:id="bibl2_012_014">
 	    <title>Adolphi Drøm.</title>
-	    <publisher>A. F Stein</publisher>
+	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 16</extent>
 	    <author>[P.F. Suhm]</author>
 	    <date type="release" when="1773">1773</date>
@@ -5481,7 +5482,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="15" xml:id="bibl2_012_015">
 	    <title>Damint eller den uheldige Forfatter, forvandlet til Journalist</title>
-	    <publisher>A. F Stein</publisher>
+	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 14</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -5497,7 +5498,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="17" xml:id="bibl2_012_017">
 	    <title>En nye Viise om De forundrings-værdige Himmel-Tegn, som har ladet sig see paa Himmelen i Tyrkiet i Sarda og er bleven anseet, som et Forvarsels-Tegn for den imellem Tyrken og Russen i Aaret 1768. udbrudte store Kriig […].</title>
-	    <publisher>Tronhiem 1771?</publisher>
+	    <publisher>Tronhiem 1771 ?</publisher>
 	    <extent>8°, 8</extent>
 	    <author>?</author>
 	    <date type="release" when="1771">1771</date>
@@ -5518,7 +5519,7 @@ All rights reserved.</note>
 	    <title>En upartisk Undersøgning om det almindeliges Tilstand, Mangel og Fattigdom i alle Stænder, fra Ministeren af indtil Straaehytten; med hosføyede oeconomiske Tanker.</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 64</extent>
-	    <author>B**?</author>
+	    <author>B** ?</author>
 	    <date type="release"/>
 	    <date type="announced" when="1772-05-05">05.05.1772</date>
 	  </bibl>
@@ -5597,7 +5598,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="10" xml:id="bibl2_013_010">
 	    <title>Om Overdaadighed, samt om Klædedragts Orden og Skikkelse, saa og om anden Eqvipage, Prydelser og Udstafferinger, som bruges til Overfloed, baade i og uden for Huusene, dog alene meent det, som tiener ikkun til ufornøden Pragt og Stads.</title>
-	    <publisher>A.F. Stein</publisher>
+	    <publisher>A. F. Stein</publisher>
 	    <extent>8°, 48</extent>
 	    <author>[Olav Neve]</author>
 	    <date type="release" when="1773">1773</date>
@@ -5615,7 +5616,7 @@ All rights reserved.</note>
 	    <title>Om Danmarks og Norges Tilstand i Henseende til Handelen.</title>
 	    <publisher>Jonas Lindgrens Enke, Sorø</publisher>
 	    <extent>8°, 48</extent>
-	    <author>[Pet. Friedrich Suhm]</author>
+	    <author>[P.F. Suhm]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-05-04">04.05.1772</date>
 	  </bibl>
@@ -5648,15 +5649,15 @@ All rights reserved.</note>
 	  <head>Række 2 bind 14</head>
 	  <bibl n="1" xml:id="bibl2_014_001">
 	    <title>Agerdyrkningen efter de nyeste Erfaringer, til Brug for Elskere af Landvæsenet, Forpagtere og Bønder. Til Fædernelandets formodentlige Nytte af Tydsk i Dansk oversat. [af Wilh. Æmilius Hardtwig]</title>
-	    <publisher>A. F Stein</publisher>
+	    <publisher>A.F Stein</publisher>
 	    <extent>8°, 102</extent>
-	    <author>Sarcey De Sutières, </author>
+	    <author>Sarcey De Sutières,</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" notBefore="1771-04-29" notAfter="1772">29.04.1771, men udkom vist først 1772</date>
 	  </bibl>
 	  <bibl n="2" xml:id="bibl2_014_002">
 	    <title>Anviisning til den Practiske Agerdyrkning, grundet paa egen Erfaring af O. Andresen Borreby, Philos. Doctor, Sogne Præst […]</title>
-	    <publisher>A. F Stein</publisher>
+	    <publisher>A.F Stein</publisher>
 	    <extent>8°, 72</extent>
 	    <author>O.A. Borreby</author>
 	    <date type="release" when="1772">1772</date>
@@ -5728,7 +5729,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="11" xml:id="bibl2_014_011">
 	    <title>Svar til Forfatteren af Brevet om de Kongelige Domainers forrige og nu værende Ekonomiske Forfatning paa Wordingborg Amt.</title>
-	    <publisher>A. F Stein</publisher>
+	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 46</extent>
 	    <author>[Esaias Fleischer]</author>
 	    <date type="release" when="1773">1773</date>
@@ -5741,7 +5742,7 @@ All rights reserved.</note>
 	    <title>Det forvandlede Danmark, eller U-partiske Tanker over de nyere Forandringer.</title>
 	    <publisher>Godiche, tilkiøbs hos Thehandler Hans Møller</publisher>
 	    <extent>8°, 48</extent>
-	    <author>[Heldvad]</author>
+	    <author>[Heldvad; E. Holm: Holstein]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-05-18">18.05.1772</date>
 	  </bibl>
@@ -5787,7 +5788,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="7" xml:id="bibl2_015_007">
 	    <title>Von den neulich vorgefallenen Veränderungen beym Lotto.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1773">1773</date>
@@ -5795,7 +5796,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="8" xml:id="bibl2_015_008">
 	    <title>Tanker om den nylig forefaldne Forandring ved Tallotteriet. Oversadt af det Tyske.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1773">1773</date>
@@ -5811,7 +5812,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="10" xml:id="bibl2_015_010">
 	    <title>Sendschreiben eines deutschen Schulmeisters zu Kopenhagen, an die General-Administration der zu Kopenhagen und Altona errichteten Zahlenlotterie. Wegen eines einseitig und eigenmächtig falsch erklärten Original-Lottozettels, und wegen ihres veränderten Plans und Original-Billete, Von VirtVs Grata Fidesque VincVnt. Im Jahr 1773 den 1ten März.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 46</extent>
 	    <author>?</author>
 	    <date type="release" when="1773">1773</date>
@@ -5819,7 +5820,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="11" xml:id="bibl2_015_011">
 	    <title>Sende-Brev fra en Tydsk Skolemester i Kiøbenhavn, til General-Administrationen for det i Kiøbenhavn og Altona oprettede Tal-Lotterie. I Anledning af en paa een Side og egenmægtig for falsk erklæret Original-Lotterieseddel og i Henseende til deres forandrede Planer og Original-Billetter. Af VirtVs Grata Fidesque VincVnt. Oversat af det Tydske, I Aaret 1773 den 1ste Martii.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 48</extent>
 	    <author>?</author>
 	    <date type="release" when="1773">1773</date>
@@ -5829,7 +5830,7 @@ All rights reserved.</note>
 	    <title>Geschichte vom Taschenbuche. [I Anl. af en mellem Henning Fr. Bargum og W. von Maurer oprettet kontrakt.]</title>
 	    <publisher>? Altona</publisher>
 	    <extent>8°, 24</extent>
-	    <author>?</author>
+	    <author>[H.F. Bargum og W. Von Maurer ?]</author>
 	    <date type="release" when="1773">1773</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -5851,7 +5852,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="15" xml:id="bibl2_015_015">
 	    <title>En gammel erfaren Statsmands politiske [Briller afbildet] tienlige til den grandseende Publici [Næse afbildet]</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -5864,7 +5865,7 @@ All rights reserved.</note>
 	    <title>Den Patriotiske Sandsigers Første Deel. Indeholdende: Religionen, dens Sammenhæng med Regieringen, de geistlige Personer og Embeder, og de Anstalter, som sigter til at vedligeholde Religionen og at danne Geistlige.</title>
 	    <publisher>P.H. Høecke</publisher>
 	    <extent>8°, 294</extent>
-	    <author> [C. Thura]</author>
+	    <author>[C. Thura]</author>
 	    <date type="release" when="1771">1771</date>
 	    <date type="announced" when="1772-09-09">09.09.1772</date>
 	  </bibl>
@@ -5878,7 +5879,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="3" xml:id="bibl2_016_003">
 	    <title>Den Patriotiske Sandsigers Bedrifter, Bedømmelse og Dom.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 16</extent>
 	    <author>[Niels Prahl]</author>
 	    <date type="release" when="1773">1773</date>
@@ -5899,7 +5900,7 @@ All rights reserved.</note>
 	    <title>Den paaseende Bias. [1ste til Syvende stykke]</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 128</extent>
-	    <author>[J.L. Bynch]</author>
+	    <author>[J. L. Bynch]</author>
 	    <date type="release" when="1772">? [1772]</date>
 	    <date type="announced" notBefore="1772-01-14" notAfter="1772-06-05">14.01.1772 (1), 24.01.1772 (2), 05.06.1772 (3-4)</date>
 	  </bibl>
@@ -5907,7 +5908,7 @@ All rights reserved.</note>
 	    <title>Statsmanden et Ugeblad. No. 1-2</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 16</extent>
-	    <author>[J.L. Bynch]</author>
+	    <author>[J. L. Bynch]</author>
 	    <date type="release" when="1772">? [1772]</date>
 	    <date type="announced" notBefore="1772-06-17" notAfter="1772-06-24">17.06.1772, 24.06.1772</date>
 	  </bibl>
@@ -5915,13 +5916,13 @@ All rights reserved.</note>
 	    <title>Anti-Statsmanden. No. 1-3</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 32</extent>
-	    <author>[J.L. Bynch]</author>
+	    <author>[J. L. Bynch]</author>
 	    <date type="release" when="1772">? [1772]</date>
 	    <date type="announced" when="1772-07-01">01.07.1772 (1-2)</date>
 	  </bibl>
 	  <bibl n="4" xml:id="bibl2_017_004">
 	    <title>En virkelig Adelsmands Betænkninger over den indbildte Statsmand og Anti-Statsmand.</title>
-	    <publisher>P.H. Høecke</publisher>
+	    <publisher>P. H. Høecke</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -5929,15 +5930,15 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="5" xml:id="bibl2_017_005">
 	    <title>Brev til Statsmanden Hr. Josias Leopold Bynch fra Rosentorne.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 16</extent>
-	    <author>[ P.C. Abildgaard]</author>
+	    <author>[ P. C. Abildgaard]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-08-19">19.08.1772</date>
 	  </bibl>
 	  <bibl n="6" xml:id="bibl2_017_006">
 	    <title>Et Moralsk Perse-Jern til at udperse de politiske Kryller og Statsmands Rynker som findes i somme Skribenteres Hierner. Skrevet til en Skræder-Dreng af en Skræder-DrenG.</title>
-	    <publisher>P.H. Høecke</publisher>
+	    <publisher>P. H. Høecke</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -5951,9 +5952,9 @@ All rights reserved.</note>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-08-24">24.08.1772</date>
 	  </bibl>
-	  <bibl n="8">
+	  <bibl n="8" xml:id="bibl2_017_008">
 	    <title>JUSTI Betænkninger over Paul Vendekaabes eller JOSIAS LEOPOLD BYNCHS Poenitentseprædiken og Afbigts-Brev.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -5969,7 +5970,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="10" xml:id="bibl2_017_010">
 	    <title>Poenitentse Taarer til at slukke det svagt luende Offer, eller Apologie for Oden til Paul Vendekaabe.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 8</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -5979,7 +5980,7 @@ All rights reserved.</note>
 	    <title>Den Homiletiske Journal. Eller Kritik over Præsternes Prædikener udi Kiøbenhavns Kirker. [Nr. 1-5].</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 104</extent>
-	    <author>[J.L. Bynch]</author>
+	    <author>[Josias Bynch]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" notBefore="1772-10-30" notAfter="1772-11-20">30.10.1772 (1), 04.11.1772 (2), 06.011 (3), 20.11.1772 (5)</date>
 	  </bibl>
@@ -5987,7 +5988,7 @@ All rights reserved.</note>
 	    <title>Anti-Journalen, eller Betænkninger over den Homiletiske Journal. Nr. 1-3.</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 63</extent>
-	    <author>[Mart. Brun]</author>
+	    <author>[Martin Brun]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" notBefore="1772-11-27" notAfter="1773-01-05">27.11.1772 (1.0), 04.12.1772 (1.1), 11.12.1772 (2), 05.01.1773 (3)</date>
 	  </bibl>
@@ -5995,7 +5996,7 @@ All rights reserved.</note>
 	    <title>De Retsindiges Critiqve over den Homiletiske Journal. Skrevet af en Weldømmende.</title>
 	    <publisher>P.H. Høecke</publisher>
 	    <extent>8°, 16</extent>
-	    <author>[Mart. Brun]</author>
+	    <author>[Martin Brun]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-12-01">01.12.1772</date>
 	  </bibl>
@@ -6003,7 +6004,7 @@ All rights reserved.</note>
 	    <title>Den politiske Kandestøber. Et Ugeskrift copieret af Josias Leopold Bynch. [No. 1.]</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 32</extent>
-	    <author>J.L. Bynch</author>
+	    <author>Josias Leop. Bynch</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-12-01">01.12.1772</date>
 	  </bibl>
@@ -6014,7 +6015,7 @@ All rights reserved.</note>
 	    <title>Blandinger. [No. 1-7 Lørdag 10. Oktober - 21. November 1772]</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 112</extent>
-	    <author>[J.C. Tode]</author>
+	    <author>[red. J.C. Tode]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" notBefore="1772-11-09" notAfter="1772-11-25">09.11.1772 (3), 18.11.1772 (4), 25.11.1772 (5)</date>
 	  </bibl>
@@ -6030,7 +6031,7 @@ All rights reserved.</note>
 	    <title>Andres Tanker. [No. 1-7. Den 23. Oct. 1772-. Dec. 1772.z9</title>
 	    <publisher>Morten Hallager</publisher>
 	    <extent>8°, 112</extent>
-	    <author>?</author>
+	    <author>Oversatte stykker, bl.a. af Swift og Lessing.</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" notBefore="1772-10-21" notAfter="1772-11-04">21.10.1772 (1), 04.11.1772 (3)</date>
 	  </bibl>
@@ -6102,7 +6103,7 @@ All rights reserved.</note>
 	    <title>Critisk Journal over alt hvad der er skrevet i Anledning af den 17de Januarii. [1-2. Hefte]</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>8°, 24 +32</extent>
-	    <author>?</author>
+	    <author>[I.C. Grave ?] HLS</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" notBefore="1772-02-26" notAfter="1772-06-05">26.02.1772 (1), 05.06.1772 (2)</date>
 	  </bibl>
@@ -6119,9 +6120,9 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="2" xml:id="bibl2_019_002">
 	    <title>Besondere Nachrichten von den Opfern der Staaten sowohl als auch von den Opfern der Gerechtigkeit dieses Achtzehnten Jahrhunderts; besonders aber von denen in Dännemark in diesem Jahre hingerichteten gewesenen Grafen Struensee und von Brandt.</title>
-	    <publisher>Pelim </publisher>
+	    <publisher>Pelim [Flensborg]</publisher>
 	    <extent>8°, 264</extent>
-	    <author> [Joh. Friedr. Camerer]</author>
+	    <author>[Johann Friedrich Camerer]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1773-02-02">02.02.1773</date>
 	  </bibl>
@@ -6140,7 +6141,7 @@ All rights reserved.</note>
 	    <title>Entdeckung der wahren Absichten des Staatssystems der Dänischen Regierung enthaltend die wahren Ursachen der letztern Revolution zu Copenhagen. Auf glaubwürdige Schriften gegründet von Christian Adolph Rothes [...] ursprünglich französisch zu Hamburg herausgegeben.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 56</extent>
-	    <author>? Christian Adolph Rothe</author>
+	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -6154,7 +6155,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="4" xml:id="bibl2_020_004">
 	    <title>Nachricht von der letzten Staatsveränderung in Dänemark von Ihro Majestät der Königin Caroline Mathilde eigenhändig entworfen in Ihrer Gefangenschaft auf dem Schlosse Kroonenburg und den Grafen von *** zugeeignet. Aus dem Englischen.</title>
-	    <publisher>London?</publisher>
+	    <publisher>London ?</publisher>
 	    <extent>8°, 52</extent>
 	    <author>?</author>
 	    <date type="release" when="1773">1773</date>
@@ -6188,7 +6189,7 @@ All rights reserved.</note>
 	    <title>Entwurf zu einer Vertheidigung für die regierende Königinn von Dänemark Carolina Mathilda.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 28</extent>
-	    <author>[Martfeldt?]</author>
+	    <author>[Martfelt ?]</author>
 	    <date type="release" when="1773">1773</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -6212,7 +6213,7 @@ All rights reserved.</note>
 	    <title>Graf Struensee am Rande seiner irdischen Zernichtung; von J.C.v.G.</title>
 	    <publisher>? [Mannheim]</publisher>
 	    <extent>8°, 16</extent>
-	    <author>[Joh. Cph. v. Gritsch]</author>
+	    <author>[J.C. von Gritsch]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -6246,7 +6247,7 @@ All rights reserved.</note>
 	    <title>Weissagung von der gewiß zu erwartenden Erfüllung des alten Sprichworts: Tandem bona caussa triumphat.</title>
 	    <publisher>?</publisher>
 	    <extent>8°, 60</extent>
-	    <author> [J.W. F. v. Krohne]</author>
+	    <author>[J. W. F. Von Krohne]</author>
 	    <date type="release" when="1773">1773</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -6254,7 +6255,7 @@ All rights reserved.</note>
 	    <title>Martin Velten eine Komische Oper in 3 Aufzügen. [titelbladet skrevet på et tæppe på et stik]</title>
 	    <publisher>Leipzig, J.H. Heinsius</publisher>
 	    <extent>8°, 120</extent>
-	    <author/>
+	    <author>[Komp.: Carl Christian Agthe (1778) Textverf.: Christian Felix Weiße] HLS</author>
 	    <date type="release" when="1773">1773</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -6273,7 +6274,7 @@ All rights reserved.</note>
 	    <title>Eine wahre und ungeheuchelte Gottesfurcht als das sicherste Mittel ein Reich aufrecht zu halten, Vorgestellet in einer Rede am verordneten allgemeinen Danksagungs- und Gebetsfeste auf den 1. December 1773.</title>
 	    <publisher>F.C. Godiche</publisher>
 	    <extent>8°, 38</extent>
-	    <author>J.C. Bastholm</author>
+	    <author>M. Christian Bastholm</author>
 	    <date type="release"/>
 	    <date type="announced" when="1773-12-24">24.12.1773</date>
 	  </bibl>
@@ -6289,7 +6290,7 @@ All rights reserved.</note>
 	    <title>Hvad et Folk skylder Gud, til hvis Velstand han har viist en besynderlig Løst, forestilled i En Froe-Prædiken for Holmens Meenighed i Kiøbenhavn Paa dcn anordnede Almindelige Takke- og Bede-Fæst den 1. December 1773. […]</title>
 	    <publisher>H.J. Graae</publisher>
 	    <extent>8°, 46</extent>
-	    <author>H.H. Tybring</author>
+	    <author>Hans Henrik Tybring</author>
 	    <date type="release" when="1774">1774</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -6297,7 +6298,7 @@ All rights reserved.</note>
 	    <title>Guds mægtige Forsorg for de Gode, og de Grændser, han setter for de Onde. Forestillet i en Prædiken, som paa den allernaadigst anordnede Bede- og Taksigelses-Dag den 1. December 1773. over Texten den 125de Davids Psalme er holden til Aftensang i Roeskilde Dom-Kirke, [...]</title>
 	    <publisher>F.C. Godiche</publisher>
 	    <extent>8°, 70</extent>
-	    <author>C. Holst</author>
+	    <author>Christian Holst</author>
 	    <date type="release"/>
 	    <date type="announced" when="1774-01-07">07.01.1774</date>
 	  </bibl>
@@ -6321,7 +6322,7 @@ All rights reserved.</note>
 	    <title>Davids Bøn og Tanker om et Lands Lyksalighed, betragtet paa de Danskes Bede- og Takkefest den 1 December 1773.</title>
 	    <publisher>F.C. Godiche</publisher>
 	    <extent>8°, 40</extent>
-	    <author>J.A. Dyssel</author>
+	    <author>M. Johan Arnd Dyssel</author>
 	    <date type="release" when="1774">1774</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -6335,9 +6336,9 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="10" xml:id="bibl2_021_010">
 	    <title>Syv Saligheder under Syvende CHRISTIANS Regiering […] udledede af den anordnede Høymesse-Text paa den Allernaadigst anbefalede Takke- og Bede-fest den 1. December 1773. […] holden for Hiardemaal-Meenighed i Thye under Aalborg Stift […].</title>
-	    <publisher>J.P. Holtsberg, Aalborg</publisher>
+	    <publisher>J. P. Holtsberg, Aalborg</publisher>
 	    <extent>8°, 10</extent>
-	    <author>F.U.F. Treu</author>
+	    <author>Ferdinand Ulrich Friderich Treu</author>
 	    <date type="release" when="1774">1774</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -6345,7 +6346,7 @@ All rights reserved.</note>
 	    <title>En Prædiken over den Anordnede Text til Høimesse paa den Allernaadigst anbefalede Takke og Bede-Fest den 1 December 1773. Holden for Herringe Meenighed</title>
 	    <publisher>Adresse Contoirs, Odense</publisher>
 	    <extent>8°, 40</extent>
-	    <author>P.C. Steenvinkel</author>
+	    <author>Peter Christian Steenvinkel</author>
 	    <date type="release" when="1774">1774</date>
 	    <date type="announced" when="1774-02-04">B.T. 04.02.1774</date>
 	  </bibl>
@@ -6353,13 +6354,13 @@ All rights reserved.</note>
 	    <title>Den rette Betalning for Guds ubetalelige Velgierninger. Forestillet til Høimesse paa den allernaadigst anordnede Takke- og Bede-Fest den 1 December 1773, for Søndre-Sogns eller Sorte-Brødre Kirkes Menighed i Viborg,</title>
 	    <publisher>C.H. Mangor, Viborg</publisher>
 	    <extent>8°, 112</extent>
-	    <author>Chr. M. Rottbøll</author>
+	    <author>Dr. Christian Michael Rottbøll</author>
 	    <date type="release" when="1773">1773</date>
 	    <date type="announced"/>
 	  </bibl>
 	  <bibl n="13" xml:id="bibl2_021_013">
 	    <title>A ??? O. Høymesse-Texten paa den anbefalede Takke- og Bede-Fest den 1. Decembr. 1773. tilligemed Aftensangs-Texten, brugt til Indgang, forklarede for Uggilt og Taars Meenigheder [Alfa og Omega]</title>
-	    <publisher>J.P. Holtsberg, Aalborg</publisher>
+	    <publisher>J. P. Holtsberg, Aalborg</publisher>
 	    <extent>8°, 36</extent>
 	    <author>Hans Boje</author>
 	    <date type="release" when="1774">1774</date>
@@ -6369,7 +6370,7 @@ All rights reserved.</note>
 	    <title>Dännemarks glückliche Aussicht in die Zukunft bey seinem jetzigen Dankfeste. Am 1sten December, als dem allerhöchstverordneten allgemeinen Dank-und Bet-Tage, seiner Gemeine vorgestellet […] an der Christ- und Garnisons-Kirche in Rendsburg.</title>
 	    <publisher>H.C. Grund, Hamburg</publisher>
 	    <extent>8°, 32</extent>
-	    <author>Wolf C. Matthiae</author>
+	    <author>Wolf Christian Matthiae</author>
 	    <date type="release" when="1773">1773</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -6383,7 +6384,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="16" xml:id="bibl2_021_016">
 	    <title>Prædiken over Høimesse-Texten paa den almindelige Takke- og Bede-Fest den 1 Dec. 1773.</title>
-	    <publisher>P.H. Høecke</publisher>
+	    <publisher>P. H. Høecke</publisher>
 	    <extent>8°, 20</extent>
 	    <author>?</author>
 	    <date type="release" when="1773">1773</date>
@@ -6399,7 +6400,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="18" xml:id="bibl2_021_018">
 	    <title>Da Orlog-Skibet paa 74 Canoner, som i Anledning af det Kielsche Districts Afstaaelse til den Danske Regiering blev siden kaldt Wagrien […] udgik af Stabelen […] blev følgende Tale […] holden af J. Hee.</title>
-	    <publisher>Manus </publisher>
+	    <publisher>Manus</publisher>
 	    <extent>35s</extent>
 	    <author>Hee</author>
 	    <date type="release"/>
@@ -6410,7 +6411,7 @@ All rights reserved.</note>
 	  <head>Række 2 bind 22</head>
 	  <bibl n="1" xml:id="bibl2_022_001">
 	    <title>Til Danmark og Norge paa den 17de Januarii, Deres Frelsnings-Dag. Af J***B***. [Tronhiem, den 17 Januarii 1774]</title>
-	    <publisher>A.F. Stein</publisher>
+	    <publisher>A. F. Stein</publisher>
 	    <extent>8°, 132</extent>
 	    <author>?</author>
 	    <date type="release" when="1774">1774</date>
@@ -6450,7 +6451,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="6" xml:id="bibl2_022_006">
 	    <title>Nordens nyeste vigtige Glædes Tid. En Beretning med Ønsker til uforglemmelig Erindring om den af alle troe Undersaatter ønskede Ægte-Foreening imellem Hans Kongelige Høyhed vor dyrebare Arveprinds, Prinds Friederich, og Den Durchlauchtigste Prindsesse Sophia Friederica, Prindsesse af Meklenborg-Schwerin-Güstrow. Fuldbyrdet ved Hoffet i Schwerin ved Procuration den 11 October 1774, hvorefter det høye Bilager paafuigte i Kiøbenhavn efter Prindsessens Ankomst dertil.</title>
-	    <publisher>A.F. Stein</publisher>
+	    <publisher>A. F. Stein</publisher>
 	    <extent>8°, 16</extent>
 	    <author>?</author>
 	    <date type="release" when="1774">1774</date>
@@ -6458,7 +6459,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="7" xml:id="bibl2_022_007">
 	    <title>Dannemarks og Norges nye Glædes Grund, ved at see sin inderligt elskede Arveprinds Hans Kongelige Høihed Prinds Friderich […] forenet med en af de fuldkomneste Prindsesser, Prindsesse Sophia Friderica, [...] ved det høie Bilagers Fuldbyrdelse paa Christiansborg den 21 Oct. 1774.</title>
-	    <publisher>P.H. Høecke</publisher>
+	    <publisher>P. H. Høecke</publisher>
 	    <extent>8°, 8</extent>
 	    <author>?</author>
 	    <date type="release" when="1774">1774</date>
@@ -6466,7 +6467,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="8" xml:id="bibl2_022_008">
 	    <title>Opmuntring til Guds Priis for Nordens Glæde i October Maaned 1774, da alle troe Undersaatters Ønsker forenedes for Hans Kongelige Høihed Arveprinds Friderich og Hendes Høifyrstelige Durchlauchtighed Sophia Friderica.</title>
-	    <publisher>P.H. Høecke</publisher>
+	    <publisher>P. H. Høecke</publisher>
 	    <extent>8°, 8</extent>
 	    <author>?</author>
 	    <date type="release" when="1774">1774</date>
@@ -6515,7 +6516,7 @@ All rights reserved.</note>
 	  <bibl n="14" xml:id="bibl2_022_014">
 	    <title>Tale om Den aabenbarede Religions Indflydelse i de verdslige Videnskaber, Holden paa Hans Kongelige Majestæts Høye Fødsels-Dag den 29 Januarii 1775 for Det Kongelige Norske Videnskabers Selskabs Forsamling ved Ole Irgens.</title>
 	    <publisher>Tronhiem J.C. Winding</publisher>
-	    <extent>8°, 32 </extent>
+	    <extent>8°, 32</extent>
 	    <author>Ole Irgens</author>
 	    <date type="release" when="1775">1775</date>
 	    <date type="announced"/>
@@ -6562,7 +6563,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="20" xml:id="bibl2_022_020">
 	    <title>Norges Tak- og Lov-sang til Kongen og det Høy.Kongel. Huus, da Hendes Kongel. Høyhed. Princesse Lovise med høye Gemahl [...] Prins Carl af Hessen med elskelige Princesse-Datter Marie Reiste igiennem Froens Sogn i Gulbrandsdahlen over Dovrefield til Tronhiem den 22. Julii 1773. Tilligemed En Gienlyd fra de Nordenfieldske.</title>
-	    <publisher>Tronhiem </publisher>
+	    <publisher>Tronhiem</publisher>
 	    <extent>8°, 8</extent>
 	    <author>?</author>
 	    <date type="release" when="1774">1774</date>
@@ -6578,7 +6579,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="22" xml:id="bibl2_022_022">
 	    <title>Euphron. En Fortælling.</title>
-	    <publisher>L. Simmelkiær</publisher>
+	    <publisher>Lauritz Simmelkiær</publisher>
 	    <extent>8°, 80</extent>
 	    <author>[P.F. Suhm]</author>
 	    <date type="release" when="1774">1774</date>
@@ -6587,7 +6588,7 @@ All rights reserved.</note>
 	  <bibl n="23" xml:id="bibl2_022_023">
 	    <title>Da Orlog-Skibet paa 60 Canoner kaldet Elephanten i Aaret 1769 i November Maaned udløb af Stabelen […]</title>
 	    <publisher>Manus</publisher>
-	    <extent>30s.</extent>
+	    <extent>30 s.</extent>
 	    <author>J. Hee</author>
 	    <date type="release"/>
 	    <date type="announced"/>
@@ -6595,8 +6596,8 @@ All rights reserved.</note>
 	  <bibl n="24" xml:id="bibl2_022_024">
 	    <title>Da Orlog-Skibet paa 74 Canoner kaldt Princesse Sophia Friderica udløb af Stabelen […]</title>
 	    <publisher>Manus</publisher>
-	    <extent>37s.</extent>
-	    <author>J. Hee</author>
+	    <extent>37 s.</extent>
+	    <author>J Hee</author>
 	    <date type="release"/>
 	    <date type="announced"/>
 	  </bibl>
@@ -6637,9 +6638,9 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="4" xml:id="bibl2_023_004">
 	    <title>Historie om Tal-Lotteriet og dets forunderlige Indflydelse paa det menneskelige Gemyt.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 16</extent>
-	    <author>? </author>
+	    <author>?</author>
 	    <date type="release" when="1773">1773</date>
 	    <date type="announced" when="1773-08-03">03.08.1773</date>
 	  </bibl>
@@ -6694,7 +6695,7 @@ All rights reserved.</note>
 	  <bibl n="11" xml:id="bibl2_023_011">
 	    <title>Den italienske Tallvælgere, som opdager den i Genua hemmelige Kunst, ved hvilken, formedelst tvende Tærmnger, enhver kan fordeelagtig indsætte sine Penge i Tall-lotteriet.</title>
 	    <publisher>Morten Hallager</publisher>
-	    <extent> Fol. pat.</extent>
+	    <extent>Fol. pat.</extent>
 	    <author>?</author>
 	    <date type="release" when="1773">[1773]</date>
 	    <date type="announced" when="1774-04-01">01.04.1774</date>
@@ -6718,7 +6719,7 @@ All rights reserved.</note>
 	  <bibl n="14" xml:id="bibl2_023_014">
 	    <title>Gode Banco-Sedlers fuldkommen opveiende Nytte mod Gode Penge, […] udi en nye Viise […] Under samme Melodie som Visen om gode Penge.</title>
 	    <publisher>Morten Hallager</publisher>
-	    <extent>8°, 8</extent>
+	    <extent>8°, 12</extent>
 	    <author>?</author>
 	    <date type="release"/>
 	    <date type="announced"/>
@@ -6781,7 +6782,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="22" xml:id="bibl2_023_022">
 	    <title>Tanker og Betragtninger, i Rosenborg-Hauge anden Pintsedag den 31te Mai Aar 1773.</title>
-	    <publisher>J.R. Thiele</publisher>
+	    <publisher>J. R. Thiele</publisher>
 	    <extent>8°, 8</extent>
 	    <author>?</author>
 	    <date type="release" when="1773">1773</date>
@@ -6889,8 +6890,8 @@ All rights reserved.</note>
 	  <bibl n="4" xml:id="bibl2_024_004">
 	    <title>Anmærkninger i Anledninv af Hr. Oberlandmaaler Bugges Afhandling og Beviis for Hegnets Deeling efter Hartkorn, m. v. See Adresse-Contoirets Efterretning, No. 177.</title>
 	    <publisher>Simmelkiær, Adressekontoret</publisher>
-	    <extent/>
-	    <author>[Jochum Frederik Lütken?] </author>
+	    <extent>8°, 22</extent>
+	    <author>[Jochum Frederik Lütken ?]</author>
 	    <date type="release" when="1774">1774</date>
 	    <date type="announced" when="1774-12-09">09.12.1774</date>
 	  </bibl>
@@ -7013,7 +7014,7 @@ All rights reserved.</note>
 	    <title>Des Proselyten aus dem Judenthum, Johann Ferdinand Eckstein Ueberzeugungsgründe, das Jesus der Christen die erfüllte Hoffnung Israels sey. Am Tage der Taufe desselben herausgegeben […]</title>
 	    <publisher>P.H. Høecke</publisher>
 	    <extent>8°, 52</extent>
-	    <author> Johannes Schack Himmark</author>
+	    <author>Johannes Schack Himmark</author>
 	    <date type="release" when="1774">1774</date>
 	    <date type="announced" when="1774-11-11">11.11.1774</date>
 	  </bibl>
@@ -7067,7 +7068,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="12" xml:id="bibl2_025_012">
 	    <title>Til Nordmænd om Troeskab mod Kongen og Kierlighed til Fædrenelandet, I Anledning af Einer Tambeskiælver</title>
-	    <publisher> Tronhiem, Winding</publisher>
+	    <publisher>Tronhiem, Winding</publisher>
 	    <extent>8°, 32</extent>
 	    <author>J. Nordahl Brun</author>
 	    <date type="release" when="1773">1773</date>
@@ -7093,7 +7094,7 @@ All rights reserved.</note>
 	    <title>Morpionade. Et Helte-Digt. [herefter i håndskrift: Til Kongen. Da ieg har været saa uhældig at tryke et lidet Skrift kaldet Morpionade […] – En henvendelse fra J.R. Thiele om fritagelse for bøde, med svarene fra magistraten ved Braem, Chr. Bruun, etc.]</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>8°, 24</extent>
-	    <author>[Chresten H. Pram]</author>
+	    <author>? [Chresten H. Pram] HLS</author>
 	    <date type="release" when="1774">1774</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -7147,7 +7148,7 @@ All rights reserved.</note>
 	    <title>Tanker over Jule-Aftens Feyde 1771.</title>
 	    <publisher>Morten Hallager</publisher>
 	    <extent>4°, 8</extent>
-	    <author>[Jac. Langebek]</author>
+	    <author>[Jacob Langebek]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-01-17">17.01.1772</date>
 	  </bibl>
@@ -7155,7 +7156,7 @@ All rights reserved.</note>
 	    <title>Tanker over Jule-Aftens Feyde 1771. Skreven af Forfatteren til nye Prøve af Skrivefriheden. Tredje Oplag igiennemseet af Forfatteren og forøget med Anmærkninger.</title>
 	    <publisher>Morten Hallager</publisher>
 	    <extent>4°, 8</extent>
-	    <author>[Jac. Langebek]</author>
+	    <author>[Jacob Langebek]</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced"/>
 	  </bibl>
@@ -7163,7 +7164,7 @@ All rights reserved.</note>
 	    <title>Frimodige Tanker over Den saa uventede som store Hevnens Dag, den 17de Januarii 1772.</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>4°, 72</extent>
-	    <author>[Jac. Langebek]</author>
+	    <author>[Jacob Langebek]</author>
 	    <date type="release" when="1772">[1772]</date>
 	    <date type="announced" when="1772-03-30">30.03.1772</date>
 	  </bibl>
@@ -7185,7 +7186,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="6" xml:id="bibl3_001_006">
 	    <title>I anledning af Herr Conferenz-Raad P. F. Suhms ypperlige Tale til KONGEN ere disse Tanker opsatte og Ham tilegnede.</title>
-	    <publisher>P.H. Høecke</publisher>
+	    <publisher>P. H. Høecke</publisher>
 	    <extent>4°, 4</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -7203,7 +7204,7 @@ All rights reserved.</note>
 	    <title>Erindringer ved den Veldømmendes Kritik over Suhms Moraler. Af den Giennemlæsende.</title>
 	    <publisher>A.F. Stein</publisher>
 	    <extent>4°, 20</extent>
-	    <author>?</author>
+	    <author>på Harvards kopi med håndskrift: "Schønheyder. Doctor Theolog."</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-02-26">26.02.1772</date>
 	  </bibl>
@@ -7235,7 +7236,7 @@ All rights reserved.</note>
 	    <title>Et Brev til Hr. Konferentsraad Peter Frid. Suhm.</title>
 	    <publisher>?</publisher>
 	    <extent>4°, 12</extent>
-	    <author>J.L. Bynch</author>
+	    <author>Josias Leopold Bynch</author>
 	    <date type="release"/>
 	    <date type="announced" when="1772-07-27">27.07.1772</date>
 	  </bibl>
@@ -7243,7 +7244,7 @@ All rights reserved.</note>
 	    <title>Et Digt over Frieheden. Skreven i et kummerfuld Fængsel af [segl]</title>
 	    <publisher>J.R. Thiele</publisher>
 	    <extent>4°, 16</extent>
-	    <author>[J.C. Bie]</author>
+	    <author>[J.L. Bynch] HLS</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-08-04">04.08.1772</date>
 	  </bibl>
@@ -7283,7 +7284,7 @@ All rights reserved.</note>
 	    <title>Den Uforglemmelig Fredag den 17 Januar. 1772. Som under den Allerhøyestes besynderlig Forsyn og Varetægt tilbragte Kongen Fred og Landet Frelse.</title>
 	    <publisher>A.H. Godiche</publisher>
 	    <extent>4°, 10</extent>
-	    <author>J. How Schive</author>
+	    <author>Jens How Schive</author>
 	    <date type="release"/>
 	    <date type="announced"/>
 	  </bibl>
@@ -7329,7 +7330,7 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="24" xml:id="bibl3_001_024">
 	    <title>From the LONDON CHRONICLE for February 4, 1772, No 2363.</title>
-	    <publisher>Altona</publisher>
+	    <publisher>Altona? Leiden?</publisher>
 	    <extent>folio enkeltblad</extent>
 	    <author>?</author>
 	    <date type="release" when="1772">1772</date>
@@ -7433,9 +7434,9 @@ All rights reserved.</note>
 	  </bibl>
 	  <bibl n="37" xml:id="bibl3_001_037">
 	    <title>Dom, afsagt af den anordnede Inquisitions-Commision paa Christiansborg Slot, den 25. Aprilis 1772 over Enevold Brandt. Med den paafulgte Kongelige Approbation af 27. Aprilis 1772.</title>
-	    <publisher>F. C Godiche</publisher>
+	    <publisher>F.C Godiche</publisher>
 	    <extent>4°, 8</extent>
-	    <author>Guldberg, Luxdorph m.fl.</author>
+	    <author>Guldberg Luxdorph m.fl.</author>
 	    <date type="release" when="1772">1772</date>
 	    <date type="announced" when="1772-05-08">08.05.1772</date>
 	  </bibl>

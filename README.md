@@ -1,6 +1,6 @@
-# Trykkefrihedens Skrifter: ALTO tools
+# ALTO to TEI tools
 
-This project contains tools for transforming ALTO into TEI P5 for import to the text service
+This project contains tools for transforming ALTO into TEI P5 for import to the text service. It was developed within the Trykkefrihedens Skrifter.
 
 ## Prerequisites
 

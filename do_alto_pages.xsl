@@ -12,21 +12,37 @@
     <xsl:param name="volume" select="''"/>
     <xsl:param name="work" select="''"/>
     <xsl:param name="n" select="''"/>
+
+    <xsl:call-template name="evaluate-page-start">
+      <xsl:with-param name="n" select="$n"/>
+    </xsl:call-template>
+    
     <xsl:apply-templates select="a:Layout">
       <xsl:with-param name="img_src" select="$img_src"/>
       <xsl:with-param name="volume" select="$volume"/>
       <xsl:with-param name="work" select="$work"/>
       <xsl:with-param name="n" select="$n"/>
     </xsl:apply-templates>
+    
     <xsl:call-template name="evaluate-end-of-page">
       <xsl:with-param name="n" select="$n"/>
     </xsl:call-template>
+    
   </xsl:template>
 
+  <xsl:template name="evaluate-page-start">
+    <xsl:param name="n" select="''"/>
+    <xsl:if test="(//a:TextLine/a:String)[1]/@SUBS_TYPE">
+      <xsl:processing-instruction name="alto-page">
+        <xsl:text> merge="previous_page" first-subs-word=</xsl:text><xsl:value-of select="(//a:TextLine/a:String)[1]/@CONTENT"/>
+      </xsl:processing-instruction>
+    </xsl:if>
+  </xsl:template>
+  
   <xsl:template name="evaluate-end-of-page">
     <xsl:param name="n" select="''"/>
     <xsl:processing-instruction name="alto-page">
-      <xsl:text> last-page-processed=</xsl:text>"<xsl:value-of select="$n"/>" <xsl:if test="(//a:String)[last()]/@SUBS_CONTENT/string()"> <xsl:text> merge="next_page" last-word=</xsl:text><xsl:value-of select="(//a:String)[last()]/@SUBS_CONTENT"/></xsl:if>
+      <xsl:text> last-page-processed=</xsl:text>"<xsl:value-of select="$n"/>" <xsl:if test="(//a:String)[last()]/@SUBS_CONTENT/string()"> <xsl:text> merge="next_page" last-subs-word=</xsl:text><xsl:value-of select="(//a:String)[last()]/@SUBS_CONTENT"/></xsl:if>
     </xsl:processing-instruction>
   </xsl:template>
 
@@ -167,9 +183,10 @@
     
     <xsl:choose>
       <xsl:when test="@SUBS_TYPE='HypPart1'">
-	<xsl:value-of select="normalize-space(@SUBS_CONTENT)"/>
+	<xsl:value-of select="normalize-space(@SUBS_CONTENT)"/> <xsl:comment> HypPart1 </xsl:comment>
       </xsl:when>
       <xsl:when test="@SUBS_TYPE='HypPart2'">
+        <xsl:comment> HypPart2 </xsl:comment>
       </xsl:when>
       <xsl:otherwise>
 	<xsl:value-of select="normalize-space(@CONTENT)"/>

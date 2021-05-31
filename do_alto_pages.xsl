@@ -18,8 +18,19 @@
       <xsl:with-param name="work" select="$work"/>
       <xsl:with-param name="n" select="$n"/>
     </xsl:apply-templates>
+    <xsl:call-template name="evaluate-end-of-page">
+      <xsl:with-param name="n" select="$n"/>
+    </xsl:call-template>
   </xsl:template>
 
+  <xsl:template name="evaluate-end-of-page">
+    <xsl:param name="n" select="''"/>
+    <xsl:processing-instruction name="alto-page">
+      <xsl:text> last-page-processed=</xsl:text>"<xsl:value-of select="$n"/>" <xsl:if test="(//a:String)[last()]/@SUBS_CONTENT/string()"> <xsl:text> merge="next_page" last-word=</xsl:text><xsl:value-of select="(//a:String)[last()]/@SUBS_CONTENT"/></xsl:if>
+    </xsl:processing-instruction>
+  </xsl:template>
+
+  
   <xsl:template match="a:Layout">
     <xsl:param name="img_src" select="''"/>
     <xsl:param name="volume" select="''"/>
@@ -121,7 +132,7 @@
         </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:comment> Block <xsl:attribute name="xml:id"><xsl:value-of select="$block_id"/></xsl:attribute> is empty</xsl:comment>
+        <xsl:comment> Block <xsl:value-of select="$block_id"/> is empty</xsl:comment>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -129,7 +140,17 @@
   <xsl:template match="a:TextLine">
     <xsl:param name="n" select="''"/>
     <xsl:param name="work" select="''"/>
-    <xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates><lb/><xsl:text></xsl:text>
+     <xsl:variable name="string_val">
+       <xsl:apply-templates select="a:String"/>
+     </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="count(a:String) = 1 and $string_val = string($n)">
+        <xsl:comment> Skipping pagination <xsl:value-of select="$n"/> </xsl:comment>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates><xsl:with-param name="n" select="$n"/></xsl:apply-templates><lb/><xsl:text></xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="a:SP">
@@ -142,7 +163,8 @@
     <!-- xsl:value-of select="concat('vol',$volume,'_H',@HEIGHT,'W',@WIDTH,'V',@VPOS,'H',@HPOS)"/ >
     <xsl:variable name="id">
       <xsl:value-of select="concat('vol',$volume,$n,'_',@ID)"/>
-    </xsl:variable -->
+      </xsl:variable -->
+    
     <xsl:choose>
       <xsl:when test="@SUBS_TYPE='HypPart1'">
 	<xsl:value-of select="normalize-space(@SUBS_CONTENT)"/>

@@ -15,7 +15,7 @@
 
   <!-- I believe that this can be replaced with ./ but haven't dared to test -->
   
-  <xsl:param name="root" select="'../trykkefrihedsskrifter/'"/>
+  <xsl:param name="root" select="'../alto-to-tei-tools/'"/>
   <xsl:param name="pages"  select="document($alto_file)"/>
   <xsl:param name="volume" select="substring-before(substring-after($alto_file,'file_lists/'),'.xml')"/>
 

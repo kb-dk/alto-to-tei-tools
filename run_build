@@ -14,4 +14,4 @@ while(my $file = <alto_file_lists/*.xml>) {
 
 print "postprocessing:\n";
 
-# system("./utilities/traverse-and-transform.pl");
+system("./utilities/traverse-and-transform.pl");

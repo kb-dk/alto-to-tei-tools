@@ -8,7 +8,7 @@ while(my $file = <alto_file_lists/*.xml>) {
     my $tei_file = $file;
     $tei_file =~ s/alto_file_lists/tei_dir/;
     print "doing $file\n";
-    system("$saxon luxdorph-bibliografi.xml altototei.xsl alto_file=$file | xmllint --format - > $tei_file");
+    system("$saxon bibliografi-luxdorph.xml altototei.xsl alto_file=$file | xmllint --format - > $tei_file");
 
 }
 

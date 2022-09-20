@@ -2,8 +2,17 @@
 
 use strict;
 
+use Getopt::Long;
+
 my $source = "../trykkefrihedens-skrifter/";
 my $destination = "./data/";
+my $pattern = '^(\d+?)_';
+
+my $result = GetOptions (
+    "pattern=s"     => \$pattern,
+    "source=s"      => \$source,
+    "destination=s" => \$destination);
+
 
 if ( open(SRC,"find $source -name '*.xml' -type f -print |") ) {
 
@@ -15,7 +24,7 @@ if ( open(SRC,"find $source -name '*.xml' -type f -print |") ) {
 	my $directory = "";
 	$dest_file =~ s/$source//;
 	($directory,$dest_file) = split /\//, $dest_file;
-	if($dest_file =~ m/^(\d+?)_/) {
+	if($dest_file =~ m/($pattern)/) {
 	    $directory =~ s/_$1//;
 	    $dest_file = "$destination$directory/$dest_file";
 	    print "mkdir -p $destination$directory; ";
@@ -29,5 +38,22 @@ if ( open(SRC,"find $source -name '*.xml' -type f -print |") ) {
 } else {
 
     die "Cannot find project $source: $!";
+
+}
+
+
+sub usage {
+
+    print <<"END";
+    Correct usage:
+    $0 <options>
+        where options are
+        --pattern=<regex> 
+	a regex matching the first few characters in an alto file's name
+        --source=<directory>
+        where to read files
+	--destination=<directory>
+	where to write files
+END
 
 }

@@ -4,15 +4,28 @@ use strict;
 
 use Getopt::Long;
 
-my $source = "../trykkefrihedens-skrifter/";
-my $destination = "./data/";
+my $from = "../trykkefrihedens-skrifter/";
+my $to = 0;
 my $pattern = '^(\d+?)_';
+my $help;
 
 my $result = GetOptions (
     "pattern=s"     => \$pattern,
-    "source=s"      => \$source,
-    "destination=s" => \$destination);
+    "from=s"      => \$from,
+    "to=s" => \$to,
+    "help" => \$help);
 
+
+my $source = "";
+my $destination = "";
+if($to && $from) {
+    $source = $from;
+    $destination = $to;
+} elsif($help) {
+    &usage();
+} else {
+    &usage();
+}
 
 if ( open(SRC,"find $source -name '*.xml' -type f -print |") ) {
 
@@ -50,10 +63,12 @@ sub usage {
         where options are
         --pattern=<regex> 
 	a regex matching the first few characters in an alto file's name
-        --source=<directory>
+        --from=<directory>
         where to read files
-	--destination=<directory>
+	--to=<directory>
 	where to write files
 END
 
+    exit();
+    
 }

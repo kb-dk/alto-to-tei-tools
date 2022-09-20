@@ -9,7 +9,7 @@ while(my $dir = <data/*>) {
 	while(my $file = <$dir/*xml>) {
 	    print $list "<h:a href=\"$file\"/>\n";
 	}
-	print$list   "</h:p>\n";
+	print $list   "</h:p>\n";
     }
 
 }

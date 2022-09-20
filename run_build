@@ -1,6 +1,18 @@
 #!/usr/bin/perl -w
 
-$saxon_path = $ENV{'SAXON_PATH'};
+use strict;
+
+use Getopt::Long;
+
+my $bibliography = "./bibliografi-luxdorph.xml";
+
+my $result = GetOptions (
+    "bibliography=s"     => \$bibliography
+);
+
+
+
+my $saxon_path = $ENV{'SAXON_PATH'};
 my $saxon = "java -jar $saxon_path";
 
 while(my $file = <alto_file_lists/*.xml>) {
@@ -8,7 +20,7 @@ while(my $file = <alto_file_lists/*.xml>) {
     my $tei_file = $file;
     $tei_file =~ s/alto_file_lists/tei_dir/;
     print "doing $file\n";
-    system("$saxon bibliografi-luxdorph.xml altototei.xsl alto_file=$file | xmllint --format - > $tei_file");
+    system("$saxon $bibliography altototei.xsl alto_file=$file | xmllint --format - > $tei_file");
 
 }
 

@@ -50,13 +50,13 @@
           <xsl:for-each select="distinct-values($folders)">
             <xsl:variable name="folder" as="xs:string" select="."/>
             <t:listBibl>
-              <xsl:attribute name="xml:id"><xsl:value-of select="$folder"/></xsl:attribute>
+              <xsl:attribute name="xml:id">vol<xsl:value-of select="$folder"/></xsl:attribute>
               <xsl:for-each select="$dom/registry/entry[contains(filePrefix,$folder)]">
                 <xsl:choose>
                   <xsl:when test="contains(letterDoc,'D')">
                     <t:bibl>
                       <xsl:attribute name="xml:id">
-                        <xsl:value-of select="substring-after(filePrefix,'/')"/>
+                        <xsl:value-of select="concat('bibl',substring-after(filePrefix,'/'))"/>
                       </xsl:attribute>
                       <t:author>
 		        <xsl:value-of select="sender"/>
@@ -84,7 +84,7 @@
                   <xsl:otherwise>
                     <t:bibl>
                       <xsl:attribute name="xml:id">
-                        <xsl:value-of select="substring-after(filePrefix,'/')"/>
+                        <xsl:value-of select="concat('bibl',substring-after(filePrefix,'/'))"/>
                       </xsl:attribute>
                       <t:date>
                         <xsl:if test="isoDate/node()">

@@ -4,7 +4,9 @@
 	       xmlns:h="http://www.w3.org/1999/xhtml"
 	       xmlns:xlink="http://www.w3.org/1999/xlink"
 	       xmlns="http://www.tei-c.org/ns/1.0"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
 	       xmlns:t="http://www.tei-c.org/ns/1.0"
+               exclude-result-prefixes="xsl xs xlink t"
 	       version="2.0">
 
   <xsl:import href="do_alto_pages.xsl"/>
@@ -23,6 +25,7 @@
 
   <xsl:template match="/">
     <xsl:message>Doing volume <xsl:value-of select="$volume"/></xsl:message>
+    <xsl:message>Doing alto_file <xsl:value-of select="$alto_file"/></xsl:message>
     <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="root">
       <teiHeader>
 	<fileDesc>
@@ -44,8 +47,8 @@
       </teiHeader>
       <text>
 	<body>
-	  <xsl:for-each select="//t:listBibl[contains(@xml:id,concat('vol',$volume))]">
-	     <xsl:for-each select="t:bibl[contains(@xml:id,concat('bibl',$volume))]">
+	  <xsl:for-each select="//t:listBibl[contains(@xml:id,$volume)]">
+	     <xsl:for-each select="t:bibl">
 	       <xsl:element name="div">
 		 <xsl:attribute name="xml:id"><xsl:value-of select="concat('workid',substring-after(@xml:id,'bibl'))"/></xsl:attribute>
 		 <xsl:attribute name="decls"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute>

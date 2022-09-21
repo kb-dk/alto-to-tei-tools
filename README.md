@@ -98,7 +98,10 @@ You can run it using the script `utilities/traverse-and-transform.pl`
 ```
 ./utilities/traverse-and-transform.pl --transform upgrade-alto-ns.xsl --directory data
 ```
-The process is slow, but the resulting ALTO v3.1 validates, and the TEI  documents generated validates.
+
+The process is slow. I have a fast workstation, but it will only run
+~0.7 documents / second.  The resulting ALTO v3.1 validates, and the
+TEI documents generated validates.
 
 ### 3. Validation is easy
 

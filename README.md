@@ -128,16 +128,20 @@ Here java need to know the complete path to you saxon jar file. For instance
 Then make the TEI files
 
 ```
- run_build
+ run_build --bibliography <tei bibliography file name>
 ```
 
-You may, if you think it's useful, validate the files. E.g.,
+The tei bibliography file name could be `bibliografi-luxdorph.xml` or
+`bibliography-hjelmslev.xml` (unfortunately we cannot distribute the
+corresponding alto files. The resulting TEI will be found in
+`tei_dir`. You may, if you think it's useful, validate the files. E.g.,
 
 ```
 find tei_dir/ -name '*xml' -exec xmllint --noout --relaxng ./tei_all.rng {} \;  > tei_validation.text  2>&1 
 ```
 
-Again, these files should not (it is derived data) be under version control in this project.
+Again, these files should not (it is derived data) be under version
+control in this project.
 
 ### 6. store into database and index
 

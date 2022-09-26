@@ -21,6 +21,13 @@
   <xsl:param name="pages"  select="document($alto_file)"/>
   <xsl:param name="volume" select="substring-before(substring-after($alto_file,'file_lists/'),'.xml')"/>
 
+  <xsl:param name="edition">
+    <xsl:choose>
+      <xsl:when test="contains(//t:fileDesc/t:titleStmt/t:title,'Luxdorphs samling')">tfs</xsl:when>
+      <xsl:when test="contains(//t:fileDesc/t:titleStmt/t:title,'Louis Hjelmslev')">lh</xsl:when>
+    </xsl:choose>
+  </xsl:param>
+  
   <xsl:output indent="no" />
 
   <xsl:template match="/">
@@ -57,6 +64,7 @@
 		 <xsl:for-each select="$pages//h:a[matches(@href,concat($work,'_\d\d\d'))]">
 		   <xsl:variable name="alto" select="document(concat($root,@href))"/>
 		   <xsl:apply-templates select="$alto/a:alto">
+                     <xsl:with-param name="edition" select="$edition"/>
 		     <xsl:with-param name="volume" select="$volume"/>
 		     <xsl:with-param name="work" select="$work"/>
 		     <xsl:with-param name="n" select="position()"/>

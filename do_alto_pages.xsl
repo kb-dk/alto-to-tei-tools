@@ -12,6 +12,7 @@
     <xsl:param name="volume" select="''"/>
     <xsl:param name="work" select="''"/>
     <xsl:param name="n" select="''"/>
+    <xsl:param name="edition" select="$edition"/>
 
     <xsl:call-template name="evaluate-page-start">
       <xsl:with-param name="n" select="$n"/>
@@ -21,6 +22,7 @@
       <xsl:with-param name="img_src" select="$img_src"/>
       <xsl:with-param name="volume" select="$volume"/>
       <xsl:with-param name="work" select="$work"/>
+      <xsl:with-param name="edition" select="$edition"/>
       <xsl:with-param name="n" select="$n"/>
     </xsl:apply-templates>
     
@@ -51,12 +53,14 @@
     <xsl:param name="img_src" select="''"/>
     <xsl:param name="volume" select="''"/>
     <xsl:param name="work" select="''"/>
+    <xsl:param name="edition" select="''"/>
     <xsl:param name="n" select="''"/>
     <!-- div -->
       <xsl:apply-templates>
 	<xsl:with-param name="img_src" select="$img_src"/>
 	<xsl:with-param name="volume" select="$volume"/>
 	<xsl:with-param name="work" select="$work"/>
+        <xsl:with-param name="edition" select="$edition"/>
 	<xsl:with-param name="n" select="$n"/>
       </xsl:apply-templates>
     <!-- /div -->
@@ -66,13 +70,23 @@
     <xsl:param name="img_src" select="''"/>
     <xsl:param name="volume" select="''"/>
     <xsl:param name="work" select="''"/>
+    <xsl:param name="edition" select="''"/>
     <xsl:param name="n" select="''"/>
     <xsl:param name="barcode" select="substring-before($img_src,'_')"/>
-    <pb n="{$n}" xml:id="w{$work}_p{$n}" facs="{concat($volume,'_',$barcode,'/',substring-before($img_src,'.tif'))}"/>
+
+    <xsl:choose>
+      <xsl:when test="$edition = 'tfs'">
+        <pb n="{$n}" xml:id="w{$work}_p{$n}" facs="{concat($volume,'_',$barcode,'/',substring-before($img_src,'.tif'))}"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <pb n="{$n}" xml:id="w{$work}_p{$n}" facs="{concat($volume,'/',substring-before($img_src,'.tif'))}"/>
+      </xsl:otherwise>
+    </xsl:choose>
     <xsl:apply-templates>
       <xsl:with-param name="img_src" select="$img_src"/>
       <xsl:with-param name="volume" select="$volume"/>
       <xsl:with-param name="work" select="$work"/>
+      <xsl:with-param name="edition" select="$edition"/>
       <xsl:with-param name="n" select="$n"/>
     </xsl:apply-templates>
   </xsl:template>
@@ -81,6 +95,7 @@
     <xsl:param name="img_src" select="''"/>
     <xsl:param name="volume" select="''"/>
     <xsl:param name="work" select="''"/>
+    <xsl:param name="edition" select="''"/>
     <xsl:param name="n" select="''"/>
 
     <xsl:for-each select="a:TextBlock">
@@ -98,6 +113,7 @@
               <xsl:with-param name="volume" select="$volume"/>
               <xsl:with-param name="work" select="$work"/>
               <xsl:with-param name="mode">head</xsl:with-param>
+              <xsl:with-param name="edition" select="''"/>
               <xsl:with-param name="n" select="$n"/>
             </xsl:apply-templates>
           </head>
@@ -108,6 +124,7 @@
             <xsl:with-param name="volume" select="$volume"/>
             <xsl:with-param name="work" select="$work"/>
             <xsl:with-param name="mode">body</xsl:with-param>
+            <xsl:with-param name="edition" select="''"/>
             <xsl:with-param name="n" select="$n"/>
           </xsl:apply-templates>
         </xsl:otherwise>
@@ -120,6 +137,7 @@
     <xsl:param name="volume" select="''"/>
     <xsl:param name="work" select="''"/>
     <xsl:param name="mode" select="'body'"/>
+    <xsl:param name="edition" select="$edition"/>
     <xsl:param name="n" select="''"/>
 
     <xsl:variable name="bid" select="@ID"/>
@@ -127,6 +145,7 @@
       <xsl:with-param name="img_src" select="$img_src"/>
       <xsl:with-param name="volume" select="$volume"/>
       <xsl:with-param name="work" select="$work"/>
+      <xsl:with-param name="edition" select="$edition"/>
       <xsl:with-param name="n" select="$n"/>
     </xsl:apply-templates></xsl:variable>
 

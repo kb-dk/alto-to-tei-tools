@@ -79,6 +79,7 @@
                         <xsl:value-of select="from"/><xsl:text> </xsl:text><xsl:value-of select="responsible"/>
 
                       </t:note>
+                      <t:term>breve</t:term>
                     </t:bibl>
                   </xsl:when>
                   <xsl:otherwise>
@@ -106,6 +107,7 @@
                       <t:extent>
                         <t:measure unit="pages"><xsl:value-of select="pageCount"/></t:measure>
                       </t:extent>
+                      <t:term>dokumenter</t:term>
                       <t:note>
                         <xsl:value-of select="from"/>
                       </t:note>

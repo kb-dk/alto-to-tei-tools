@@ -55,11 +55,8 @@
                 <xsl:choose>
                   <xsl:when test="contains(letterDoc,'D')">
                     <t:bibl>
-                      <xsl:variable name="kapsel">
-                        <xsl:value-of select="substring-after(substring-before(filePrefix,'/'),'kapsel_')"/>
-                      </xsl:variable>
                       <xsl:attribute name="xml:id">
-                        <xsl:value-of select="concat('bibl',substring-after(substring-after(filePrefix,'/'),concat($kapsel,'_')))"/>
+                        <xsl:value-of select="concat('bibl',substring-after(filePrefix,'/'))"/>
                       </xsl:attribute>
                       <t:author>
 		        <xsl:value-of select="sender"/>
@@ -87,15 +84,9 @@
                   </xsl:when>
                   <xsl:otherwise>
                     <t:bibl>
-                       <xsl:variable name="kapsel">
-                        <xsl:value-of select="substring-after(substring-before(filePrefix,'/'),'kapsel_')"/>
-                      </xsl:variable>
                       <xsl:attribute name="xml:id">
-                        <xsl:value-of select="concat('bibl',substring-after(substring-after(filePrefix,'/'),concat($kapsel,'_')))"/>
-                      </xsl:attribute>
-                      <!-- xsl:attribute name="xml:id">
                         <xsl:value-of select="concat('bibl',substring-after(filePrefix,'/'))"/>
-                      </xsl:attribute -->
+                      </xsl:attribute>
                       <t:date>
                         <xsl:if test="isoDate/node()">
                           <xsl:attribute name="when">

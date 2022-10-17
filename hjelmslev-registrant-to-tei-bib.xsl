@@ -79,7 +79,7 @@
                         <xsl:value-of select="from"/><xsl:text> </xsl:text><xsl:value-of select="responsible"/>
 
                       </t:note>
-                      <t:term>breve</t:term>
+                      <t:term>breve og dedikationer</t:term>
                     </t:bibl>
                   </xsl:when>
                   <xsl:otherwise>

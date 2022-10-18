@@ -14,9 +14,17 @@
     <xsl:param name="n" select="''"/>
     <xsl:param name="edition" select="$edition"/>
 
+    <xsl:message><xsl:value-of select="$img_src"/></xsl:message>
+    
     <xsl:call-template name="evaluate-page-start">
       <xsl:with-param name="n" select="$n"/>
     </xsl:call-template>
+
+    <xsl:comment>
+img = <xsl:value-of select="$img_src"/><xsl:text>
+</xsl:text>vol = <xsl:value-of select="$volume"/><xsl:text>
+</xsl:text>wrk = <xsl:value-of select="$work"/>
+    </xsl:comment>
     
     <xsl:apply-templates select="a:Layout">
       <xsl:with-param name="img_src" select="$img_src"/>
@@ -55,6 +63,14 @@
     <xsl:param name="work" select="''"/>
     <xsl:param name="edition" select="''"/>
     <xsl:param name="n" select="''"/>
+
+
+   <xsl:comment>
+img = <xsl:value-of select="$img_src"/><xsl:text>
+</xsl:text>vol = <xsl:value-of select="$volume"/><xsl:text>
+</xsl:text>wrk = <xsl:value-of select="$work"/>
+    </xsl:comment>
+    
     <!-- div -->
       <xsl:apply-templates>
 	<xsl:with-param name="img_src" select="$img_src"/>
@@ -74,6 +90,14 @@
     <xsl:param name="n" select="''"/>
     <xsl:param name="barcode" select="substring-before($img_src,'_')"/>
 
+
+   <xsl:comment>
+img = <xsl:value-of select="$img_src"/><xsl:text>
+</xsl:text>vol = <xsl:value-of select="$volume"/><xsl:text>
+</xsl:text>wrk = <xsl:value-of select="$work"/>
+    </xsl:comment>
+
+    
     <xsl:choose>
       <xsl:when test="$edition = 'tfs'">
         <pb n="{$n}" xml:id="w{$work}_p{$n}" facs="{concat($volume,'_',$barcode,'/',substring-before($img_src,'.tif'))}"/>

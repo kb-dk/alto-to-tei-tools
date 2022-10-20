@@ -65,7 +65,7 @@
                       <t:date>
                         <xsl:if test="isoDate/node()">
                           <xsl:attribute name="when">
-                            <xsl:value-of select="isoDate"/>
+                            <xsl:value-of select="replace(isoDate,'(19\d\d)-(19\d\d)','$1')"/>
                           </xsl:attribute>
                         </xsl:if>
  		        <xsl:value-of select="typedDate"/>

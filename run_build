@@ -20,7 +20,7 @@ while(my $file = <alto_file_lists/*.xml>) {
     my $tei_file = $file;
     $tei_file =~ s/alto_file_lists/tei_dir/;
     print "doing $file\n";
-    system("$saxon $bibliography altototei.xsl alto_file=$file | xmllint --format - > $tei_file");
+    system("$saxon $bibliography altototei.xsl alto_file_list=$file | xmllint --format - > $tei_file");
 
 }
 

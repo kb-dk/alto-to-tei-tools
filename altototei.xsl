@@ -13,12 +13,12 @@
 
   <!-- this one is set as an argument when running -->
 
-  <xsl:param name="alto_file"  select="'alto_file_lists/1_001.xml'"/>
+  <xsl:param name="alto_file_list"  select="'alto_file_lists/1_001.xml'"/>
 
   <!-- I believe that this can be replaced with ./ but haven't dared to test -->
   
   <xsl:param name="root" select="'../alto-to-tei-tools/'"/>
-  <xsl:param name="pages"  select="document($alto_file)"/>
+  <xsl:param name="pages"  select="document($alto_file_list)"/>
   <xsl:param name="volume" select="substring-before(substring-after($alto_file,'file_lists/'),'.xml')"/>
 
   <xsl:param name="edition">

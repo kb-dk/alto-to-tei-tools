@@ -51,7 +51,9 @@
             <xsl:variable name="folder" as="xs:string" select="."/>
             <t:listBibl>
               <xsl:attribute name="xml:id">vol<xsl:value-of select="$folder"/></xsl:attribute>
-              <xsl:for-each select="$dom/registry/entry[contains(filePrefix,$folder)]">
+
+              <xsl:for-each select="$dom/registry/entry[contains(filePrefix,concat($folder,'/'))]">
+                
                 <xsl:choose>
                   <xsl:when test="contains(letterDoc,'D')">
                     <t:bibl>

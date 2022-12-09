@@ -57,18 +57,14 @@ The command
 copies recursively xml-files  from ../trykkefrihedens-skrifter/ to data/, if the files matches the regex `\d_\d\d` whereas
 
 ```
-./import_alto.pl --pattern='^acc' --from ../louis-hjelmslev-corpus/  --to data/
+./import_alto.pl --pattern='.' --from ../louis-hjelmslev-corpus/  --to data/
 ```
 
-does the same for files matching regex `^acc` in directory ../louis-hjelmslev-corpus/
+does the same for files matching regex `.` in directory ../louis-hjelmslev-corpus/
 
 As a matter of fact, the script does not do the job, it generates a
 shell script that does it. So, for example, you run the import of
 louis-hjelmslev-corpus like this:
-
-```
-./import_alto.pl --pattern='^acc' --from ../louis-hjelmslev-corpus/  --to data/ | /bin/bash
-```
 
 The alto files are basic data maintained elsewhere, and should **not** be under version control
 __in this project__. 

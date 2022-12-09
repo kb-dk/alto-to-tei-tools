@@ -17,7 +17,7 @@ my $result = GetOptions (
 my $saxon = "java -jar " . $ENV{'SAXON_PATH'};
 
 
-if(open(FIND,"find $directory -name '*.xml' -print |")) {
+if(open(FIND,"find $directory -name '*.xml' -print | grep -v '/acc' | ")) {
     while(my $file = <FIND>) {
 	next if $file =~ /schemas.xml/;
 	next if $file =~ /capabiliti.*xml/;

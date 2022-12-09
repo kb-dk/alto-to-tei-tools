@@ -19,7 +19,7 @@
   
   <xsl:param name="root" select="'../alto-to-tei-tools/'"/>
   <xsl:param name="pages"  select="document($alto_file_list)"/>
-  <xsl:param name="volume" select="substring-before(substring-after($alto_file,'file_lists/'),'.xml')"/>
+  <xsl:param name="volume" select="substring-before(substring-after($alto_file_list,'file_lists/'),'.xml')"/>
 
   <xsl:param name="edition">
     <xsl:choose>
@@ -31,8 +31,9 @@
   <xsl:output indent="no" />
 
   <xsl:template match="/">
+    <xsl:message>New Volume</xsl:message>
     <xsl:message>Doing volume <xsl:value-of select="$volume"/></xsl:message>
-    <xsl:message>Doing alto_file <xsl:value-of select="$alto_file"/></xsl:message>
+    <xsl:message>Doing alto_file list <xsl:value-of select="$alto_file_list"/></xsl:message>
     <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="root">
       <teiHeader>
 	<fileDesc>
@@ -48,13 +49,13 @@
 	    <publisher>Det Kgl. Bibliotek</publisher>
 	  </publicationStmt>
 	  <sourceDesc>
-	    <xsl:copy-of select="//t:listBibl[contains(@xml:id,$volume)]"/>
+	    <xsl:copy-of select="//t:listBibl[substring-after(@xml:id,'vol') = $volume]"/>
 	  </sourceDesc>
 	</fileDesc>
       </teiHeader>
       <text>
 	<body>
-	  <xsl:for-each select="//t:listBibl[contains(@xml:id,$volume)]">
+	  <xsl:for-each select="//t:listBibl[substring-after(@xml:id,'vol') = $volume]">
 	     <xsl:for-each select="t:bibl">
 	       <xsl:element name="div">
 		 <xsl:attribute name="xml:id"><xsl:value-of select="concat('workid',substring-after(@xml:id,'bibl'))"/></xsl:attribute>

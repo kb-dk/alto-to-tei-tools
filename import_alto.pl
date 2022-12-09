@@ -10,10 +10,10 @@ my $pattern = '^(\d+?)_';
 my $help;
 
 my $result = GetOptions (
-    "pattern=s"     => \$pattern,
-    "from=s"      => \$from,
-    "to=s" => \$to,
-    "help" => \$help);
+    "pattern=s" => \$pattern,
+    "from=s"    => \$from,
+    "to=s"      => \$to,
+    "help"      => \$help);
 
 
 my $source = "";

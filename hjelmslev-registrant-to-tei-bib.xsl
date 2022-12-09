@@ -20,7 +20,7 @@
       <t:teiHeader>
         <t:fileDesc>
           <t:titleStmt>
-            <t:title>Louis Hjelmslev: Documents and Letters</t:title>
+            <t:title>Louis Hjelmslev og hans kreds</t:title>
             <t:editor>
             </t:editor>
           </t:titleStmt>
@@ -53,7 +53,14 @@
               <xsl:attribute name="xml:id">vol<xsl:value-of select="$folder"/></xsl:attribute>
 
               <xsl:for-each select="$dom/registry/entry[contains(filePrefix,concat($folder,'/'))]">
-                
+
+                <xsl:variable name="text_type">
+                  <xsl:choose>
+                    <xsl:when test="handTypedShort = 'typed'">maskinskrevet</xsl:when>
+                    <xsl:otherwise>håndskrevet</xsl:otherwise>
+                  </xsl:choose>
+                </xsl:variable>
+
                 <xsl:choose>
                   <xsl:when test="contains(letterDoc,'D')">
                     <t:bibl>
@@ -81,7 +88,8 @@
                         <xsl:value-of select="from"/><xsl:text> </xsl:text><xsl:value-of select="responsible"/>
 
                       </t:note>
-                      <t:term>breve og dedikationer</t:term>
+                      <t:term type="genre">breve og dedikationer</t:term>
+                      <t:term type="writing"><xsl:value-of select="$text_type"/></t:term>
                     </t:bibl>
                   </xsl:when>
                   <xsl:otherwise>
@@ -109,7 +117,8 @@
                       <t:extent>
                         <t:measure unit="pages"><xsl:value-of select="pageCount"/></t:measure>
                       </t:extent>
-                      <t:term>dokumenter</t:term>
+                      <t:term type="genre">dokumenter</t:term>
+                      <t:term type="writing"><xsl:value-of select="$text_type"/></t:term>
                       <t:note>
                         <xsl:value-of select="from"/>
                       </t:note>

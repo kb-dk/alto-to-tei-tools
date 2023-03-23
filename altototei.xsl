@@ -63,6 +63,7 @@
 		 <xsl:variable name="work" select="substring-after(@xml:id,'bibl')"/>
                  <xsl:message> Trying <xsl:value-of select="$work"/> </xsl:message>
 		 <xsl:for-each select="$pages//h:a[matches(@href,concat($work,'_\d\d\d'))]">
+                   <xsl:message> we found <xsl:value-of select="@href"/></xsl:message>
 		   <xsl:variable name="alto" select="document(concat($root,@href))"/>
 		   <xsl:apply-templates select="$alto/a:alto">
                      <xsl:with-param name="edition" select="$edition"/>

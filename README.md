@@ -52,7 +52,7 @@ which gives
 The command
 
 ```
-./import_alto.pl --pattern='\d_\d\d' --from ../trykkefrihedens-skrifter/ --to data/
+./import_alto.pl --pattern='\/\d_\d\d\d' --from ../trykkefrihedens-skrifter/ --to data/
 ```
 copies recursively xml-files  from ../trykkefrihedens-skrifter/ to data/, if the files matches the regex `\d_\d\d` whereas
 

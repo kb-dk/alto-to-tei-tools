@@ -66,6 +66,10 @@ As a matter of fact, the script does not do the job, it generates a
 shell script that does it. So, for example, you run the import of
 louis-hjelmslev-corpus like this:
 
+```
+./import_alto.pl --pattern='.' --from ../louis-hjelmslev-corpus/  --to data/ | /bin/bash
+```
+
 The alto files are basic data maintained elsewhere, and should **not** be under version control
 __in this project__. 
 

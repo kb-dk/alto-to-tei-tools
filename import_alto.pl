@@ -36,10 +36,10 @@ if ( open(SRC,"find $source -name '*.xml' -type f -print |") ) {
 	my $dest_file = $file;
 	my $directory = "";
 	$dest_file =~ s/$source//;
-	print '# dest_file with path ' . 	$dest_file . "\n";
-	($directory,$dest_file) = split /\//, $dest_file;
-	print '# dest_file ' . 	$dest_file . "\n";
 	if($dest_file =~ m/($pattern)/) {
+	    print '# dest_file with path ' . 	$dest_file . "\n";
+	    ($directory,$dest_file) = split /\//, $dest_file;
+	    print '# dest_file ' . 	$dest_file . "\n";
 	    $directory =~ s/($pattern).*/$1/;
 	    $dest_file = "$destination$directory/$dest_file";
 	    print "mkdir -p $destination$directory; ";

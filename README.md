@@ -57,7 +57,7 @@ The command
 copies recursively xml-files  from ../trykkefrihedens-skrifter/ to data/, if the files matches the regex `\d_\d\d` whereas
 
 ```
-./import_alto.pl --pattern='.' --from ../louis-hjelmslev-corpus/  --to data/
+./import_alto.pl --pattern='\/kapsel_\d\d\d' --from ../louis-hjelmslev-corpus/  --to data/
 ```
 
 does the same for files matching regex `.` in directory ../louis-hjelmslev-corpus/
